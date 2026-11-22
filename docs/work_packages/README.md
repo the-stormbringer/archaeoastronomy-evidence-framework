@@ -7,3 +7,5 @@ These packages turn the current plan into reviewable next actions. They are spec
 3. [W3 and W4 decisions](W3_W4_DECISIONS.md): decide useful extensions and whether the contribution warrants a paper.
 
 [WORK_QUEUE.json](WORK_QUEUE.json) records the initial task skeletons. [OUTPUT_SCHEMAS.json](OUTPUT_SCHEMAS.json) defines reviewable outputs for future workers. Keep instantiated packets and raw results under agent_artifacts; promote only reviewed outputs. An empty or planned record is never counted as completed evidence.
+
+Stage dependencies govern acceptance: W2 cannot be accepted before W1 closes. Limited W2 preparation may overlap W1, as allowed by the plan. The task queue records local prerequisites for that preparation, not permission to bypass the stage gate. Experiment statuses live in this queue; the source assumption matrix remains in docs/protocols/ASSUMPTIONS.md.

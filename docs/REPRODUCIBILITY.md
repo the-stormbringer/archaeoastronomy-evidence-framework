@@ -11,3 +11,5 @@ The wrapper produces VALIDATION.json and per-script logs in ignored runs/. Exact
 Scope: existing numerical outputs only. PDF transcription, map extraction, source identity, ancient point reconstruction, stellar calculations, manuscript figure rendering and the new E1–E4 experiments are outside this runner. The manuscript figures are existing snapshots. A successful run is computational repeatability, not scientific or external specialist acceptance.
 
 The CI workflow runs these same checks if this repository is later hosted on GitHub. No remote is configured or publication performed by creating the workflow. Local results are recorded in REPOSITORY_VALIDATION.json after repository acceptance.
+
+Use a UTF-8 environment for the preserved scripts (for example, set `PYTHONUTF8=1`). Their original file I/O uses the interpreter default encoding. The validated configuration is Python 3.13 with the pinned requirements; other Python versions have not been validated here.

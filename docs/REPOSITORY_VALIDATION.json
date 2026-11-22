@@ -13,8 +13,24 @@
     "certifi": "2026.7.22"
   },
   "existing_scientific_code_inputs_references_unchanged": true,
-  "git_clone_validation": "pending",
-  "hermes_packet_002": "prepared; awaiting payload approval after automatic review rejection",
+  "git_clone_validation": {
+    "passed": true,
+    "revision": "00f4343",
+    "checks": "passed",
+    "tests": 11,
+    "scripts": 10,
+    "tables": 13,
+    "byte_identical_tables": 13,
+    "scope": "clean local clone, same host and installed environment; ignored archives absent"
+  },
+  "hermes_packet_002": {
+    "status": "completed; independently reviewed with corrections",
+    "workers": 3,
+    "model": "deepseek-flash",
+    "reasoning": "medium",
+    "limitations": "Inventory suffix count corrected; inferred duplicate identity and several claimed plan contradictions rejected; two workers exceeded 8-call cap",
+    "local_review": "agent_artifacts/hermes_delegate/packets/002-repository-foundation/MAIN_AGENT_REVIEW.md"
+  },
   "external_review": "not performed",
   "remote": "not configured",
   "ignored_archives": [
