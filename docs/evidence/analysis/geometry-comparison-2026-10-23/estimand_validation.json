@@ -1,0 +1,6 @@
+{
+  "largest_complete_TLS_minus_mean_deg": 0.26041161960316117,
+  "largest_complete_circular_minus_arithmetic_deg": 0.0001852450851345111,
+  "synthetic_radial_check": "passed",
+  "interpretation": "TLS minimizes squared perpendicular displacement in origin-centred geodesic polar coordinates; it weights long sightlines more strongly and is an alternative estimand, not a correction."
+}

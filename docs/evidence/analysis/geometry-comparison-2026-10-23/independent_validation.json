@@ -1,0 +1,5 @@
+{
+  "independent_spherical_formula_max_difference_deg": 7.285905212484067e-11,
+  "rounding_grid_3_to_5_max_endpoint_change_deg": 0.0,
+  "note": "Finite-grid convergence check only; not proof of global extrema or a survey error model."
+}

@@ -1,0 +1,7 @@
+{
+  "pair_records": 8,
+  "matched_date_ranges": 5,
+  "all_five_date_ranges_offset_2000": true,
+  "AX_A4_incompatible_in_all_four_table_versions_under_stated_test": true,
+  "independence_warning": "Repeated WM values are not a fourth independent survey."
+}

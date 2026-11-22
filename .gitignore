@@ -1,0 +1,24 @@
+# Private local archive and worker material
+/legacy/
+/agent_artifacts/
+# Generated executions and local Python environments
+/runs/
+/.venv/
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+# Local secrets and editor state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+.idea/
+.vscode/
+# Source publications stay in the local archive
+*.pdf
+*.zip

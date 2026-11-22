@@ -1,0 +1,92 @@
+[
+  {
+    "document": "docs/PROJECT_PLAN.md",
+    "label": "the review directory",
+    "original_link": "analysis/scientific-review-2026-10-25/BASELINE_MANIFEST.json",
+    "original_source": "PROJECT_PLAN.md"
+  },
+  {
+    "document": "docs/evidence/ASSESSMENT.md",
+    "label": "local table image",
+    "original_link": "analysis/assessment-2026-10-19/geometry/br-table-p16.png",
+    "original_source": "ASSESSMENT.md"
+  },
+  {
+    "document": "docs/evidence/ASSESSMENT.md",
+    "label": "geometry diagnostics",
+    "original_link": "analysis/assessment-2026-10-19/geometry/diagnostics.py",
+    "original_source": "ASSESSMENT.md"
+  },
+  {
+    "document": "docs/evidence/ASSESSMENT.md",
+    "label": "estimand and membership diagnostics",
+    "original_link": "analysis/assessment-2026-10-19/geometry/estimand_membership_diagnostics.csv",
+    "original_source": "ASSESSMENT.md"
+  },
+  {
+    "document": "docs/evidence/ASSESSMENT.md",
+    "label": "source discrepancy scenarios",
+    "original_link": "analysis/assessment-2026-10-19/geometry/source_discrepancy_scenarios.csv",
+    "original_source": "ASSESSMENT.md"
+  },
+  {
+    "document": "docs/evidence/ASSESSMENT.md",
+    "label": "Rounding diagnostics",
+    "original_link": "analysis/assessment-2026-10-19/geometry/rounding_sensitivity.csv",
+    "original_source": "ASSESSMENT.md"
+  },
+  {
+    "document": "docs/evidence/ASSESSMENT.md",
+    "label": "Bootstrap diagnostics",
+    "original_link": "analysis/assessment-2026-10-19/geometry/bootstrap_diagnostics.csv",
+    "original_source": "ASSESSMENT.md"
+  },
+  {
+    "document": "docs/evidence/ASSESSMENT.md",
+    "label": "astronomy and statistics audit",
+    "original_link": "analysis/assessment-2026-10-19/astronomy/AUDIT.md",
+    "original_source": "ASSESSMENT.md"
+  },
+  {
+    "document": "docs/evidence/ASSESSMENT.md",
+    "label": "Diagnostic record",
+    "original_link": "analysis/assessment-2026-10-19/astronomy/artifact_diagnostics.json",
+    "original_source": "ASSESSMENT.md"
+  },
+  {
+    "document": "docs/evidence/ASSESSMENT.md",
+    "label": "Geometry and primary-source audit",
+    "original_link": "analysis/assessment-2026-10-19/geometry/AUDIT.md",
+    "original_source": "ASSESSMENT.md"
+  },
+  {
+    "document": "docs/evidence/ASSESSMENT.md",
+    "label": "executable diagnostics",
+    "original_link": "analysis/assessment-2026-10-19/geometry/diagnostics.py",
+    "original_source": "ASSESSMENT.md"
+  },
+  {
+    "document": "docs/evidence/ASSESSMENT.md",
+    "label": "metadata",
+    "original_link": "analysis/assessment-2026-10-19/geometry/diagnostics_metadata.json",
+    "original_source": "ASSESSMENT.md"
+  },
+  {
+    "document": "docs/evidence/ASSESSMENT.md",
+    "label": "Astronomy and statistics audit",
+    "original_link": "analysis/assessment-2026-10-19/astronomy/AUDIT.md",
+    "original_source": "ASSESSMENT.md"
+  },
+  {
+    "document": "docs/evidence/ASSESSMENT.md",
+    "label": "artifact diagnostic record",
+    "original_link": "analysis/assessment-2026-10-19/astronomy/artifact_diagnostics.json",
+    "original_source": "ASSESSMENT.md"
+  },
+  {
+    "document": "docs/evidence/ASSESSMENT.md",
+    "label": "Literature and contribution assessment",
+    "original_link": "analysis/assessment-2026-10-19/literature/AUDIT.md",
+    "original_source": "ASSESSMENT.md"
+  }
+]

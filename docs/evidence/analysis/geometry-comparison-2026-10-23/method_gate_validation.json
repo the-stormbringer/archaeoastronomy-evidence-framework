@@ -1,0 +1,9 @@
+{
+  "combination_rows": 12,
+  "declination_rows": 72,
+  "transform_checks": [
+    "east at zero altitude gives zero declination",
+    "north/south cardinal values"
+  ],
+  "combined_method_not_reproduced": true
+}

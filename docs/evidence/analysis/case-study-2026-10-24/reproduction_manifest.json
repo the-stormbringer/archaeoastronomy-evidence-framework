@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-24",
+  "python": "3.13.15",
+  "packages": {
+    "mpmath": "1.4.1",
+    "pyproj": "3.7.2"
+  },
+  "files": {
+    "continuous_spherical_contrasts.py": "f96237244f62e2fb1fb2d8cdfa78fc51d46fa6cc7005d0fc99df3fb4d2052d3e",
+    "validate_continuous_contrasts.py": "0791a802a3d646171ccec916ff5c7429b528d2826640db94ad8cd10014ecd4e3",
+    "build_claim_register.py": "7b3a230cbd61e9304eeee840675aa28d38b4b35370c3ff83040c223945a481b4",
+    "source_reconciliation-2026-10-22/source_coordinate_observations.csv": "5955de94f1c0fd8c1df37f2b60a4cb46e73ba66a61875676a66cf22e7c2f7cdf",
+    "analysis/case-study-2026-10-24/claim_register.csv": "f518b4bdbe0494df4a10bd5f697437b736e69f7855664b7904ffd58d304cabb8",
+    "analysis/case-study-2026-10-24/continuous_spherical_contrasts.csv": "7c1a0be41f981b0b296fec73bea9b3ac9dd861660cc8b519083c9292ae5ef3e3"
+  },
+  "commands": [
+    "python3 continuous_spherical_contrasts.py",
+    "python3 validate_continuous_contrasts.py",
+    "python3 build_claim_register.py"
+  ]
+}

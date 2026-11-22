@@ -1,0 +1,15 @@
+{
+  "extend.py": "46c3254a6b8ecb73b5fdda47cbfadac00abae7f7c23ac3af684e45eef73f6b65",
+  "reproduce.py": "cc995d14b622729bf42ec5b42fb38c1f29157295962be52681693702631c6ae0",
+  "source_coordinate_observations.csv": "5955de94f1c0fd8c1df37f2b60a4cb46e73ba66a61875676a66cf22e7c2f7cdf",
+  "membership_scenarios.csv": "9236d957d7b3f69cfb25c9ec8e6b7b78b6e1101f3be55b201ab55a3b0d17d9ce",
+  "chronology_evidence.csv": "90bf0d38e84402bbc1866ec2b4cc88b25af32aa73c4fb8dbf41e9cb0284db1f6",
+  "conditional_radial_geometry.csv": "04a6f9284fe6369daf86b5292b77f8f21ecc39e60e4616b5f79f789dda306289",
+  "source_input_hashes.csv": "c5a2dcdd7d325da317e32f7534a3ad99dd567d92682d1c8494e8dff6d4d33945",
+  "BR2005_WM_column_reproduction.csv": "aa0b7423b45a219e2b054d35a7335f0119dbdc40554c296c9665fbadef8a4f57",
+  "DECISIONS.md": "90edd2049a71e39597f903d809a9cab9b82174757b54a0eb047059f171920364",
+  "book-065.png": "a6d6ab9e64664eb5a61d770f51ffc74494395e5c0ff1f4688be9a9bb9c6da5d7",
+  "book-528.png": "03240008948ed9f8a0445c77530b139f5bcf7ff4687bb4ed4c10f848002761b4",
+  "book-531.png": "bc84d9983c34aeeec787d38a52e765cdce1712834abd0fe5f2d0b2b094f85f14",
+  "m2015-09.png": "76f73852cb6b033a3aa0b263cbc128d07b8c98c11aa2605d1fdbc75cac326e6d"
+}

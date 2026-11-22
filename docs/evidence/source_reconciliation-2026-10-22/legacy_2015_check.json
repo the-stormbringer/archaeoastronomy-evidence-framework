@@ -1,0 +1,6 @@
+{
+  "path": "/home/stormbringer/Research_Projects/nabta/legacy/MC/P1T1/malville_2015_alignments.csv",
+  "sha256": "dcad69ec4260315878064746d5e90345b3a45cf1afcbada15eea0ac7083969c2",
+  "checked_rows": 5,
+  "result": "All alignment, azimuth, target and date fields match printed 2015 p.1086; alpha Centauri abbreviation expanded correctly. This verifies transcription only."
+}

@@ -1,0 +1,573 @@
+{
+  "date": "2026-11-23",
+  "source_root": "agent_artifacts",
+  "records": [
+    {
+      "source": "agent_artifacts/geometry_comparison.py",
+      "destination": "analysis/geometry_comparison.py",
+      "source_sha256": "4870f8bfa0a42cec8116150b4c889331b7511ea405c5b897c1f5a5e28b27cbc7",
+      "destination_sha256": "4870f8bfa0a42cec8116150b4c889331b7511ea405c5b897c1f5a5e28b27cbc7",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/geometry_sensitivity.py",
+      "destination": "analysis/geometry_sensitivity.py",
+      "source_sha256": "fc295d28391c7ac5db858da3556e8ef297a83a812ba42f5199256f10a2468bac",
+      "destination_sha256": "fc295d28391c7ac5db858da3556e8ef297a83a812ba42f5199256f10a2468bac",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/method_gate.py",
+      "destination": "analysis/method_gate.py",
+      "source_sha256": "274c486e8781a07fe0120cc2cf96cefe56a4139dccc436260bfd96c8a423338c",
+      "destination_sha256": "274c486e8781a07fe0120cc2cf96cefe56a4139dccc436260bfd96c8a423338c",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/estimand_comparison.py",
+      "destination": "analysis/estimand_comparison.py",
+      "source_sha256": "1024a8fcb446413bd07b2c9cb7d177d6fa197f19de39070f87ab64f5d36fe265",
+      "destination_sha256": "1024a8fcb446413bd07b2c9cb7d177d6fa197f19de39070f87ab64f5d36fe265",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/shared_origin_contrasts.py",
+      "destination": "analysis/shared_origin_contrasts.py",
+      "source_sha256": "74359fb3a9521bed869dc3f1e7ed565f3715fce115b02312891be3eb05a0d2ca",
+      "destination_sha256": "74359fb3a9521bed869dc3f1e7ed565f3715fce115b02312891be3eb05a0d2ca",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/identity_chronology_checks.py",
+      "destination": "analysis/identity_chronology_checks.py",
+      "source_sha256": "6622669a286d256007cc813bdda855b4474bf4815b0a92c8b2a7a11af2a54587",
+      "destination_sha256": "6622669a286d256007cc813bdda855b4474bf4815b0a92c8b2a7a11af2a54587",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/chronology_compatibility.py",
+      "destination": "analysis/chronology_compatibility.py",
+      "source_sha256": "35e926b5fd87be022a437bc2209d6bd29f9b878390aa44d699a9796432258f58",
+      "destination_sha256": "35e926b5fd87be022a437bc2209d6bd29f9b878390aa44d699a9796432258f58",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/continuous_spherical_contrasts.py",
+      "destination": "analysis/continuous_spherical_contrasts.py",
+      "source_sha256": "f96237244f62e2fb1fb2d8cdfa78fc51d46fa6cc7005d0fc99df3fb4d2052d3e",
+      "destination_sha256": "f96237244f62e2fb1fb2d8cdfa78fc51d46fa6cc7005d0fc99df3fb4d2052d3e",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/validate_continuous_contrasts.py",
+      "destination": "analysis/validate_continuous_contrasts.py",
+      "source_sha256": "0791a802a3d646171ccec916ff5c7429b528d2826640db94ad8cd10014ecd4e3",
+      "destination_sha256": "0791a802a3d646171ccec916ff5c7429b528d2826640db94ad8cd10014ecd4e3",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/build_claim_register.py",
+      "destination": "analysis/build_claim_register.py",
+      "source_sha256": "7b3a230cbd61e9304eeee840675aa28d38b4b35370c3ff83040c223945a481b4",
+      "destination_sha256": "7b3a230cbd61e9304eeee840675aa28d38b4b35370c3ff83040c223945a481b4",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/source_coordinate_observations.csv",
+      "destination": "data/source/source_coordinate_observations.csv",
+      "source_sha256": "5955de94f1c0fd8c1df37f2b60a4cb46e73ba66a61875676a66cf22e7c2f7cdf",
+      "destination_sha256": "5955de94f1c0fd8c1df37f2b60a4cb46e73ba66a61875676a66cf22e7c2f7cdf",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/membership_scenarios.csv",
+      "destination": "data/source/membership_scenarios.csv",
+      "source_sha256": "9236d957d7b3f69cfb25c9ec8e6b7b78b6e1101f3be55b201ab55a3b0d17d9ce",
+      "destination_sha256": "9236d957d7b3f69cfb25c9ec8e6b7b78b6e1101f3be55b201ab55a3b0d17d9ce",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/published_claims.csv",
+      "destination": "data/source/published_claims.csv",
+      "source_sha256": "7ba1f8040e68371957e8472fa51cf2849f3b8875aac3b3b86ae53c3f86f6d2ea",
+      "destination_sha256": "7ba1f8040e68371957e8472fa51cf2849f3b8875aac3b3b86ae53c3f86f6d2ea",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/case-study-2026-10-24/claim_register.csv",
+      "destination": "data/reference/analysis/case-study-2026-10-24/claim_register.csv",
+      "source_sha256": "f518b4bdbe0494df4a10bd5f697437b736e69f7855664b7904ffd58d304cabb8",
+      "destination_sha256": "f518b4bdbe0494df4a10bd5f697437b736e69f7855664b7904ffd58d304cabb8",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/case-study-2026-10-24/continuous_spherical_contrasts.csv",
+      "destination": "data/reference/analysis/case-study-2026-10-24/continuous_spherical_contrasts.csv",
+      "source_sha256": "7c1a0be41f981b0b296fec73bea9b3ac9dd861660cc8b519083c9292ae5ef3e3",
+      "destination_sha256": "7c1a0be41f981b0b296fec73bea9b3ac9dd861660cc8b519083c9292ae5ef3e3",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/geometry-comparison-2026-10-23/combination_family_check.csv",
+      "destination": "data/reference/analysis/geometry-comparison-2026-10-23/combination_family_check.csv",
+      "source_sha256": "f618efaab2b146686cadf535aae37aeda7bc9cc61d72c42750640283d315f436",
+      "destination_sha256": "f618efaab2b146686cadf535aae37aeda7bc9cc61d72c42750640283d315f436",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/geometry-comparison-2026-10-23/comparisons.csv",
+      "destination": "data/reference/analysis/geometry-comparison-2026-10-23/comparisons.csv",
+      "source_sha256": "f508ebd56f7ee46320aedbdbbe02076b4c6f6b78d4b67718900f231a4278c3ef",
+      "destination_sha256": "f508ebd56f7ee46320aedbdbbe02076b4c6f6b78d4b67718900f231a4278c3ef",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/geometry-comparison-2026-10-23/declination_scenarios.csv",
+      "destination": "data/reference/analysis/geometry-comparison-2026-10-23/declination_scenarios.csv",
+      "source_sha256": "a4336ef0a3d278de3a1ee7b8ee32d28836b26097007b62292197f4c5c36d4967",
+      "destination_sha256": "a4336ef0a3d278de3a1ee7b8ee32d28836b26097007b62292197f4c5c36d4967",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/geometry-comparison-2026-10-23/estimand_comparison.csv",
+      "destination": "data/reference/analysis/geometry-comparison-2026-10-23/estimand_comparison.csv",
+      "source_sha256": "e14c5331b555639049896453f96b89d9c5f594e9173bb00672fc99805cc13e66",
+      "destination_sha256": "e14c5331b555639049896453f96b89d9c5f594e9173bb00672fc99805cc13e66",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/geometry-comparison-2026-10-23/membership_comparison.csv",
+      "destination": "data/reference/analysis/geometry-comparison-2026-10-23/membership_comparison.csv",
+      "source_sha256": "db2faf00214f26410eecc887e3e913c545c47d2a9c39cf43f1917bdc554c4af2",
+      "destination_sha256": "db2faf00214f26410eecc887e3e913c545c47d2a9c39cf43f1917bdc554c4af2",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/geometry-comparison-2026-10-23/origin_scenarios.csv",
+      "destination": "data/reference/analysis/geometry-comparison-2026-10-23/origin_scenarios.csv",
+      "source_sha256": "0fc763fe35084fc604913269500552d401581368a261f09543506a104f83c773",
+      "destination_sha256": "0fc763fe35084fc604913269500552d401581368a261f09543506a104f83c773",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/geometry-comparison-2026-10-23/rounding_scenarios.csv",
+      "destination": "data/reference/analysis/geometry-comparison-2026-10-23/rounding_scenarios.csv",
+      "source_sha256": "8ee0c3c9d0222f95dbd7c8cb397f496c46d5b701cc1c1fa75953c99fdc57bd28",
+      "destination_sha256": "8ee0c3c9d0222f95dbd7c8cb397f496c46d5b701cc1c1fa75953c99fdc57bd28",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/geometry-comparison-2026-10-23/shared_origin_contrasts.csv",
+      "destination": "data/reference/analysis/geometry-comparison-2026-10-23/shared_origin_contrasts.csv",
+      "source_sha256": "6effef8f4bc0a779da401e84e8222797491425f352c8910d7511d2bdc2a276a3",
+      "destination_sha256": "6effef8f4bc0a779da401e84e8222797491425f352c8910d7511d2bdc2a276a3",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/identity-chronology-2026-10-24/chronology_compatibility.csv",
+      "destination": "data/reference/analysis/identity-chronology-2026-10-24/chronology_compatibility.csv",
+      "source_sha256": "187078f91db0ff8ff392456d92fe91630b594dfdef95ebc5cb126e8c9734b8fc",
+      "destination_sha256": "187078f91db0ff8ff392456d92fe91630b594dfdef95ebc5cb126e8c9734b8fc",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/identity-chronology-2026-10-24/date_label_comparison.csv",
+      "destination": "data/reference/analysis/identity-chronology-2026-10-24/date_label_comparison.csv",
+      "source_sha256": "082aee39455401a19b2626b0db85317c101e646cdc0f8367adf4c1244494c8c6",
+      "destination_sha256": "082aee39455401a19b2626b0db85317c101e646cdc0f8367adf4c1244494c8c6",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/identity-chronology-2026-10-24/same_cell_screen.csv",
+      "destination": "data/reference/analysis/identity-chronology-2026-10-24/same_cell_screen.csv",
+      "source_sha256": "9ef8563231b255b5c55713ca650234dc633cb3165176a17ae0180f7d2d95ddde",
+      "destination_sha256": "9ef8563231b255b5c55713ca650234dc633cb3165176a17ae0180f7d2d95ddde",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/PROJECT_PLAN.md",
+      "destination": "docs/PROJECT_PLAN.md",
+      "source_sha256": "68bc5682ad91f630a14850579a81a11f7ed7a54af334f7e1e0a352bc9481813f",
+      "destination_sha256": "25d28315c3f5eebf8be0151ba5c3a40447665ea0908ff9e1a76c6812c4420e6e",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/PROJECT_STATE.json",
+      "destination": "docs/PROJECT_STATE.json",
+      "source_sha256": "e2bd4823c2cacb1b6485cfe4c99f31b56b70360dc0515d3ab8d4534086da49ed",
+      "destination_sha256": "4ac7e7a4c07c6ff00c4d4fad41fd14c392f1e40bbb72ef61ec77571e0d7daab3",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/RESEARCH_CHARTER.md",
+      "destination": "docs/RESEARCH_CHARTER.md",
+      "source_sha256": "aa5f564fe848dcdcb1ba3eb6e7540b6e44f18c75caaa96a3be710b00f409ee5f",
+      "destination_sha256": "3d2cc722ee4e020a176638f32a8439e222758a182852d9ef008c1cfd92735b80",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/analysis/scientific-review-2026-10-25/ASSUMPTIONS.md",
+      "destination": "docs/protocols/ASSUMPTIONS.md",
+      "source_sha256": "813c35ccdd6e1f41e52883c928622956ab6d4ef7189b492c65d91024ebfc1002",
+      "destination_sha256": "813c35ccdd6e1f41e52883c928622956ab6d4ef7189b492c65d91024ebfc1002",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/scientific-review-2026-10-25/EXPERIMENT_PROTOCOL.md",
+      "destination": "docs/protocols/EXPERIMENT_PROTOCOL.md",
+      "source_sha256": "65c038ef4e2f050509af775c6125a4ddd74a675a9555a1e4173700ba065f6a0f",
+      "destination_sha256": "65c038ef4e2f050509af775c6125a4ddd74a675a9555a1e4173700ba065f6a0f",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/scientific-review-2026-10-25/REVIEW.md",
+      "destination": "docs/protocols/REVIEW.md",
+      "source_sha256": "5b6101efcd621c6410a45f0ca12f41571f907fd9d6d296012348502319e7c94c",
+      "destination_sha256": "5b6101efcd621c6410a45f0ca12f41571f907fd9d6d296012348502319e7c94c",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/scientific-review-2026-10-25/REALIGNMENT.md",
+      "destination": "docs/protocols/REALIGNMENT.md",
+      "source_sha256": "d270f79d44edcb8b61ac38d5b9fa8eefc81db7194f1260c0a034512094399ed4",
+      "destination_sha256": "d270f79d44edcb8b61ac38d5b9fa8eefc81db7194f1260c0a034512094399ed4",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/case-study-2026-10-24/MANUSCRIPT_WORKING_DRAFT.md",
+      "destination": "docs/manuscript/MANUSCRIPT_WORKING_DRAFT.md",
+      "source_sha256": "afe7276df24081d9a98a4f99165b6a1a04bce35bd3bfc89846625497145f63e7",
+      "destination_sha256": "390041833ee8dafcc6f5369a4bbdf531914798299773f17387a0a391b3777044",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/analysis/case-study-2026-10-24/SPECIFICATION.md",
+      "destination": "docs/manuscript/SPECIFICATION.md",
+      "source_sha256": "046eecd2ff2232179386552a98f61aea50959f2ddcad4a18df75d3b0bdc997a9",
+      "destination_sha256": "046eecd2ff2232179386552a98f61aea50959f2ddcad4a18df75d3b0bdc997a9",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/case-study-2026-10-24/PRIOR_WORK_COMPARISON.md",
+      "destination": "docs/manuscript/PRIOR_WORK_COMPARISON.md",
+      "source_sha256": "c9b1480a0641eb7442dbf4d18f2e4eaf1c5427642fb3c24e568d991e080bd173",
+      "destination_sha256": "8c782db5aa30a971d6a97e2620a0da723883f19b85855dce04ccc6bc77e785fc",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/analysis/case-study-2026-10-24/figures/continuous_ordering.png",
+      "destination": "docs/manuscript/figures/continuous_ordering.png",
+      "source_sha256": "4ff03349bbc90fa7b20f72c0930add5987c941336dbb5f597fb94ee2f434bed5",
+      "destination_sha256": "4ff03349bbc90fa7b20f72c0930add5987c941336dbb5f597fb94ee2f434bed5",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/case-study-2026-10-24/figures/chronology_context.png",
+      "destination": "docs/manuscript/figures/chronology_context.png",
+      "source_sha256": "e0534e3025300b29244492f2c98827a64bff63e7d2354dc2d0438381b2a3c24a",
+      "destination_sha256": "e0534e3025300b29244492f2c98827a64bff63e7d2354dc2d0438381b2a3c24a",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/case-study-2026-10-24/figures/chronology_context.svg",
+      "destination": "docs/manuscript/figures/chronology_context.svg",
+      "source_sha256": "11ece97b56facf2a2ac1e9e272a0ceaab824af59ffaa2a90f2d1a7bf057f83a1",
+      "destination_sha256": "11ece97b56facf2a2ac1e9e272a0ceaab824af59ffaa2a90f2d1a7bf057f83a1",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/case-study-2026-10-24/figures/continuous_ordering.svg",
+      "destination": "docs/manuscript/figures/continuous_ordering.svg",
+      "source_sha256": "f9fdfcbe06079aa02198df76a3febcb7d5e8ba0bb5a25c1021828eb68dd68a77",
+      "destination_sha256": "f9fdfcbe06079aa02198df76a3febcb7d5e8ba0bb5a25c1021828eb68dd68a77",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/BR2005_WM_column_reproduction.csv",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/BR2005_WM_column_reproduction.csv",
+      "source_sha256": "aa0b7423b45a219e2b054d35a7335f0119dbdc40554c296c9665fbadef8a4f57",
+      "destination_sha256": "aa0b7423b45a219e2b054d35a7335f0119dbdc40554c296c9665fbadef8a4f57",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/DECISIONS.md",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/DECISIONS.md",
+      "source_sha256": "95b72fae0655e10ab6a26c78d839c76620eebb90bdb43c6cc35aedbb5728a2ba",
+      "destination_sha256": "a67f9d4005809e847b6edd8997fc5a31d57f67d6a88de7b24f7e5b896f324abd",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/README.md",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/README.md",
+      "source_sha256": "81f8062e98baadf22343b3d0fd0393e8295bc0c700d651b8340c43c44db01876",
+      "destination_sha256": "d3d9d4a1284101357153c4eb2c36875151813abf01b160a3a1ce32ff52e25afc",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/SAHARA_DEPENDENCY.md",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/SAHARA_DEPENDENCY.md",
+      "source_sha256": "01e3f0b084310a6e9d90d4aa58d639df1758f2db7af59778c36339eafef5e8e1",
+      "destination_sha256": "929f21b81ba86a4e6b209d7bad1958481147d6bdef6101fc2440df1fba0b99b3",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/SUPPLIED_SOURCE_RECONCILIATION.md",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/SUPPLIED_SOURCE_RECONCILIATION.md",
+      "source_sha256": "f53e813b790433373a3ca6e4ad41b7bdda66d00905347e71a8c08fff7c96d131",
+      "destination_sha256": "a9ec7afb863e899f3c4ce285b8e836dec226b1b976be36dae321892fbc41f71b",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/chronology_evidence.csv",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/chronology_evidence.csv",
+      "source_sha256": "90bf0d38e84402bbc1866ec2b4cc88b25af32aa73c4fb8dbf41e9cb0284db1f6",
+      "destination_sha256": "90bf0d38e84402bbc1866ec2b4cc88b25af32aa73c4fb8dbf41e9cb0284db1f6",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/conditional_radial_geometry.csv",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/conditional_radial_geometry.csv",
+      "source_sha256": "04a6f9284fe6369daf86b5292b77f8f21ecc39e60e4616b5f79f789dda306289",
+      "destination_sha256": "04a6f9284fe6369daf86b5292b77f8f21ecc39e60e4616b5f79f789dda306289",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/extension_manifest.json",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/extension_manifest.json",
+      "source_sha256": "d405d863010bb6d6b8f7b9bad9cba32f354a75d05b782ec983afd161552815c3",
+      "destination_sha256": "d405d863010bb6d6b8f7b9bad9cba32f354a75d05b782ec983afd161552815c3",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/haynie2014/REVIEW.md",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/haynie2014/REVIEW.md",
+      "source_sha256": "1e13c3e79967d5b640ea0f4f6fdfd8ea3977823f2659314d1b26ab43ab70fe3c",
+      "destination_sha256": "c5ffe8bbc74eebd687a893a80e1bf1bf3a77c710174b8db8cda32c4212e4840a",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/legacy_2015_check.json",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/legacy_2015_check.json",
+      "source_sha256": "16823147a1ab7446d0f3e86e4cd37611176ab2b8c4ae62ceb0f034b9755c4c9a",
+      "destination_sha256": "16823147a1ab7446d0f3e86e4cd37611176ab2b8c4ae62ceb0f034b9755c4c9a",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/monograph2025/README.md",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/monograph2025/README.md",
+      "source_sha256": "64855db0104ad2fd2d8e94a20a6d159155613fb4c56805051c0b48f0e4b86c23",
+      "destination_sha256": "a7252fb33d65bc25b3bf26adfcb5ea4cfef12fa59f501571cc7ffdd99d9ed090",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/monograph2025/acquisition.json",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/monograph2025/acquisition.json",
+      "source_sha256": "49d2d17a2bb3e85398b913dccdc7f7819dd257ec3dd1ad86d002f96e7468db69",
+      "destination_sha256": "49d2d17a2bb3e85398b913dccdc7f7819dd257ec3dd1ad86d002f96e7468db69",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/monograph2025/alignment_A_identity.csv",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/monograph2025/alignment_A_identity.csv",
+      "source_sha256": "bb9a2b8088c622753e2d2371c3b045ba148b0a42b58aecc1a21a383675333b49",
+      "destination_sha256": "bb9a2b8088c622753e2d2371c3b045ba148b0a42b58aecc1a21a383675333b49",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/monograph2025/map_audit/B_identity_candidates.csv",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/monograph2025/map_audit/B_identity_candidates.csv",
+      "source_sha256": "6b7de3d9e02fb675b872cc7ffa298dba642753f517b9454eaee90769828c4bcb",
+      "destination_sha256": "6b7de3d9e02fb675b872cc7ffa298dba642753f517b9454eaee90769828c4bcb",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/monograph2025/map_audit/README.md",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/monograph2025/map_audit/README.md",
+      "source_sha256": "2384db39966457d51e7f191099d18c6377d3c57456be6823b52504473063459b",
+      "destination_sha256": "2e48a68ff97f261a36626a39b7a47e718e4ecaf4ea4d40ff494db609072ea514",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/monograph2025/map_audit/sector_C_candidate_paths.csv",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/monograph2025/map_audit/sector_C_candidate_paths.csv",
+      "source_sha256": "25c16fcaeab2750679da34a0dcf0a70547ff199c52a143fc649f6a09d9f24b63",
+      "destination_sha256": "25c16fcaeab2750679da34a0dcf0a70547ff199c52a143fc649f6a09d9f24b63",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/monograph2025/map_audit/validation.json",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/monograph2025/map_audit/validation.json",
+      "source_sha256": "959da255b5ae19b99b9192002a46c3cabb09e3e9497f7254a8b5f5ce5a36c569",
+      "destination_sha256": "959da255b5ae19b99b9192002a46c3cabb09e3e9497f7254a8b5f5ce5a36c569",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/monograph2025/quarry_E04_4.csv",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/monograph2025/quarry_E04_4.csv",
+      "source_sha256": "0b9013446aea59223e716a4f675fd551adb6f72d202dbcd37ade01fb02b8707f",
+      "destination_sha256": "0b9013446aea59223e716a4f675fd551adb6f72d202dbcd37ade01fb02b8707f",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/monograph2025/quarry_all16.csv",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/monograph2025/quarry_all16.csv",
+      "source_sha256": "916f86702def1ba45b39e9a7f199f75d2ab6cd00e5f0db7efbb283dea8392453",
+      "destination_sha256": "916f86702def1ba45b39e9a7f199f75d2ab6cd00e5f0db7efbb283dea8392453",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/source_reconciliation-2026-10-22/source_input_hashes.csv",
+      "destination": "docs/evidence/source_reconciliation-2026-10-22/source_input_hashes.csv",
+      "source_sha256": "c5a2dcdd7d325da317e32f7534a3ad99dd567d92682d1c8494e8dff6d4d33945",
+      "destination_sha256": "c5a2dcdd7d325da317e32f7534a3ad99dd567d92682d1c8494e8dff6d4d33945",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/geometry-comparison-2026-10-23/EVIDENCE_GATE.md",
+      "destination": "docs/evidence/analysis/geometry-comparison-2026-10-23/EVIDENCE_GATE.md",
+      "source_sha256": "3c390f2f30a584003802f65ccd60b7052adcf65b3ca807ef4de5da3093fe613e",
+      "destination_sha256": "58fccd56a20e135edd3830f9dd0032f063d767e3600261d422fd67bd93141ad3",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/analysis/geometry-comparison-2026-10-23/FINDINGS.md",
+      "destination": "docs/evidence/analysis/geometry-comparison-2026-10-23/FINDINGS.md",
+      "source_sha256": "09238c3993f2c452893e4f57301b89bf7c30f2a6fac8d53e54477b853e203f69",
+      "destination_sha256": "7f7d80d8dce17eb1c4ba09a14f734e09da3a3000a671ba8b85491719b05fe66a",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/analysis/geometry-comparison-2026-10-23/METHOD_REVIEW.md",
+      "destination": "docs/evidence/analysis/geometry-comparison-2026-10-23/METHOD_REVIEW.md",
+      "source_sha256": "ba52c6fe3aa19a1b005f75e0f1a1c832ed1dad43629df1572687eb75612ff267",
+      "destination_sha256": "747cf18ff209193123d6d6289864b90b0b738e4403dd0fe44a0c1ceb5862c4db",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/analysis/geometry-comparison-2026-10-23/estimand_validation.json",
+      "destination": "docs/evidence/analysis/geometry-comparison-2026-10-23/estimand_validation.json",
+      "source_sha256": "b1452624fc7c2362e0a0e73d07bf2da2662579eb3f3f44898c3870c2625c3bfc",
+      "destination_sha256": "b1452624fc7c2362e0a0e73d07bf2da2662579eb3f3f44898c3870c2625c3bfc",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/geometry-comparison-2026-10-23/independent_validation.json",
+      "destination": "docs/evidence/analysis/geometry-comparison-2026-10-23/independent_validation.json",
+      "source_sha256": "6423790b9b8b9cef8fe382703100efd0e13def003a00dacad15470e9062b0c9a",
+      "destination_sha256": "6423790b9b8b9cef8fe382703100efd0e13def003a00dacad15470e9062b0c9a",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/geometry-comparison-2026-10-23/method_gate_validation.json",
+      "destination": "docs/evidence/analysis/geometry-comparison-2026-10-23/method_gate_validation.json",
+      "source_sha256": "a85f437f48fec775335ed41d344fbece5927819342becd5e473367ed5fdd643a",
+      "destination_sha256": "a85f437f48fec775335ed41d344fbece5927819342becd5e473367ed5fdd643a",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/geometry-comparison-2026-10-23/reproduction_manifest.json",
+      "destination": "docs/evidence/analysis/geometry-comparison-2026-10-23/reproduction_manifest.json",
+      "source_sha256": "7970709f43654e363167e53e07a986a12699c0e38b75b783c6e567c400826214",
+      "destination_sha256": "7970709f43654e363167e53e07a986a12699c0e38b75b783c6e567c400826214",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/geometry-comparison-2026-10-23/sensitivity_validation.json",
+      "destination": "docs/evidence/analysis/geometry-comparison-2026-10-23/sensitivity_validation.json",
+      "source_sha256": "c5efa5b09c4c305053f57887c07df5155921408e87ba3b4afc627213a2085e86",
+      "destination_sha256": "c5efa5b09c4c305053f57887c07df5155921408e87ba3b4afc627213a2085e86",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/geometry-comparison-2026-10-23/validation.json",
+      "destination": "docs/evidence/analysis/geometry-comparison-2026-10-23/validation.json",
+      "source_sha256": "4301730b945fe22383ce4baf836973b3dd059838caea73c14c1413d91cee465f",
+      "destination_sha256": "4301730b945fe22383ce4baf836973b3dd059838caea73c14c1413d91cee465f",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/identity-chronology-2026-10-24/EVIDENCE_REQUEST.md",
+      "destination": "docs/evidence/analysis/identity-chronology-2026-10-24/EVIDENCE_REQUEST.md",
+      "source_sha256": "2d9d8378216962875312e6119968c737e87d5eb16b08ab7015b10cbab2bdba80",
+      "destination_sha256": "8730c4288e57316b81b7ef491ae7db1d4f20619b9c2fc6b1d87b1596f869e74b",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/analysis/identity-chronology-2026-10-24/FINDINGS.md",
+      "destination": "docs/evidence/analysis/identity-chronology-2026-10-24/FINDINGS.md",
+      "source_sha256": "c4cb9eb5501627db38e7c932fa5aaddf95cbd50bab57ea2a49a58f67f5b7d87f",
+      "destination_sha256": "47e35fd00063a493c3be5e5e429cd622cd8379412d7b5fadb022eb6476c579f8",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/analysis/identity-chronology-2026-10-24/reproduction_manifest.json",
+      "destination": "docs/evidence/analysis/identity-chronology-2026-10-24/reproduction_manifest.json",
+      "source_sha256": "860003f265e0d486e10ced0d11d1711e2beb71bcf9886d2bd4a51abd0c0a34e4",
+      "destination_sha256": "860003f265e0d486e10ced0d11d1711e2beb71bcf9886d2bd4a51abd0c0a34e4",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/identity-chronology-2026-10-24/sector_B_scale_check.json",
+      "destination": "docs/evidence/analysis/identity-chronology-2026-10-24/sector_B_scale_check.json",
+      "source_sha256": "97b682a2e44f96cdde2411eb2aacc14c8f7cafd94a1900aefc8b7714f15cd0aa",
+      "destination_sha256": "97b682a2e44f96cdde2411eb2aacc14c8f7cafd94a1900aefc8b7714f15cd0aa",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/identity-chronology-2026-10-24/validation.json",
+      "destination": "docs/evidence/analysis/identity-chronology-2026-10-24/validation.json",
+      "source_sha256": "e0f7a25e9b5fb03ac81b1677dd68f0ff79f275e638e3ca0db97588235a7e1019",
+      "destination_sha256": "e0f7a25e9b5fb03ac81b1677dd68f0ff79f275e638e3ca0db97588235a7e1019",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/case-study-2026-10-24/CLAIMS.md",
+      "destination": "docs/evidence/analysis/case-study-2026-10-24/CLAIMS.md",
+      "source_sha256": "81a387c6b54bb72c668ae19d486bc44787b3149c6bd2727990ee144a81d81e99",
+      "destination_sha256": "3f0541ff2775ca19caa7331c9ec84ae9378ba7189d38050ccaadb04dd6833ac5",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/analysis/case-study-2026-10-24/continuous_validation.json",
+      "destination": "docs/evidence/analysis/case-study-2026-10-24/continuous_validation.json",
+      "source_sha256": "780cf1a9962ff4f37d20138244e05449f222589539b07e164c92f14244bd9a07",
+      "destination_sha256": "780cf1a9962ff4f37d20138244e05449f222589539b07e164c92f14244bd9a07",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/case-study-2026-10-24/draft_review.json",
+      "destination": "docs/evidence/analysis/case-study-2026-10-24/draft_review.json",
+      "source_sha256": "2412eba39da96e0bb7e1ee5cbedef6cb2b877d15f6e76343b55c3584c2552afb",
+      "destination_sha256": "2412eba39da96e0bb7e1ee5cbedef6cb2b877d15f6e76343b55c3584c2552afb",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/case-study-2026-10-24/independent_interval_validation.json",
+      "destination": "docs/evidence/analysis/case-study-2026-10-24/independent_interval_validation.json",
+      "source_sha256": "1bcda8666bb7189fdc30be1ed8a53c7c73050fe56f4094c81f71c57af94962e0",
+      "destination_sha256": "1bcda8666bb7189fdc30be1ed8a53c7c73050fe56f4094c81f71c57af94962e0",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/analysis/case-study-2026-10-24/reproduction_manifest.json",
+      "destination": "docs/evidence/analysis/case-study-2026-10-24/reproduction_manifest.json",
+      "source_sha256": "78311fad1dab7aafae1d125a2227e77b8b78fd6f2c84796e088584ba85ba7282",
+      "destination_sha256": "78311fad1dab7aafae1d125a2227e77b8b78fd6f2c84796e088584ba85ba7282",
+      "transformation": "unchanged"
+    },
+    {
+      "source": "agent_artifacts/ASSESSMENT.md",
+      "destination": "docs/evidence/ASSESSMENT.md",
+      "source_sha256": "2c8bc97025b0bdf5c8510ee0b9a47fd7822f5bf0ff7a5deb89e0b375efcf6a4d",
+      "destination_sha256": "2e134570b72d7cac55fa05b9875e655e3a8f6daeb19c848c8c64da6bcfa179cf",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    },
+    {
+      "source": "agent_artifacts/ORIENTATION.md",
+      "destination": "docs/evidence/ORIENTATION.md",
+      "source_sha256": "25e450605b34908c55797bb19754b19e5a3b41bb7d5164fb6cf1f6afa2429ba0",
+      "destination_sha256": "9e52b4baec5f8cc157a15d2b4fa828f8f67ee727eca0d7815bb06bb7e46f7deb",
+      "transformation": "local links/status metadata adapted for repository; scientific results not edited"
+    }
+  ]
+}

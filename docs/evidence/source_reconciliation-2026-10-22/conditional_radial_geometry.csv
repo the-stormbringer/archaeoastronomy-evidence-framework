@@ -1,0 +1,25 @@
+source_id,alignment,members,missing_members,mean_radial_bearing_deg,min_bearing_deg,max_bearing_deg,status
+BR2005_GPS2003,A3,A-1;A-2;A-3,,26.419469782091415,26.321869107211665,26.57761955970132,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+BR2005_GPS2003,A2,A-0;A-4;A-X,,27.993546937969477,27.21773831852132,28.45593832667291,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+BR2005_GPS2003,A1,A-5;A-6;A-7;A-8;A-9,,30.33945294793971,29.455461463307167,31.460420215098264,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+BR2005_GPS2003,B2,B-1;B-3;B-4,B-2,117.36535657340738,117.13447459556471,117.72619471555078,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+BR2005_GPS2003,B1,B-5;B-6;B-7,,120.66069500788936,119.59694439972996,121.8364051587113,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+BR2005_GPS2003,C1,C-1;C-3;C-4;C-5;C-6,C-2,129.778393645883,126.88817289665161,131.28119854693986,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+BR2005_QB2002,A3,A-1;A-2;A-3,,26.307515548095907,26.058224134637364,26.577636336817875,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+BR2005_QB2002,A2,A-0;A-4;A-X,,28.05594661788285,27.546466595369218,28.65724582211685,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+BR2005_QB2002,A1,A-5;A-6;A-7;A-8;A-9,,30.641377227931628,29.758922273212338,32.39563057140756,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+BR2005_QB2002,B2,B-1;B-2;B-3;B-4,,115.93878879195351,115.5625996142116,116.1655714126693,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+BR2005_QB2002,B1,B-5;B-6;B-7,,118.67106887710855,117.63513604636086,120.09280385412738,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+BR2005_QB2002,C1,C-1;C-2;C-3;C-4;C-5;C-6,,129.33608410776114,126.3656153639799,130.81978037319195,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+BR2005_repeated_WM2001,A3,A-1;A-2;A-3,,26.966003907456763,26.029176145198857,28.04305718087234,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+BR2005_repeated_WM2001,A2,A-0;A-4;A-X,,28.735474991151126,28.554093799278963,28.995103558781075,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+BR2005_repeated_WM2001,A1,A-5;A-6;A-7;A-8;A-9,,31.387762138986506,30.736737858777225,32.09378304709345,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+BR2005_repeated_WM2001,B2,B-1;B-2;B-3;B-4,,115.68300015398214,114.92567802401956,116.16558799611983,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+BR2005_repeated_WM2001,B1,B-5;B-6;B-7,,118.83330513011518,118.28522968876187,119.16362677394471,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+BR2005_repeated_WM2001,C1,C-1;C-2;C-3;C-4;C-5;C-6,,129.54411072780837,128.2450538066089,130.6309525637664,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+WM2001_original,A3,A-1;A-2;A-3,,26.966003907456763,26.029176145198857,28.04305718087234,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+WM2001_original,A2,A-0;A-4;A-X,,28.735474991151126,28.554093799278963,28.995103558781075,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+WM2001_original,A1,A-5;A-6;A-7;A-8;A-9,,31.387762138986506,30.736737858777225,32.09378304709345,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+WM2001_original,B2,B-1;B-2;B-3;B-4,,115.68300015398214,114.92567802401956,116.16558799611983,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+WM2001_original,B1,B-5;B-6;B-7,,118.83330513011518,118.28522968876187,119.16362677394471,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim
+WM2001_original,C1,C-1;C-2;C-3;C-4;C-5;C-8,,129.6191395671288,129.03608404810205,130.25948252560397,conditional diagnostic; WGS84 assumed; source table membership; no survey accuracy claim

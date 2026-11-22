@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "12 membership scenarios",
+    "24 coordinate-rounding scenarios",
+    "96 origin-radius scenarios",
+    "nominal enclosed in sampled rounding envelope",
+    "oblique geodesic forward/inverse"
+  ],
+  "inputs": {
+    "source_coordinate_observations.csv": "5955de94f1c0fd8c1df37f2b60a4cb46e73ba66a61875676a66cf22e7c2f7cdf",
+    "membership_scenarios.csv": "9236d957d7b3f69cfb25c9ec8e6b7b78b6e1101f3be55b201ab55a3b0d17d9ce"
+  },
+  "limitations": [
+    "WGS84 assumed",
+    "nearest-rounding model assumed, not verified",
+    "finite grid extrema are sampled envelopes, not certified bounds",
+    "origin radii are hypothetical sensitivity parameters, not measured error",
+    "incomplete rows explicitly retained as partial",
+    "arithmetic mean used to match historical computation; no bearings wrap through north in these rows"
+  ]
+}

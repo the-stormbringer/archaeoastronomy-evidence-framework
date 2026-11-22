@@ -1,0 +1,8 @@
+{
+  "seed": 20261024,
+  "draws_per_source": 2000,
+  "contrasts_checked": 24000,
+  "independent_calculation": "pyproj spherical inverse geodesic; independently drawn interiors and shared origin",
+  "all_inside_interval_enclosures": true,
+  "limit": "Sampling is a cross-check of implementation, not the basis of the continuous enclosure claim."
+}

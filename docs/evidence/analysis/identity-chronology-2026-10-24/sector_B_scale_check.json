@@ -1,0 +1,20 @@
+{
+  "source": "2025 Figure 2.3, printed p27 / local PDF29; embedded image xref83, 974x1083 pixels",
+  "method": "Visual endpoint picks in native raster; illustrative drawing-scale bound, not survey accuracy",
+  "grid_x_pixels": [
+    20,
+    962
+  ],
+  "grid_intervals": 34,
+  "scale_200m_x_pixels": [
+    699,
+    896
+  ],
+  "endpoint_tolerance_pixels": 2,
+  "implied_cell_side_m": 28.12779934308749,
+  "cell_side_extreme_bounds_m": [
+    27.450980392156865,
+    28.832672965559283
+  ],
+  "comparison": "The conditional same-cell screen allows cell sides up to 50m, larger than this drawing-scale range."
+}

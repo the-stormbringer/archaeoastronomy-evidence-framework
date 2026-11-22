@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-23",
+  "scope": "Local repository packaging and numerical repeatability; scientific W1/E1-E4 work not performed",
+  "repository_checks": "passed",
+  "failure_mode_tests": 11,
+  "pipeline_scripts_completed": 10,
+  "reference_tables_compared": 13,
+  "byte_identical_tables": 13,
+  "dependency_versions": {
+    "numpy": "2.4.6",
+    "pyproj": "3.7.2",
+    "mpmath": "1.4.1",
+    "certifi": "2026.7.22"
+  },
+  "existing_scientific_code_inputs_references_unchanged": true,
+  "git_clone_validation": "pending",
+  "hermes_packet_002": "prepared; awaiting payload approval after automatic review rejection",
+  "external_review": "not performed",
+  "remote": "not configured",
+  "ignored_archives": [
+    "legacy/",
+    "agent_artifacts/",
+    "runs/"
+  ],
+  "local_full_run_report": "runs/repository-acceptance-2026-11-23/VALIDATION.json"
+}

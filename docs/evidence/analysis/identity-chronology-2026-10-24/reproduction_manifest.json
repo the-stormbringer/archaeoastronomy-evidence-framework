@@ -1,0 +1,19 @@
+{
+  "python": "3.13.15",
+  "pyproj": "3.7.2",
+  "date": "2026-10-24",
+  "files": {
+    "identity_chronology_checks.py": "6622669a286d256007cc813bdda855b4474bf4815b0a92c8b2a7a11af2a54587",
+    "chronology_compatibility.py": "35e926b5fd87be022a437bc2209d6bd29f9b878390aa44d699a9796432258f58",
+    "source_reconciliation-2026-10-22/source_coordinate_observations.csv": "5955de94f1c0fd8c1df37f2b60a4cb46e73ba66a61875676a66cf22e7c2f7cdf",
+    "source_reconciliation-2026-10-22/published_claims.csv": "7ba1f8040e68371957e8472fa51cf2849f3b8875aac3b3b86ae53c3f86f6d2ea",
+    "analysis/identity-chronology-2026-10-24/chronology_compatibility.csv": "187078f91db0ff8ff392456d92fe91630b594dfdef95ebc5cb126e8c9734b8fc",
+    "analysis/identity-chronology-2026-10-24/date_label_comparison.csv": "082aee39455401a19b2626b0db85317c101e646cdc0f8367adf4c1244494c8c6",
+    "analysis/identity-chronology-2026-10-24/same_cell_screen.csv": "9ef8563231b255b5c55713ca650234dc633cb3165176a17ae0180f7d2d95ddde"
+  },
+  "commands": [
+    "python3 identity_chronology_checks.py",
+    "python3 chronology_compatibility.py"
+  ],
+  "scope": "Reproduction of declared diagnostics, not scientific validation of source identities."
+}

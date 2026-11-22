@@ -1,0 +1,54 @@
+{
+  "input_sha256": "5955de94f1c0fd8c1df37f2b60a4cb46e73ba66a61875676a66cf22e7c2f7cdf",
+  "checks": [
+    "cardinal bearings",
+    "circular wrap",
+    "six published rounded means"
+  ],
+  "rows": 48,
+  "complete_source_spans": [
+    {
+      "group": "A3",
+      "n_complete_source_versions": 4,
+      "min_deg": 26.307515619306457,
+      "max_deg": 26.966011090647743,
+      "span_deg": 0.6584954713412863
+    },
+    {
+      "group": "A2",
+      "n_complete_source_versions": 4,
+      "min_deg": 27.993541229861876,
+      "max_deg": 28.735475178227016,
+      "span_deg": 0.7419339483651406
+    },
+    {
+      "group": "A1",
+      "n_complete_source_versions": 4,
+      "min_deg": 30.339459548112366,
+      "max_deg": 31.38776311220701,
+      "span_deg": 1.0483035640946454
+    },
+    {
+      "group": "B2",
+      "n_complete_source_versions": 3,
+      "min_deg": 115.68299633624875,
+      "max_deg": 115.93878829137427,
+      "span_deg": 0.2557919551255168
+    },
+    {
+      "group": "B1",
+      "n_complete_source_versions": 4,
+      "min_deg": 118.67109772475152,
+      "max_deg": 120.66070211661237,
+      "span_deg": 1.9896043918608513
+    },
+    {
+      "group": "C1",
+      "n_complete_source_versions": 3,
+      "min_deg": 129.335898862676,
+      "max_deg": 129.61913997704923,
+      "span_deg": 0.28324111437322586
+    }
+  ],
+  "caveat": "Source scenarios are dependent, not replicate samples. C membership differs. No confidence intervals or survey accuracy inferred."
+}

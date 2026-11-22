@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "created": "2026-11-23",
+  "scientific_stage": "W1 ready; new E1\u2013E4 pending",
+  "tasks": [
+    {
+      "id": "W1-01",
+      "status": "ready",
+      "title": "Verify source/narrative memberships",
+      "depends_on": [],
+      "owner": "main agent; bounded factual extraction may be delegated",
+      "acceptance_record": null
+    },
+    {
+      "id": "W1-02",
+      "status": "ready",
+      "title": "Audit ordering assumptions and selection history",
+      "depends_on": [],
+      "owner": "main agent; bounded factual extraction may be delegated",
+      "acceptance_record": null
+    },
+    {
+      "id": "W1-03",
+      "status": "ready",
+      "title": "Challenge A-X/A-4 map premise",
+      "depends_on": [],
+      "owner": "main agent; bounded factual extraction may be delegated",
+      "acceptance_record": null
+    },
+    {
+      "id": "W1-04",
+      "status": "ready",
+      "title": "Verify A-5/A-6 compatible control",
+      "depends_on": [],
+      "owner": "main agent; bounded factual extraction may be delegated",
+      "acceptance_record": null
+    },
+    {
+      "id": "W1-05",
+      "status": "ready",
+      "title": "Review restricted reduction and chronology scope",
+      "depends_on": [],
+      "owner": "main agent; bounded factual extraction may be delegated",
+      "acceptance_record": null
+    },
+    {
+      "id": "W1-06",
+      "status": "ready",
+      "title": "Map direct prior-work overlap",
+      "depends_on": [],
+      "owner": "main agent; bounded factual extraction may be delegated",
+      "acceptance_record": null
+    },
+    {
+      "id": "E1",
+      "status": "pending",
+      "title": "Recording/membership sensitivity",
+      "depends_on": [
+        "W1-01",
+        "W1-02"
+      ],
+      "acceptance_record": null
+    },
+    {
+      "id": "E2",
+      "status": "pending",
+      "title": "Point/origin influence",
+      "depends_on": [
+        "W1-01",
+        "W1-02"
+      ],
+      "acceptance_record": null
+    },
+    {
+      "id": "E3",
+      "status": "pending",
+      "title": "Estimand and claim importance",
+      "depends_on": [
+        "E1",
+        "E2",
+        "W1-06"
+      ],
+      "acceptance_record": null
+    },
+    {
+      "id": "E4",
+      "status": "pending",
+      "title": "Physical identity challenge",
+      "depends_on": [
+        "W1-03",
+        "W1-04"
+      ],
+      "acceptance_record": null
+    }
+  ]
+}

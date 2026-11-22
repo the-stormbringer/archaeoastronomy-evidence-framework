@@ -1,0 +1,240 @@
+{
+  "updated": "2026-11-23",
+  "overarching_goal": "Make a defensible substantive contribution to the field; publishable Nabta case study followed by independent framework validation.",
+  "current_scope": "Source-critical Nabta radial-alignment case study under scientific design review; physical reconstruction and astronomy are conditional branches; independent framework study deferred.",
+  "active_work": "W0 planning realignment completed. Next W1: verify headline claim assumptions, identity alternatives and prior work; then execute E1–E4 robustness/influence/source tests under W2. No new experiment has run in the realignment.",
+  "assumptions": {
+    "Sahara_5_7_16": "Assume unavailable; no active procurement dependency. Early discovery history remains qualified.",
+    "unpublished_records_and_contact": "User confirmed 24 October: no additional survey records, field notes or existing researcher contact. No repeated procurement dependency."
+  },
+  "tasks": [
+    {
+      "id": "S1",
+      "title": "Evidence and source lineage",
+      "status": "in_progress",
+      "depends_on": [],
+      "completion_criteria": "Claim ledger with page references, coordinate transcription, identity alternatives and explicit unavailable-source limits. Existing ledgers meet part of this; supplied-source reconciliation remains incomplete.",
+      "progress": "W1 source/claim audit prioritized; existing ledgers retained, remaining identity and premise checks explicit."
+    },
+    {
+      "id": "S2",
+      "title": "Conditional geometry reconstruction",
+      "status": "in_progress",
+      "depends_on": [
+        "S1"
+      ],
+      "completion_criteria": "Reproducible source-specific bearings, membership alternatives, coordinate-resolution and origin scenarios; missing members flagged; published benchmarks reproduced.",
+      "progress": "Existing conditional geometry and repeatability retained; W2 will test combined admissible assumptions and point/origin influence. Physical ancient positions remain evidence-limited."
+    },
+    {
+      "id": "S3",
+      "title": "Chronology and astronomical identifiability",
+      "status": "conditional",
+      "depends_on": [
+        "S2"
+      ],
+      "completion_criteria": "Separate contextual dating from target-fit dating; verified astronomical conventions and visibility assumptions; assess whether evidence distinguishes proposed targets without an unrestricted sky search.",
+      "progress": "Fourteen contextual comparisons retained. No new astronomy or construction-date inference until the E6 branch gate is satisfied."
+    },
+    {
+      "id": "S4",
+      "title": "Contribution and methodological validation",
+      "status": "in_progress",
+      "depends_on": [
+        "S2"
+      ],
+      "completion_criteria": "Compare against prior uncertainty methods; demonstrate an archaeological consequence and meaningful validation. Novelty is an open question.",
+      "progress": "W1–W4 now govern scientific review, selected experiments and contribution decision. W0 design artifacts complete; new experiments pending."
+    },
+    {
+      "id": "S5",
+      "title": "Case-study manuscript and reproducibility package",
+      "status": "deferred",
+      "depends_on": [
+        "S3",
+        "S4"
+      ],
+      "completion_criteria": "Evidence-proportionate manuscript, figures, limitations, data provenance, executable analysis, claim-to-evidence audit and selected venue requirements.",
+      "progress": "Existing manuscript/package preserved. Further rewriting and publication preparation resume after W4 contribution decision."
+    },
+    {
+      "id": "S6",
+      "title": "Independent framework follow-up",
+      "status": "deferred",
+      "depends_on": [
+        "S5"
+      ],
+      "completion_criteria": "Specify and test transferability on an independent case or sample; general framework is not established by Nabta alone."
+    }
+  ],
+  "open_evidence_limits": [
+    "Unrounded survey data and observation-point definitions",
+    "BR2005 final combined-survey reduction not reproduced",
+    "Independent row-construction dates not established",
+    "Nature five-direction to later six-group identity mapping unresolved",
+    "A-10 grid-square location now available; numeric position and inter-source label mapping still unresolved",
+    "2025 full PDF acquired; maps and chronology only partially reconciled",
+    "Fragment displacement cannot be inferred from instrument precision",
+    "A-X/A-4 assigned same 2025 square but separated 161–171m in older tables; cannot merge without identity correction or additional evidence",
+    "Five BC/BP range pairs have exact 2000-year offset; preserve source conventions until epoch is established"
+  ],
+  "artifacts": {
+    "charter": "docs/RESEARCH_CHARTER.md",
+    "assessment": "docs/evidence/ASSESSMENT.md",
+    "decisions": "docs/evidence/source_reconciliation-2026-10-22/DECISIONS.md",
+    "source_gap": "docs/evidence/source_reconciliation-2026-10-22/SAHARA_DEPENDENCY.md",
+    "geometry_script": "analysis/geometry_comparison.py",
+    "geometry_results": "data/reference/analysis/geometry-comparison-2026-10-23/comparisons.csv",
+    "geometry_findings": "docs/evidence/analysis/geometry-comparison-2026-10-23/FINDINGS.md",
+    "sensitivity_script": "analysis/geometry_sensitivity.py",
+    "independent_validation": "docs/evidence/analysis/geometry-comparison-2026-10-23/independent_validation.json",
+    "monograph2025_review": "docs/evidence/source_reconciliation-2026-10-22/monograph2025/README.md",
+    "method_review": "docs/evidence/analysis/geometry-comparison-2026-10-23/METHOD_REVIEW.md",
+    "quarry_2025_16": "docs/evidence/source_reconciliation-2026-10-22/monograph2025/quarry_all16.csv",
+    "evidence_gate": "docs/evidence/analysis/geometry-comparison-2026-10-23/EVIDENCE_GATE.md",
+    "shared_origin_contrasts": "data/reference/analysis/geometry-comparison-2026-10-23/shared_origin_contrasts.csv",
+    "map_catalogue_audit": "docs/evidence/source_reconciliation-2026-10-22/monograph2025/map_audit/README.md",
+    "identity_chronology_review": "docs/evidence/analysis/identity-chronology-2026-10-24/FINDINGS.md",
+    "targeted_evidence_request": "docs/evidence/analysis/identity-chronology-2026-10-24/EVIDENCE_REQUEST.md",
+    "case_study_specification": "docs/manuscript/SPECIFICATION.md",
+    "claim_register": "docs/evidence/analysis/case-study-2026-10-24/CLAIMS.md",
+    "continuous_contrasts": "data/reference/analysis/case-study-2026-10-24/continuous_spherical_contrasts.csv",
+    "continuous_validation": "docs/evidence/analysis/case-study-2026-10-24/continuous_validation.json",
+    "manuscript_working_draft": "docs/manuscript/MANUSCRIPT_WORKING_DRAFT.md",
+    "prior_work_comparison": "docs/manuscript/PRIOR_WORK_COMPARISON.md",
+    "draft_review": "docs/evidence/analysis/case-study-2026-10-24/draft_review.json",
+    "haynie_review": "docs/evidence/source_reconciliation-2026-10-22/haynie2014/REVIEW.md",
+    "scientific_design_review": "docs/protocols/REVIEW.md",
+    "admissible_assumptions": "docs/protocols/ASSUMPTIONS.md",
+    "experiment_protocol": "docs/protocols/EXPERIMENT_PROTOCOL.md"
+  },
+  "update_rule": "docs/PROJECT_PLAN.md governs priorities; workplan W0–W7 records execution; S1–S6 retain research objectives. All artifact paths in this JSON are repository-root-relative. Local archive entries are intentionally excluded from Git. Repository organization does not advance research gates.",
+  "latest_milestone": {
+    "date": "2026-10-25",
+    "result": "Realigned canonical plan/state/front page; documented admissible assumptions and bounded experiment protocol; preserved prior draft, package, inputs and code unchanged.",
+    "gate_status": "Planning step complete; W1 evidence/alternative review next. Scientific contribution and new tests remain open.",
+    "user_input_needed": null
+  },
+  "publication_gates": [
+    {
+      "id": "P0",
+      "status": "in_progress",
+      "item": "Scientific design review: admissible assumptions, informative stress tests, competing explanations and explicit contribution decision before publication preparation."
+    },
+    {
+      "id": "P1",
+      "status": "in_progress",
+      "item": "Complete primary-source page and bibliography audit; focused comparison does not prove exhaustive novelty."
+    },
+    {
+      "id": "P2",
+      "status": "open_external",
+      "item": "Independent archaeological and methodological scrutiny of physical-identity interpretation and source-limited contribution."
+    },
+    {
+      "id": "P3",
+      "status": "open_external",
+      "item": "External researcher executes reviewer package; same-host checks already passed."
+    },
+    {
+      "id": "P4",
+      "status": "pending_submission_stage",
+      "item": "Author details, target venue and redistribution licence before public release or submission."
+    }
+  ],
+  "plan_version": "2026-10-25-realignment-v1",
+  "workplan": [
+    {
+      "id": "W0",
+      "status": "complete",
+      "depends_on": [],
+      "deliverable": "docs/PROJECT_PLAN.md; docs/protocols/ASSUMPTIONS.md; docs/protocols/EXPERIMENT_PROTOCOL.md; historical baseline in local archive",
+      "completion_scope": "Planning artifacts and internal consistency only; not completion of scientific review."
+    },
+    {
+      "id": "W1",
+      "status": "ready",
+      "depends_on": [
+        "W0"
+      ],
+      "deliverable": "Page-linked claim/assumption and competing-explanation crosswalk; literature coverage log"
+    },
+    {
+      "id": "W2",
+      "status": "pending",
+      "depends_on": [
+        "W1"
+      ],
+      "deliverable": "E1–E4 results, eligible/excluded contrasts, implementation validation and bounded conclusions"
+    },
+    {
+      "id": "W3",
+      "status": "conditional",
+      "depends_on": [
+        "W2"
+      ],
+      "deliverable": "Reasoned E5 simulation and E6 astronomy decisions; locked designs/results only when justified"
+    },
+    {
+      "id": "W4",
+      "status": "pending",
+      "depends_on": [
+        "W1",
+        "W2",
+        "W3"
+      ],
+      "deliverable": "Explicit contribution and paper-form decision including narrower/no-submission options"
+    },
+    {
+      "id": "W5",
+      "status": "deferred",
+      "depends_on": [
+        "W4"
+      ],
+      "deliverable": "Revised manuscript and reproducibility release candidate if warranted"
+    },
+    {
+      "id": "W6",
+      "status": "deferred",
+      "depends_on": [
+        "W5"
+      ],
+      "deliverable": "External specialist review, external reproduction and submission decisions"
+    },
+    {
+      "id": "W7",
+      "status": "deferred",
+      "depends_on": [
+        "W6"
+      ],
+      "deliverable": "Independent follow-up protocol"
+    }
+  ],
+  "next_action": "W1: audit the assumptions and alternative explanations behind source/membership sensitivity, northern ordering and A-X/A-4; document the compatible A-5/A-6 control and claim selection history.",
+  "local_archive_artifacts": {
+    "geometry_figure": "agent_artifacts/analysis/geometry-comparison-2026-10-23/rounding_scenarios.png",
+    "isolated_reproduction": "agent_artifacts/analysis/reproduction-isolated-2026-10-24/README.md",
+    "delegate_contract": "agent_artifacts/hermes_delegate/CONTRACT.md",
+    "portable_reviewer_package": "agent_artifacts/analysis/reviewer-package-2026-10-25/README.md",
+    "portable_package_archive": "agent_artifacts/analysis/nabta-reviewer-package-2026-10-25.zip",
+    "delegate_review": "agent_artifacts/hermes_delegate/packets/001-source-and-reproduction-audit/MAIN_AGENT_REVIEW.md",
+    "realignment_baseline": "agent_artifacts/analysis/scientific-review-2026-10-25/BASELINE_MANIFEST.json"
+  },
+  "last_scientific_update": "2026-10-25",
+  "repository_organization": {
+    "date": "2026-11-23",
+    "status": "local_repository_foundation",
+    "research_status_unchanged": true,
+    "canonical_plan": "docs/PROJECT_PLAN.md",
+    "canonical_protocol": "docs/protocols/EXPERIMENT_PROTOCOL.md",
+    "local_archives": [
+      "legacy/",
+      "agent_artifacts/"
+    ]
+  },
+  "work_packages": {
+    "W1": "docs/work_packages/W1_EVIDENCE_AUDIT.md",
+    "W2": "docs/work_packages/W2_EXPERIMENTS.md",
+    "W3_W4": "docs/work_packages/W3_W4_DECISIONS.md"
+  }
+}

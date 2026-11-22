@@ -1,0 +1,17 @@
+source,contrast,complete,nominal_deg,sampled_min_deg,sampled_max_deg,ordering_preserved_on_grid,scope
+BR2005_GPS2003,A2 minus A3,True,1.5740714003208502,0.6172290238990605,2.542547581412162,True,shared origin within contrast; finite rounding grid; table membership only
+BR2005_GPS2003,A1 minus A2,True,2.34591831825049,1.0239077003188939,3.686600694150286,True,shared origin within contrast; finite rounding grid; table membership only
+BR2005_GPS2003,A1 minus A3,True,3.9199897185713404,2.597979433928451,5.260671761179466,True,shared origin within contrast; finite rounding grid; table membership only
+BR2005_GPS2003,B1 minus B2,False,3.295344993533959,0.9960262725810907,5.635224846331724,True,shared origin within contrast; finite rounding grid; table membership only
+BR2005_QB2002,A2 minus A3,True,1.7484324266539026,0.8059301835308048,2.7021498378490456,True,shared origin within contrast; finite rounding grid; table membership only
+BR2005_QB2002,A1 minus A2,True,2.5854726613511048,1.275313991690414,3.9135519707103406,True,shared origin within contrast; finite rounding grid; table membership only
+BR2005_QB2002,A1 minus A3,True,4.333905088005007,3.0237467898540764,5.66198402582269,True,shared origin within contrast; finite rounding grid; table membership only
+BR2005_QB2002,B1 minus B2,True,2.732309433377253,0.45105693503634825,5.060453846276388,True,shared origin within contrast; finite rounding grid; table membership only
+BR2005_repeated_WM2001,A2 minus A3,True,1.7694640875792729,0.8291832049655561,2.720349247140252,True,shared origin within contrast; finite rounding grid; table membership only
+BR2005_repeated_WM2001,A1 minus A2,True,2.652287933979995,1.3302633760675917,3.991803472789176,True,shared origin within contrast; finite rounding grid; table membership only
+BR2005_repeated_WM2001,A1 minus A3,True,4.421752021559268,3.099727831537461,5.761267192557764,True,shared origin within contrast; finite rounding grid; table membership only
+BR2005_repeated_WM2001,B1 minus B2,True,3.150306792405061,0.895320527419031,5.451143451078721,True,shared origin within contrast; finite rounding grid; table membership only
+WM2001_original,A2 minus A3,True,1.7694640875792729,0.8291832049655561,2.720349247140252,True,shared origin within contrast; finite rounding grid; table membership only
+WM2001_original,A1 minus A2,True,2.652287933979995,1.3302633760675917,3.991803472789176,True,shared origin within contrast; finite rounding grid; table membership only
+WM2001_original,A1 minus A3,True,4.421752021559268,3.099727831537461,5.761267192557764,True,shared origin within contrast; finite rounding grid; table membership only
+WM2001_original,B1 minus B2,True,3.150306792405061,0.895320527419031,5.451143451078721,True,shared origin within contrast; finite rounding grid; table membership only

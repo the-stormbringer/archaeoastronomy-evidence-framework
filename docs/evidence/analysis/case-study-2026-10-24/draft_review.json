@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-25",
+  "review_type": "Internal authoring consistency check; not independent acceptance",
+  "claim_ids_used": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C06",
+    "C08",
+    "C09",
+    "C11"
+  ],
+  "all_claim_ids_resolve": true,
+  "local_figure_links_exist": true,
+  "source_records_count": 100,
+  "independent_sampled_contrasts": 24000,
+  "figure_review": "Both figures visually inspected; chronology hatch corrected after initial render.",
+  "remaining": [
+    "Independent archaeological and methodological review",
+    "Broader novelty audit; specific Haynie comparator now reviewed",
+    "Complete bibliographic and page-level audit",
+    "External clean-environment reproduction",
+    "Release licence and venue-specific preparation"
+  ],
+  "manuscript_sha256": "afe7276df24081d9a98a4f99165b6a1a04bce35bd3bfc89846625497145f63e7",
+  "haynie_full_text_reviewed": true,
+  "bounded_worker_review": "/home/stormbringer/Research_Projects/nabta/agent_artifacts/hermes_delegate/packets/001-source-and-reproduction-audit/MAIN_AGENT_REVIEW.md",
+  "portable_package_passed": true,
+  "portable_package_scope": "Ten numerical scripts, thirteen tables; map extraction and source transcription excluded. Same host, not independent researcher replication."
+}

@@ -1,0 +1,15 @@
+{
+  "input_sha256": "5955de94f1c0fd8c1df37f2b60a4cb46e73ba66a61875676a66cf22e7c2f7cdf",
+  "mpmath_version": "1.4.1",
+  "interval_decimal_precision": 35,
+  "point_formula_vs_pyproj_sphere_max_difference_deg": 3.810285420513537e-11,
+  "all_refined_northern_contrasts_positive": true,
+  "domain": "Every stone and shared origin within independent +/-0.00005-degree latitude/longitude intervals; original printed table memberships.",
+  "caveats": [
+    "Interval-library numerical enclosure, not a formal proof-assistant certificate.",
+    "No probability distribution assigned.",
+    "Spherical model only; does not certify earlier WGS84 grid results.",
+    "No identity correction or ancient-position inference.",
+    "Repeated WM coordinate version is not independent evidence."
+  ]
+}

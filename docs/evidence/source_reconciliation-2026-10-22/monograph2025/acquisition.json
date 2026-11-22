@@ -1,0 +1,11 @@
+{
+  "archive": "/home/stormbringer/Research_Projects/nabta/agent_artifacts/source_library-2026-10-22/papers/user sourced/247676_Schild_Romuald_Ed_2025_The_megaliths_of_Nabta_Play.zip",
+  "archive_sha256": "c7410dff847eef814c3e559aa67c881a4953148848f03b970b841d61bb173180",
+  "pdf": "/home/stormbringer/Research_Projects/nabta/agent_artifacts/source_library-2026-10-22/papers/user sourced/The Megaliths of Nabta Playa_I.pdf",
+  "pdf_sha256": "b766a47dac2f1adda6b72e4e360e42a80991502e682abf61d845e9d93f814694",
+  "pdf_pages": 470,
+  "printed_to_pdf_offset": 2,
+  "Polona_viewer_offset": -2,
+  "note": "Main-text offsets verified at printed 23,27,28,139,379; archive retained; no executables extracted.",
+  "source": "User-supplied RCIN archive, 23 October 2026"
+}

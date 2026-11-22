@@ -1,0 +1,49 @@
+source,group,model,n_available,n_listed,missing,arithmetic_mean_deg,circular_mean_deg,status
+BR2005_GPS2003,A3,sphere,3,3,,26.288759886307265,26.288759839348646,conditional complete table
+BR2005_GPS2003,A2,sphere,3,3,,27.857593928236906,27.857599580921907,conditional complete table
+BR2005_GPS2003,A1,sphere,5,5,,30.19644884254468,30.1964422950499,conditional complete table
+BR2005_GPS2003,B2,sphere,3,4,B-2,117.49972582869259,117.49972527358055,partial membership; not a full-row estimate
+BR2005_GPS2003,B1,sphere,3,3,,120.80497925618761,120.80497209360976,conditional complete table
+BR2005_GPS2003,C1,sphere,5,6,C-2,129.9396384688382,129.93984057574335,partial membership; not a full-row estimate
+BR2005_GPS2003,A3,WGS84_assumed,3,3,,26.419469829541026,26.419469782091415,conditional complete table
+BR2005_GPS2003,A2,WGS84_assumed,3,3,,27.993541229861876,27.993546937969477,conditional complete table
+BR2005_GPS2003,A1,WGS84_assumed,5,5,,30.339459548112366,30.33945294793971,conditional complete table
+BR2005_GPS2003,B2,WGS84_assumed,3,4,B-2,117.36535712307841,117.36535657340738,partial membership; not a full-row estimate
+BR2005_GPS2003,B1,WGS84_assumed,3,3,,120.66070211661237,120.66069500788936,conditional complete table
+BR2005_GPS2003,C1,WGS84_assumed,5,6,C-2,129.77819230315941,129.778393645883,partial membership; not a full-row estimate
+BR2005_QB2002,A3,sphere,3,3,,26.177197433708344,26.177197363228032,conditional complete table
+BR2005_QB2002,A2,sphere,3,3,,27.919792649557152,27.919791234880663,conditional complete table
+BR2005_QB2002,A1,sphere,5,5,,30.4976082716963,30.497565135973645,conditional complete table
+BR2005_QB2002,B2,sphere,4,4,,116.06827664232762,116.06827714827229,conditional complete table
+BR2005_QB2002,B1,sphere,3,3,,118.80955409555197,118.80952498752876,conditional complete table
+BR2005_QB2002,C1,sphere,6,6,,129.49689638441262,129.49708238959394,conditional complete table
+BR2005_QB2002,A3,WGS84_assumed,3,3,,26.307515619306457,26.307515548095907,conditional complete table
+BR2005_QB2002,A2,WGS84_assumed,3,3,,28.05594804596036,28.05594661788285,conditional complete table
+BR2005_QB2002,A1,WGS84_assumed,5,5,,30.641420707311465,30.641377227931628,conditional complete table
+BR2005_QB2002,B2,WGS84_assumed,4,4,,115.93878829137427,115.93878879195351,conditional complete table
+BR2005_QB2002,B1,WGS84_assumed,3,3,,118.67109772475152,118.67106887710855,conditional complete table
+BR2005_QB2002,C1,WGS84_assumed,6,6,,129.335898862676,129.33608410776114,conditional complete table
+BR2005_repeated_WM2001,A3,sphere,3,3,,26.83348337921093,26.833476265778945,conditional complete table
+BR2005_repeated_WM2001,A2,sphere,3,3,,28.597166807456944,28.59716662210512,conditional complete table
+BR2005_repeated_WM2001,A1,sphere,5,5,,31.24187517991038,31.241874213887883,conditional complete table
+BR2005_repeated_WM2001,B2,sphere,4,4,,115.81156153552509,115.81156539495935,conditional complete table
+BR2005_repeated_WM2001,B1,sphere,3,3,,118.97233706888824,118.97233908892584,conditional complete table
+BR2005_repeated_WM2001,C1,sphere,6,6,,129.7054738962429,129.70547961218415,conditional complete table
+BR2005_repeated_WM2001,A3,WGS84_assumed,3,3,,26.966011090647743,26.966003907456763,conditional complete table
+BR2005_repeated_WM2001,A2,WGS84_assumed,3,3,,28.735475178227016,28.735474991151126,conditional complete table
+BR2005_repeated_WM2001,A1,WGS84_assumed,5,5,,31.38776311220701,31.387762138986506,conditional complete table
+BR2005_repeated_WM2001,B2,WGS84_assumed,4,4,,115.68299633624875,115.68300015398214,conditional complete table
+BR2005_repeated_WM2001,B1,WGS84_assumed,3,3,,118.83330312865381,118.83330513011518,conditional complete table
+BR2005_repeated_WM2001,C1,WGS84_assumed,6,6,,129.5441050357845,129.54411072780837,conditional complete table
+WM2001_original,A3,sphere,3,3,,26.83348337921093,26.833476265778945,conditional complete table
+WM2001_original,A2,sphere,3,3,,28.597166807456944,28.59716662210512,conditional complete table
+WM2001_original,A1,sphere,5,5,,31.24187517991038,31.241874213887883,conditional complete table
+WM2001_original,B2,sphere,4,4,,115.81156153552509,115.81156539495935,conditional complete table
+WM2001_original,B1,sphere,3,3,,118.97233706888824,118.97233908892584,conditional complete table
+WM2001_original,C1,sphere,6,6,,129.78063502521704,129.78063461439567,conditional complete table
+WM2001_original,A3,WGS84_assumed,3,3,,26.966011090647743,26.966003907456763,conditional complete table
+WM2001_original,A2,WGS84_assumed,3,3,,28.735475178227016,28.735474991151126,conditional complete table
+WM2001_original,A1,WGS84_assumed,5,5,,31.38776311220701,31.387762138986506,conditional complete table
+WM2001_original,B2,WGS84_assumed,4,4,,115.68299633624875,115.68300015398214,conditional complete table
+WM2001_original,B1,WGS84_assumed,3,3,,118.83330312865381,118.83330513011518,conditional complete table
+WM2001_original,C1,WGS84_assumed,6,6,,129.61913997704923,129.6191395671288,conditional complete table
