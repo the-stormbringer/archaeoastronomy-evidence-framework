@@ -47,7 +47,17 @@
     "reconciliation": "docs/audits/2026-11-23-DISPOSITIONS.json",
     "control_tests": 34,
     "candidate_checks": "passed",
-    "final_clean_clone_run": "pending",
-    "scientific_gates_advanced": false
+    "final_clean_clone_run": {
+      "passed": true,
+      "revision": "0fffe193a67518236bbbea97f1ee59eb0a4f1375",
+      "checks": "passed",
+      "tests": 34,
+      "scripts": 10,
+      "tables": 13,
+      "byte_identical_tables": 13,
+      "summary": "docs/audits/2026-11-23-VALIDATION.json"
+    },
+    "scientific_gates_advanced": false,
+    "status": "complete"
   }
 }

@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-23",
+  "audited_baseline": "0dd3561",
+  "tested_revision": "0fffe193a67518236bbbea97f1ee59eb0a4f1375",
+  "scope": "Same-host clean local clone, installed environment; no ignored archive present",
+  "checks": "passed",
+  "tests": 34,
+  "scripts_completed": 10,
+  "tables_compared": 13,
+  "byte_identical_tables": 13,
+  "inherited_optimization_challenge": "PYTHONOPTIMIZE=1 with parent python -E; child optimization explicitly cleared and independently probed",
+  "dependencies": {
+    "numpy": "2.4.6",
+    "pyproj": "3.7.2",
+    "mpmath": "1.4.1",
+    "certifi": "2026.7.22",
+    "jsonschema": "4.26.0"
+  },
+  "runner_files_sha256": {
+    "scripts/check_repository.py": "99079e7d2efe09e6a3daf650666cdbd1c4c966c5f15b1f81e7d1909d5f9f2db2",
+    "scripts/governance.py": "98ae98795085a1bd3cf7d4f098c9b60abe550803240ee2e7fde3a41c6f113597",
+    "scripts/repository.py": "706ed2fab55c6d70f9d7d85bf9aeaabdfe954be01d479452d343913b0432d420",
+    "scripts/reproduce.py": "60b2b0f7e7bb6ecfa70c160c722b97dc1de172adec0495c995e141b96b47e572"
+  },
+  "contract_sha256": "3b5ae613e0cd47d665e2820553f11958223e0768132e6f7bcd58abb2ec5714d8",
+  "raw_validation_sha256": "5492bff975346fc4ef2e9ce671dc6799d244cf2d7d2d6e2cfc84642b232c28f0",
+  "raw_receipt_local": "agent_artifacts/deep_audit-2026-11-23/final_clean_clone/VALIDATION.json",
+  "limitations": [
+    "No fresh environment installation or second-host execution",
+    "No remote CI run",
+    "No comprehensive primary-source or figure regeneration",
+    "No new E1\u2013E4 experiment or external scientific acceptance"
+  ]
+}

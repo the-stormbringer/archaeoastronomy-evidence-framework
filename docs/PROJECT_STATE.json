@@ -117,7 +117,8 @@
     "audit_dispositions": "docs/audits/2026-11-23-DISPOSITIONS.json",
     "acceptance_criteria": "docs/ACCEPTANCE_CRITERIA.md",
     "claim_evidence_map": "docs/CLAIM_EVIDENCE_MAP.json",
-    "identity_premise": "docs/IDENTITY_PREMISE.json"
+    "identity_premise": "docs/IDENTITY_PREMISE.json",
+    "audit_validation": "docs/audits/2026-11-23-VALIDATION.json"
   },
   "update_rule": "docs/PROJECT_PLAN.md governs priorities; workplan W0–W7 records execution; S1–S6 retain research objectives. All artifact paths in this JSON are repository-root-relative. Local archive entries are intentionally excluded from Git. Repository organization does not advance research gates.",
   "latest_milestone": {
@@ -263,12 +264,13 @@
   },
   "repository_audit": {
     "date": "2026-11-23",
-    "status": "reconciled_pending_final_checks",
+    "status": "complete",
     "baseline": "0dd3561",
     "report": "docs/audits/2026-11-23-DEEP_AUDIT.md",
     "dispositions": "docs/audits/2026-11-23-DISPOSITIONS.json",
     "criteria": "docs/ACCEPTANCE_CRITERIA.md",
     "source_spot_check": "docs/audits/2026-11-23-SOURCE_CHECK.md",
-    "scientific_gates_advanced": false
+    "scientific_gates_advanced": false,
+    "validation": "docs/audits/2026-11-23-VALIDATION.json"
   }
 }

@@ -197,7 +197,7 @@
       "source": "agent_artifacts/PROJECT_STATE.json",
       "destination": "docs/PROJECT_STATE.json",
       "source_sha256": "e2bd4823c2cacb1b6485cfe4c99f31b56b70360dc0515d3ab8d4534086da49ed",
-      "destination_sha256": "2731f50fbbb8437736e27118b7df188d043c2cad531f757ca43364eb9f0d55f1",
+      "destination_sha256": "3921015d5965d421f136fa76613dba734f9d08820c918dfc6334817ca350da8a",
       "transformation": "local links/status metadata adapted for repository; scientific results not edited",
       "initial_promotion_destination_sha256": "4ac7e7a4c07c6ff00c4d4fad41fd14c392f1e40bbb72ef61ec77571e0d7daab3",
       "post_promotion_amendment": "2026-11-23 deep-audit acceptance/state/documentation changes; original source snapshot preserved"
