@@ -1,5 +1,5 @@
 """Integrity and table-comparison helpers for the preserved research pipeline."""
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 import csv
 import hashlib
 import json
@@ -13,9 +13,49 @@ def load_pipeline(root=ROOT):
     return json.loads((root / "data/pipeline.json").read_text(encoding="utf-8"))
 
 
-def integrity_errors(root=ROOT):
-    contract = load_pipeline(root)
+def contract_errors(contract):
+    if not isinstance(contract, dict):
+        return ["Pipeline contract must be an object"]
     errors = []
+    for key, count in [("execution_order", 10), ("inputs", 3), ("reference_outputs", 13)]:
+        values = contract.get(key)
+        if not isinstance(values, list) or any(not isinstance(x, str) for x in values):
+            errors.append("Invalid pipeline list: " + key); continue
+        if len(values) != count or len(set(values)) != count:
+            errors.append("Wrong count or duplicate pipeline entry: " + key)
+        for value in values:
+            path = PurePosixPath(value)
+            if not value or path.is_absolute() or ".." in path.parts or "\\" in value or str(path) != value:
+                errors.append("Unsafe pipeline path: " + value)
+            if key in {"execution_order", "inputs"} and len(path.parts) != 1:
+                errors.append("Expected flat pipeline filename: " + value)
+    if contract.get("staged_input_directory") != "source_reconciliation-2026-10-22":
+        errors.append("Historical staging directory changed")
+    tolerance = contract.get("tolerance", {})
+    expected_file = "analysis/geometry-comparison-2026-10-23/estimand_comparison.csv"
+    if not isinstance(tolerance, dict) or tolerance.get("file") != expected_file or tolerance.get("columns") != ["origin_constrained_TLS_deg", "TLS_minus_arithmetic_deg"] or tolerance.get("absolute_degrees") != 1e-10:
+        errors.append("Historical tolerance policy changed; requires explicit versioned policy review")
+    hashes = contract.get("sha256")
+    if not isinstance(hashes, dict):
+        errors.append("Missing hash inventory")
+    else:
+        for name, value in hashes.items():
+            path = PurePosixPath(name)
+            if path.is_absolute() or ".." in path.parts or "\\" in name or str(path) != name:
+                errors.append("Unsafe hash path: " + name)
+            if not isinstance(value, str) or not re.fullmatch(r"[a-f0-9]{64}", value):
+                errors.append("Malformed hash: " + name)
+    return errors
+
+
+def integrity_errors(root=ROOT):
+    try:
+        contract = load_pipeline(root)
+    except (ValueError, OSError) as exc:
+        return ["Cannot read pipeline contract: " + str(exc)]
+    errors = contract_errors(contract)
+    if errors:
+        return errors
     for name, expected in contract["sha256"].items():
         path = root / name
         if not path.is_file():
@@ -101,7 +141,8 @@ def state_errors(root=ROOT):
         for key, value in state.get(section, {}).items():
             if not (root / value).exists():
                 errors.append("Missing state target: " + key + " -> " + value)
-    return errors
+    from governance import governance_errors
+    return errors + governance_errors(root)
 
 
 def markdown_link_errors(root=ROOT):

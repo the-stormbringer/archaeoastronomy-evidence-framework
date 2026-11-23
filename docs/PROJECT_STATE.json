@@ -14,7 +14,8 @@
       "status": "in_progress",
       "depends_on": [],
       "completion_criteria": "Claim ledger with page references, coordinate transcription, identity alternatives and explicit unavailable-source limits. Existing ledgers meet part of this; supplied-source reconciliation remains incomplete.",
-      "progress": "W1 source/claim audit prioritized; existing ledgers retained, remaining identity and premise checks explicit."
+      "progress": "W1 source/claim audit prioritized; existing ledgers retained, remaining identity and premise checks explicit.",
+      "acceptance_record": null
     },
     {
       "id": "S2",
@@ -24,7 +25,8 @@
         "S1"
       ],
       "completion_criteria": "Reproducible source-specific bearings, membership alternatives, coordinate-resolution and origin scenarios; missing members flagged; published benchmarks reproduced.",
-      "progress": "Existing conditional geometry and repeatability retained; W2 will test combined admissible assumptions and point/origin influence. Physical ancient positions remain evidence-limited."
+      "progress": "Existing conditional geometry and repeatability retained; W2 will test combined admissible assumptions and point/origin influence. Physical ancient positions remain evidence-limited.",
+      "acceptance_record": null
     },
     {
       "id": "S3",
@@ -34,7 +36,8 @@
         "S2"
       ],
       "completion_criteria": "Separate contextual dating from target-fit dating; verified astronomical conventions and visibility assumptions; assess whether evidence distinguishes proposed targets without an unrestricted sky search.",
-      "progress": "Fourteen contextual comparisons retained. No new astronomy or construction-date inference until the E6 branch gate is satisfied."
+      "progress": "Fourteen contextual comparisons retained. No new astronomy or construction-date inference until the E6 branch gate is satisfied.",
+      "acceptance_record": null
     },
     {
       "id": "S4",
@@ -44,7 +47,8 @@
         "S2"
       ],
       "completion_criteria": "Compare against prior uncertainty methods; demonstrate an archaeological consequence and meaningful validation. Novelty is an open question.",
-      "progress": "W1–W4 now govern scientific review, selected experiments and contribution decision. W0 design artifacts complete; new experiments pending."
+      "progress": "W1–W4 now govern scientific review, selected experiments and contribution decision. W0 design artifacts complete; new experiments pending.",
+      "acceptance_record": null
     },
     {
       "id": "S5",
@@ -55,7 +59,8 @@
         "S4"
       ],
       "completion_criteria": "Evidence-proportionate manuscript, figures, limitations, data provenance, executable analysis, claim-to-evidence audit and selected venue requirements.",
-      "progress": "Existing manuscript/package preserved. Further rewriting and publication preparation resume after W4 contribution decision."
+      "progress": "Existing manuscript/package preserved. Further rewriting and publication preparation resume after W4 contribution decision.",
+      "acceptance_record": null
     },
     {
       "id": "S6",
@@ -64,7 +69,8 @@
       "depends_on": [
         "S5"
       ],
-      "completion_criteria": "Specify and test transferability on an independent case or sample; general framework is not established by Nabta alone."
+      "completion_criteria": "Specify and test transferability on an independent case or sample; general framework is not established by Nabta alone.",
+      "acceptance_record": null
     }
   ],
   "open_evidence_limits": [
@@ -106,40 +112,50 @@
     "haynie_review": "docs/evidence/source_reconciliation-2026-10-22/haynie2014/REVIEW.md",
     "scientific_design_review": "docs/protocols/REVIEW.md",
     "admissible_assumptions": "docs/protocols/ASSUMPTIONS.md",
-    "experiment_protocol": "docs/protocols/EXPERIMENT_PROTOCOL.md"
+    "experiment_protocol": "docs/protocols/EXPERIMENT_PROTOCOL.md",
+    "deep_audit": "docs/audits/2026-11-23-DEEP_AUDIT.md",
+    "audit_dispositions": "docs/audits/2026-11-23-DISPOSITIONS.json",
+    "acceptance_criteria": "docs/ACCEPTANCE_CRITERIA.md",
+    "claim_evidence_map": "docs/CLAIM_EVIDENCE_MAP.json",
+    "identity_premise": "docs/IDENTITY_PREMISE.json"
   },
   "update_rule": "docs/PROJECT_PLAN.md governs priorities; workplan W0–W7 records execution; S1–S6 retain research objectives. All artifact paths in this JSON are repository-root-relative. Local archive entries are intentionally excluded from Git. Repository organization does not advance research gates.",
   "latest_milestone": {
-    "date": "2026-10-25",
-    "result": "Realigned canonical plan/state/front page; documented admissible assumptions and bounded experiment protocol; preserved prior draft, package, inputs and code unchanged.",
-    "gate_status": "Planning step complete; W1 evidence/alternative review next. Scientific contribution and new tests remain open.",
+    "date": "2026-11-23",
+    "result": "Reconciled Codex and Hermes critiques; hardened acceptance/provenance controls; preserved historical scientific snapshot.",
+    "gate_status": "Repository controls reviewed; W1 and E1–E4 open. No external scientific acceptance.",
     "user_input_needed": null
   },
   "publication_gates": [
     {
       "id": "P0",
       "status": "in_progress",
-      "item": "Scientific design review: admissible assumptions, informative stress tests, competing explanations and explicit contribution decision before publication preparation."
+      "item": "Scientific design review: admissible assumptions, informative stress tests, competing explanations and explicit contribution decision before publication preparation.",
+      "acceptance_record": null
     },
     {
       "id": "P1",
       "status": "in_progress",
-      "item": "Complete primary-source page and bibliography audit; focused comparison does not prove exhaustive novelty."
+      "item": "Complete primary-source page and bibliography audit; focused comparison does not prove exhaustive novelty.",
+      "acceptance_record": null
     },
     {
       "id": "P2",
       "status": "open_external",
-      "item": "Independent archaeological and methodological scrutiny of physical-identity interpretation and source-limited contribution."
+      "item": "Independent archaeological and methodological scrutiny of physical-identity interpretation and source-limited contribution.",
+      "acceptance_record": null
     },
     {
       "id": "P3",
       "status": "open_external",
-      "item": "External researcher executes reviewer package; same-host checks already passed."
+      "item": "External researcher executes reviewer package; same-host checks already passed.",
+      "acceptance_record": null
     },
     {
       "id": "P4",
       "status": "pending_submission_stage",
-      "item": "Author details, target venue and redistribution licence before public release or submission."
+      "item": "Author details, target venue and redistribution licence before public release or submission.",
+      "acceptance_record": null
     }
   ],
   "plan_version": "2026-10-25-realignment-v1",
@@ -149,7 +165,8 @@
       "status": "complete",
       "depends_on": [],
       "deliverable": "docs/PROJECT_PLAN.md; docs/protocols/ASSUMPTIONS.md; docs/protocols/EXPERIMENT_PROTOCOL.md; historical baseline in local archive",
-      "completion_scope": "Planning artifacts and internal consistency only; not completion of scientific review."
+      "completion_scope": "Planning artifacts and internal consistency only; not completion of scientific review.",
+      "acceptance_record": "docs/acceptance/W0.json"
     },
     {
       "id": "W1",
@@ -157,7 +174,8 @@
       "depends_on": [
         "W0"
       ],
-      "deliverable": "Page-linked claim/assumption and competing-explanation crosswalk; literature coverage log"
+      "deliverable": "Page-linked claim/assumption and competing-explanation crosswalk; literature coverage log",
+      "acceptance_record": null
     },
     {
       "id": "W2",
@@ -165,7 +183,8 @@
       "depends_on": [
         "W1"
       ],
-      "deliverable": "E1–E4 results, eligible/excluded contrasts, implementation validation and bounded conclusions"
+      "deliverable": "E1–E4 results, eligible/excluded contrasts, implementation validation and bounded conclusions",
+      "acceptance_record": null
     },
     {
       "id": "W3",
@@ -173,7 +192,8 @@
       "depends_on": [
         "W2"
       ],
-      "deliverable": "Reasoned E5 simulation and E6 astronomy decisions; locked designs/results only when justified"
+      "deliverable": "Reasoned E5 simulation and E6 astronomy decisions; locked designs/results only when justified",
+      "acceptance_record": null
     },
     {
       "id": "W4",
@@ -183,7 +203,8 @@
         "W2",
         "W3"
       ],
-      "deliverable": "Explicit contribution and paper-form decision including narrower/no-submission options"
+      "deliverable": "Explicit contribution and paper-form decision including narrower/no-submission options",
+      "acceptance_record": null
     },
     {
       "id": "W5",
@@ -191,7 +212,8 @@
       "depends_on": [
         "W4"
       ],
-      "deliverable": "Revised manuscript and reproducibility release candidate if warranted"
+      "deliverable": "Revised manuscript and reproducibility release candidate if warranted",
+      "acceptance_record": null
     },
     {
       "id": "W6",
@@ -199,7 +221,8 @@
       "depends_on": [
         "W5"
       ],
-      "deliverable": "External specialist review, external reproduction and submission decisions"
+      "deliverable": "External specialist review, external reproduction and submission decisions",
+      "acceptance_record": null
     },
     {
       "id": "W7",
@@ -207,7 +230,8 @@
       "depends_on": [
         "W6"
       ],
-      "deliverable": "Independent follow-up protocol"
+      "deliverable": "Independent follow-up protocol",
+      "acceptance_record": null
     }
   ],
   "next_action": "W1: audit the assumptions and alternative explanations behind source/membership sensitivity, northern ordering and A-X/A-4; document the compatible A-5/A-6 control and claim selection history.",
@@ -236,5 +260,15 @@
     "W1": "docs/work_packages/W1_EVIDENCE_AUDIT.md",
     "W2": "docs/work_packages/W2_EXPERIMENTS.md",
     "W3_W4": "docs/work_packages/W3_W4_DECISIONS.md"
+  },
+  "repository_audit": {
+    "date": "2026-11-23",
+    "status": "reconciled_pending_final_checks",
+    "baseline": "0dd3561",
+    "report": "docs/audits/2026-11-23-DEEP_AUDIT.md",
+    "dispositions": "docs/audits/2026-11-23-DISPOSITIONS.json",
+    "criteria": "docs/ACCEPTANCE_CRITERIA.md",
+    "source_spot_check": "docs/audits/2026-11-23-SOURCE_CHECK.md",
+    "scientific_gates_advanced": false
   }
 }

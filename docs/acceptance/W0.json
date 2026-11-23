@@ -1,0 +1,29 @@
+{
+  "id": "W0",
+  "decision": "accepted",
+  "reviewer": "main agent",
+  "date": "2026-11-23",
+  "scope": "Planning artifacts only; retrospective receipt for the previously completed W0",
+  "rationale": "Plan, assumption matrix and bounded experiment protocol define staged work and unresolved research gates.",
+  "limitations": "No source audit, experiment, novelty finding or external scientific acceptance is certified.",
+  "criteria": [
+    {
+      "criterion": "Scope, pending stages and bounded protocol are explicit",
+      "met": true
+    }
+  ],
+  "evidence": [
+    {
+      "path": "docs/PROJECT_PLAN.md",
+      "sha256": "4113bb20585e3531d1b7173d2df76d28f9a7c69fbec0289e6b6eaf53118e446f"
+    },
+    {
+      "path": "docs/protocols/ASSUMPTIONS.md",
+      "sha256": "813c35ccdd6e1f41e52883c928622956ab6d4ef7189b492c65d91024ebfc1002"
+    },
+    {
+      "path": "docs/protocols/EXPERIMENT_PROTOCOL.md",
+      "sha256": "65c038ef4e2f050509af775c6125a4ddd74a675a9555a1e4173700ba065f6a0f"
+    }
+  ]
+}

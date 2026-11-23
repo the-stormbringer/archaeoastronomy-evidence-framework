@@ -1,0 +1,58 @@
+{
+  "analysis/geometry-comparison-2026-10-23/validation.json": {
+    "path": "docs/evidence/analysis/geometry-comparison-2026-10-23/validation.json",
+    "scope": "Frozen historical evidence locator resolved to curated table or note; resolution is not fresh source verification."
+  },
+  "analysis/geometry-comparison-2026-10-23/membership_comparison.csv": {
+    "path": "data/reference/analysis/geometry-comparison-2026-10-23/membership_comparison.csv",
+    "scope": "Frozen historical evidence locator resolved to curated table or note; resolution is not fresh source verification."
+  },
+  "analysis/geometry-comparison-2026-10-23/combination_family_check.csv": {
+    "path": "data/reference/analysis/geometry-comparison-2026-10-23/combination_family_check.csv",
+    "scope": "Frozen historical evidence locator resolved to curated table or note; resolution is not fresh source verification."
+  },
+  "analysis/geometry-comparison-2026-10-23/estimand_validation.json": {
+    "path": "docs/evidence/analysis/geometry-comparison-2026-10-23/estimand_validation.json",
+    "scope": "Frozen historical evidence locator resolved to curated table or note; resolution is not fresh source verification."
+  },
+  "analysis/geometry-comparison-2026-10-23/shared_origin_contrasts.csv": {
+    "path": "data/reference/analysis/geometry-comparison-2026-10-23/shared_origin_contrasts.csv",
+    "scope": "Frozen historical evidence locator resolved to curated table or note; resolution is not fresh source verification."
+  },
+  "analysis/identity-chronology-2026-10-24/same_cell_screen.csv": {
+    "path": "data/reference/analysis/identity-chronology-2026-10-24/same_cell_screen.csv",
+    "scope": "Frozen historical evidence locator resolved to curated table or note; resolution is not fresh source verification."
+  },
+  "analysis/identity-chronology-2026-10-24/FINDINGS.md": {
+    "path": "docs/evidence/analysis/identity-chronology-2026-10-24/FINDINGS.md",
+    "scope": "Frozen historical evidence locator resolved to curated table or note; resolution is not fresh source verification."
+  },
+  "analysis/identity-chronology-2026-10-24/date_label_comparison.csv": {
+    "path": "data/reference/analysis/identity-chronology-2026-10-24/date_label_comparison.csv",
+    "scope": "Frozen historical evidence locator resolved to curated table or note; resolution is not fresh source verification."
+  },
+  "analysis/identity-chronology-2026-10-24/chronology_compatibility.csv": {
+    "path": "data/reference/analysis/identity-chronology-2026-10-24/chronology_compatibility.csv",
+    "scope": "Frozen historical evidence locator resolved to curated table or note; resolution is not fresh source verification."
+  },
+  "source_reconciliation-2026-10-22/monograph2025/map_audit/README.md": {
+    "path": "docs/evidence/source_reconciliation-2026-10-22/monograph2025/map_audit/README.md",
+    "scope": "Frozen historical evidence locator resolved to curated table or note; resolution is not fresh source verification."
+  },
+  "analysis/geometry-comparison-2026-10-23/EVIDENCE_GATE.md": {
+    "path": "docs/evidence/analysis/geometry-comparison-2026-10-23/EVIDENCE_GATE.md",
+    "scope": "Frozen historical evidence locator resolved to curated table or note; resolution is not fresh source verification."
+  },
+  "analysis/case-study-2026-10-24/continuous_spherical_contrasts.csv": {
+    "path": "data/reference/analysis/case-study-2026-10-24/continuous_spherical_contrasts.csv",
+    "scope": "Frozen historical evidence locator resolved to curated table or note; resolution is not fresh source verification."
+  },
+  "analysis/case-study-2026-10-24/continuous_validation.json": {
+    "path": "docs/evidence/analysis/case-study-2026-10-24/continuous_validation.json",
+    "scope": "Frozen historical evidence locator resolved to curated table or note; resolution is not fresh source verification."
+  },
+  "analysis/case-study-2026-10-24/independent_interval_validation.json": {
+    "path": "docs/evidence/analysis/case-study-2026-10-24/independent_interval_validation.json",
+    "scope": "Frozen historical evidence locator resolved to curated table or note; resolution is not fresh source verification."
+  }
+}

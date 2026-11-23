@@ -8,3 +8,5 @@
 - Use medium-effort Hermes children for bounded mechanical tasks when useful under the user's established authorization. The main agent retains design, interpretation and acceptance. Inspect real artifacts and tool records; never accept worker self-report as truth. Do not resume old ultra Codex agents.
 - No external messaging, publication or pushing to a remote without authorization. Do not inspect credentials or introduce provider fallbacks.
 - Checks: python scripts/check_repository.py; python -m unittest discover -s tests -v; python scripts/reproduce.py. Record exact outcomes and limitations.
+
+- Read docs/ACCEPTANCE_CRITERIA.md and the latest docs/audits review before accepting changes. Validate new records under docs/records. Complete stages/tasks require evidence receipts; changes to required dependencies need an explicit plan and validator amendment. Do not infer scientific acceptance from a well-formed receipt.

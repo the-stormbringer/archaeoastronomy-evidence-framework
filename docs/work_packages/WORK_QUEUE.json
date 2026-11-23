@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "created": "2026-11-23",
   "scientific_stage": "W1 ready; new E1\u2013E4 pending",
   "tasks": [
@@ -89,6 +89,30 @@
       "depends_on": [
         "W1-03",
         "W1-04"
+      ],
+      "acceptance_record": null
+    },
+    {
+      "id": "E5",
+      "status": "conditional",
+      "title": "Decide synthetic validation; execute only if justified",
+      "depends_on": [
+        "E1",
+        "E2",
+        "E3",
+        "E4"
+      ],
+      "acceptance_record": null
+    },
+    {
+      "id": "E6",
+      "status": "conditional",
+      "title": "Decide astronomy branch; execute only if justified",
+      "depends_on": [
+        "E1",
+        "E2",
+        "E3",
+        "E4"
       ],
       "acceptance_record": null
     }

@@ -70,3 +70,9 @@ Accepted plans, protocols, code and evidence now live in the curated repository 
 ## Repository organization 23 November 2026
 
 This is the canonical plan; PROJECT_STATE.json beside it records current execution. The October research status remains W1 ready; organization has not executed E1–E4. The assumption matrix and experiment protocol are under protocols/. Work-package instructions and output schemas are under [work_packages](work_packages/README.md). The former agent_artifacts plan is a preserved historical snapshot. Numerical reproduction is documented in [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
+
+## Deep audit and enforceable acceptance — 23 November 2026
+
+The [audit record](audits/2026-11-23-DEEP_AUDIT.md) reconciles two model critiques with main-agent evidence checks. [Acceptance criteria](ACCEPTANCE_CRITERIA.md) now govern record validation, evidence-bound closure, dependency checks and numerical receipts. Individual E1–E4 work may be accepted when its listed source premises close; entire W2 still requires W1 and all four experiments. E5/E6 decisions are explicit queue items; a documented omission can close a conditional branch without implying execution. The historical scientific pipeline remains a fixed regression benchmark, not the engine for new experiments with unknown outcomes.
+
+No scientific stage is advanced by this audit. W1 remains next. The existing draft's contribution language remains provisional pending W1–W4, and source-specific uncertainty remains visible.

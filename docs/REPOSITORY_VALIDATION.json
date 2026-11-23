@@ -38,5 +38,16 @@
     "agent_artifacts/",
     "runs/"
   ],
-  "local_full_run_report": "runs/repository-acceptance-2026-11-23/VALIDATION.json"
+  "local_full_run_report": "runs/repository-acceptance-2026-11-23/VALIDATION.json",
+  "deep_audit": {
+    "date": "2026-11-23",
+    "initial_findings": 16,
+    "codex_review": "complete; initial and control recheck",
+    "hermes_review": "complete; DeepSeek Flash medium; 10-call bound",
+    "reconciliation": "docs/audits/2026-11-23-DISPOSITIONS.json",
+    "control_tests": 34,
+    "candidate_checks": "passed",
+    "final_clean_clone_run": "pending",
+    "scientific_gates_advanced": false
+  }
 }

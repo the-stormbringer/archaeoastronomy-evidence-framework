@@ -1,0 +1,408 @@
+{
+  "baseline": "0dd3561",
+  "scope": "Repository and scientific-design audit, not external scientific acceptance",
+  "findings": [
+    {
+      "id": "F01",
+      "title": "Scientific readiness",
+      "initial_claim": "The repo is a usable research baseline, not a submission-ready paper. W1 and E1–E4 remain open; neither two model critiques nor numerical repeats can close external review or establish novelty.",
+      "initial_locators": "docs/PROJECT_STATE.json; docs/PROJECT_PLAN.md; docs/manuscript/PRIOR_WORK_COMPARISON.md",
+      "codex_verdict": "upheld",
+      "codex_objection": "Usable baseline is a bounded repository judgment, not a finding that its scientific premises have been validated. The claimed readiness limit is directly supported.",
+      "codex_evidence": [
+        "docs/PROJECT_STATE.json: active_work, publication_gates P0-P3, workplan W1-W2",
+        "docs/PROJECT_PLAN.md:15-30",
+        "docs/manuscript/PRIOR_WORK_COMPARISON.md: Readiness"
+      ],
+      "hermes_verdict": "upheld",
+      "hermes_objection": "The readiness judgment is one the repository already states about itself (PROJECT_STATE.json:3-5, P2/P3 open_external), so it adds framing rather than a repository defect, and its force rests on gates this audit cannot run.",
+      "hermes_evidence": [
+        "docs/PROJECT_STATE.json:156 (W1 status 'ready')",
+        "docs/PROJECT_STATE.json:164 (W2 status 'pending')",
+        "docs/PROJECT_PLAN.md:72 ('organization has not executed E1-E4')",
+        "docs/manuscript/PRIOR_WORK_COMPARISON.md:32 ('does not establish novelty to a journal's satisfaction')"
+      ],
+      "main_agent_disposition": "retained_scope",
+      "rationale": "Both confirm existing readiness disclosures, not a new defect. A preserved computational baseline is usable; W1, experiments, novelty, specialist review and external reproduction remain open."
+    },
+    {
+      "id": "F02",
+      "title": "Fixed historical pipeline",
+      "initial_claim": "The ten scripts intentionally assert known positive findings. They reproduce a frozen snapshot but are unsafe as a general robustness engine because negative outcomes can stop execution before full records.",
+      "initial_locators": "analysis/continuous_spherical_contrasts.py; analysis/chronology_compatibility.py; analysis/build_claim_register.py",
+      "codex_verdict": "qualified",
+      "codex_objection": "The wording can incorrectly imply every one of the ten scripts asserts a positive scientific conclusion. Several only assert mathematical invariants or inventory counts. Failure does not always prevent the principal CSV being written: chronology writes before its result assertions. The wrapper still emits a failure receipt for ordinary nonzero script exits.",
+      "codex_evidence": [
+        "analysis/chronology_compatibility.py:9-14",
+        "analysis/continuous_spherical_contrasts.py:39-42",
+        "analysis/method_gate.py:18-20",
+        "analysis/build_claim_register.py:12-27",
+        "scripts/reproduce.py:48-69"
+      ],
+      "hermes_verdict": "qualified",
+      "hermes_objection": "'Ten scripts intentionally assert known positive findings' overstates: geometry_comparison.py:21-22 and estimand_comparison.py:25 assert transform identities and geometry_sensitivity.py:33,52 assert structural properties, not outcomes; roughly five scripts assert the expected positive result.",
+      "hermes_evidence": [
+        "analysis/build_claim_register.py:8,12,17,27",
+        "analysis/chronology_compatibility.py:12-14",
+        "analysis/continuous_spherical_contrasts.py:39-40",
+        "analysis/geometry_comparison.py:21-22 (identity/benchmark assertions only)",
+        "scripts/reproduce.py:58-59 (stops at first nonzero exit; tables list stays empty per :61-63)"
+      ],
+      "main_agent_disposition": "qualified",
+      "rationale": "The pipeline contains outcome-dependent assertions, but not every script asserts a positive result. Some outputs are written before assertions and ordinary script failures are logged. Preserve historical regression scope; new experiments must retain negative and inconclusive outcomes."
+    },
+    {
+      "id": "F03",
+      "title": "State acceptance weakness",
+      "initial_claim": "state_errors accepts a made-up status and W1=complete with no acceptance evidence. It checks the W graph and path existence, not scientific closure. This is a demonstrated control gap, not evidence of false current status.",
+      "initial_locators": "scripts/repository.py:state_errors; docs/PROJECT_STATE.json",
+      "codex_verdict": "upheld",
+      "codex_objection": "No counterevidence to the demonstrated validation gap. Extending a validator cannot itself determine scientific acceptance, and historical W0 planning completion should not be retroactively treated as a scientific acceptance claim.",
+      "codex_evidence": [
+        "scripts/repository.py:75-104",
+        "probe_results.json: invented_state_status=[], complete_W1_no_receipt=[], unknown_S_task_dependency=[]"
+      ],
+      "hermes_verdict": "upheld",
+      "hermes_objection": "The check never reads a status field at all (repository.py:75-104), so 'accepts a made-up status' understates the gap: status vocabulary, the tasks[] graph and WORK_QUEUE.json are entirely outside its contract.",
+      "hermes_evidence": [
+        "scripts/repository.py:75-104 (no status or vocabulary logic)",
+        "test: every workplan status replaced by 'totally_made_up_status' with W1='complete' -> state_errors() == []",
+        "test: every 'status' key deleted and all tasks[] statuses set to 'bogus' -> state_errors() == []",
+        "docs/PROJECT_STATE.json:10-69 (tasks[] never visited by state_errors)"
+      ],
+      "main_agent_disposition": "fixed_control",
+      "rationale": "Both independently reproduced absent status/task validation. New checks validate W/S/task graphs, required dependency edges, statuses, closure receipts and evidence hashes. W0 has a retrospective planning-only receipt. Checks do not judge evidence relevance."
+    },
+    {
+      "id": "F04",
+      "title": "Schema root",
+      "initial_claim": "OUTPUT_SCHEMAS.json contains only $defs; validating an arbitrary object against the root succeeds. No repository tool invokes a specific definition. This is a schema library, not an enforced output contract.",
+      "initial_locators": "docs/work_packages/OUTPUT_SCHEMAS.json; scripts/check_repository.py",
+      "codex_verdict": "upheld",
+      "codex_objection": "A definitions-only schema is legitimate when callers explicitly select a definition. The defect is absent invocation/enforcement, not inherently the use of $defs. Root dispatch is one remedy rather than the only remedy.",
+      "codex_evidence": [
+        "docs/work_packages/OUTPUT_SCHEMAS.json:1-4",
+        "scripts/check_repository.py:7-9",
+        "Recursive search of scripts and tests found no OUTPUT_SCHEMAS or jsonschema invocation",
+        "probe_results.json: root_schema_arbitrary=true"
+      ],
+      "hermes_verdict": "upheld",
+      "hermes_objection": "A $defs-only root is a schema library by construction; the checkable defect is that no consumer exists, and closing it needs a jsonschema dependency plus a negative test, since tests currently import only scripts/repository.py.",
+      "hermes_evidence": [
+        "docs/work_packages/OUTPUT_SCHEMAS.json:2-4 (root has only $schema and $defs)",
+        "test: jsonschema 4.26 Draft202012Validator(schema).iter_errors({'anything':[1,2,3]}) -> no errors",
+        "test: grep OUTPUT_SCHEMAS across scripts/, tests/, analysis/ -> no hits",
+        "tests/test_repository.py:8 (only repository.py imported)"
+      ],
+      "main_agent_disposition": "fixed_control",
+      "rationale": "A definitions-only schema is legitimate as a library. The defect was no enforced consumer. Added typed root dispatch, jsonschema dependency, recursive record validation and negative tests."
+    },
+    {
+      "id": "F05",
+      "title": "Schema content",
+      "initial_claim": "Even a selected definition permits empty input_hashes/assumptions and missing page locators represented by null, while review_status can say accepted. Missing evidence must be explicit; accepted records need input/protocol/outcome evidence and a reviewer disposition. Null pages can be legitimate for inaccessible sources.",
+      "initial_locators": "docs/work_packages/OUTPUT_SCHEMAS.json",
+      "codex_verdict": "qualified",
+      "codex_objection": "The claim merges two definitions: experiment_result permits empty hashes and review_status=accepted, whereas claim_audit permits empty assumptions/null pages and uses accepted_as_attributed. An accepted uncomputable outcome or accepted attribution can be legitimate; acceptance must not be synonymous with positive/supporting results.",
+      "codex_evidence": [
+        "docs/work_packages/OUTPUT_SCHEMAS.json:49-78",
+        "docs/work_packages/OUTPUT_SCHEMAS.json:81-159",
+        "probe_results.json: accepted_uncomputable_empty_hashes=true; accepted_attributed_no_page_assumptions=true"
+      ],
+      "hermes_verdict": "qualified",
+      "hermes_objection": "claim_audit requires non-empty evidence, limitations and alternative_explanation (OUTPUT_SCHEMAS.json:41-48) and an empty evidence string is rejected, so the real gap is experiment_result, which has no evidence or reviewer field while review_status may say 'accepted'.",
+      "hermes_evidence": [
+        "test: experiment_result with input_hashes={} and review_status='accepted' validates",
+        "test: claim_audit with printed_page=null and assumptions=[] validates",
+        "test: claim_audit with evidence='' is rejected",
+        "docs/work_packages/OUTPUT_SCHEMAS.json:81-97 (no reviewer or disposition field in experiment_result)"
+      ],
+      "main_agent_disposition": "qualified_and_fixed",
+      "rationale": "Separate the record kinds: claim records already required evidence text; experiment records lacked reviewer/evidence and allowed empty hashes. Accepted records now need review, evidence, real hashed inputs and a hash-bound output. Honest uncomputable/qualified outcomes and nullable pages remain possible."
+    },
+    {
+      "id": "F06",
+      "title": "Pipeline contract limits",
+      "initial_claim": "Integrity currently checks named hashes and set membership/counts, but not unique execution names, safe relative paths, fixed tolerance scope or finite tolerance. A malformed contract can therefore weaken validation. These are accidental-integrity risks, not an assertion of hostile users.",
+      "initial_locators": "scripts/repository.py:integrity_errors; data/pipeline.json",
+      "codex_verdict": "qualified",
+      "codex_objection": "The gap is real, but simply duplicating a script and thereby omitting another is normally caught by membership unless the hash inventory is coherently edited too. An infinite tolerance accepts arbitrary finite differences only in the permitted file/columns; the comparator already rejects nonfinite deltas. NaN tolerance does not by itself relax comparisons.",
+      "codex_evidence": [
+        "scripts/repository.py:16-35,60-64",
+        "scripts/reproduce.py:40-46",
+        "probe_results.json: duplicate_execution_with_matching_membership=[], absolute_staged_directory=[], infinite_tolerance_integrity=[]",
+        "probe_results.json: infinite_tolerance_comparison accepted delta 999999.0"
+      ],
+      "hermes_verdict": "upheld",
+      "hermes_objection": "compare_table still guards non-finite deltas (repository.py:64), so 'nonfinite tolerance' can only mean the contract field; and every exploit needs pipeline.json, which is itself absent from the sha256 map, making contract coverage the larger gap.",
+      "hermes_evidence": [
+        "test: duplicated execution_order entry with the dropped script's hash removed -> integrity_errors() == []",
+        "test: inputs entry '../reference/analysis/case-study-2026-10-24/claim_register.csv' plus matching hash key -> []",
+        "test: tolerance.absolute_degrees = Infinity, and separately NaN -> []",
+        "test: compare_table with Infinity tolerance accepts a 1.0-degree drift; baseline tolerance rejects it",
+        "data/pipeline.json:46-73 (pipeline.json not listed in its own sha256 map)"
+      ],
+      "main_agent_disposition": "qualified_and_fixed",
+      "rationale": "Duplicating execution evades old checks only with coherent hash membership edits. Infinite tolerance permits finite differences only in named fields; nonfinite deltas were already rejected. New checks reject duplicate/unsafe entries and changed tolerance/staging policy. This is not protection against coordinated rewriting of all policy and references."
+    },
+    {
+      "id": "F07",
+      "title": "Run provenance",
+      "initial_claim": "VALIDATION.json records versions and outcomes but lacks the Git revision, a run-local immutable copy/hash of the contract, and script/input hash inventory. The current repo contains hashes, so provenance is split rather than wholly absent.",
+      "initial_locators": "scripts/reproduce.py; data/pipeline.json; docs/REPOSITORY_VALIDATION.json",
+      "codex_verdict": "upheld",
+      "codex_objection": "Git revision alone is insufficient for dirty or exported trees, and new receipts should remain usable without Git. The continuous-analysis JSON already carries one input hash; this is not a total absence of provenance.",
+      "codex_evidence": [
+        "scripts/reproduce.py:66-69",
+        "analysis/continuous_spherical_contrasts.py:48-49",
+        "data/pipeline.json:sha256",
+        "docs/REPOSITORY_VALIDATION.json:git_clone_validation.revision"
+      ],
+      "hermes_verdict": "upheld",
+      "hermes_objection": "Script/input binding does exist at run time via integrity_errors() before and after execution (reproduce.py:20,64); the gap is that the receipt does not record what was bound, so 'split rather than absent' is correct and 'absent' would be wrong.",
+      "hermes_evidence": [
+        "scripts/reproduce.py:66-68 (report keys: python, dependencies, scripts, tables, tolerance; no revision or contract hash)",
+        "test: 'data/pipeline.json' not in the pipeline sha256 map -> the contract is unhashed",
+        "docs/REPOSITORY_VALIDATION.json:18 (revision 00f4343 appears only in the curated acceptance doc)"
+      ],
+      "main_agent_disposition": "fixed_control",
+      "rationale": "Provenance was split, not absent. New receipts save contract bytes/hash, staged input and runner hashes, dependency versions, generated-output hashes, timestamps and optional revision/dirty status. Contract changes during execution are detected. Exported trees honestly have no Git revision."
+    },
+    {
+      "id": "F08",
+      "title": "Historical claim locators",
+      "initial_claim": "Generated C06/C09/C10 evidence strings refer to historical notes not staged by the runner. The notes exist under curated docs/evidence, but the generated register alone cannot resolve all references. Markdown link checker ignores code-formatted locators.",
+      "initial_locators": "analysis/build_claim_register.py; data/reference/analysis/case-study-2026-10-24/claim_register.csv; docs/evidence",
+      "codex_verdict": "upheld",
+      "codex_objection": "These locators are historical relative names rather than nonexistent evidence. Prefix mapping to curated docs/evidence resolves the cited notes; modifying historical output bytes is unnecessary.",
+      "codex_evidence": [
+        "analysis/build_claim_register.py:20,25-26,33",
+        "scripts/reproduce.py:43-46",
+        "scripts/repository.py:113-120",
+        "docs/evidence/analysis/identity-chronology-2026-10-24/FINDINGS.md",
+        "docs/evidence/source_reconciliation-2026-10-22/monograph2025/map_audit/README.md",
+        "docs/evidence/analysis/geometry-comparison-2026-10-23/EVIDENCE_GATE.md"
+      ],
+      "hermes_verdict": "upheld",
+      "hermes_objection": "C06's evidence string has two halves (build_claim_register.py:20) and the CSV half is generated inside the run, so only the FINDINGS.md half is unresolvable; 'cannot resolve all references' is right, 'C06 evidence is broken' would overstate.",
+      "hermes_evidence": [
+        "analysis/build_claim_register.py:20 (FINDINGS.md), :25 (map_audit/README.md), :26 (EVIDENCE_GATE.md)",
+        "scripts/reproduce.py:43-46 (stages only the 10 analysis scripts and 3 data/source inputs)",
+        "scripts/repository.py:115-120 (link scan matches only ](target), so backticked paths are skipped)",
+        "analysis/build_claim_register.py:33 (evidence emitted in backticks into CLAIMS.md)"
+      ],
+      "main_agent_disposition": "fixed_control",
+      "rationale": "Historical names remain unchanged. C06 has a generated CSV and an unstaged note locator; C09/C10 cite unstaged notes. A validated locator map resolves every frozen reference to curated evidence. Existence is not relevance or fresh primary reading."
+    },
+    {
+      "id": "F09",
+      "title": "Interval interpretation",
+      "initial_claim": "The interval implementation conservatively encloses spherical table-defined northern contrasts while sharing origin boxes; subtraction may over-enclose because within-box correlation is not algebraically eliminated. No counterexample to the existing conditional numerical result has been found. Sampling and monotone refinement do not independently prove continuous coverage or source validity.",
+      "initial_locators": "analysis/continuous_spherical_contrasts.py; analysis/validate_continuous_contrasts.py; docs/protocols/ASSUMPTIONS.md",
+      "codex_verdict": "qualified",
+      "codex_objection": "Code inspection supports interval propagation with a shared origin box and loss of within-box dependence, but this review did not formally verify mpmath directed rounding or rerun the continuous calculation. No counterexample found must remain scoped to inspection, not an exhaustive adversarial search. A misleading comment promises full endpoint strings although only padded float summaries are serialized.",
+      "codex_evidence": [
+        "analysis/continuous_spherical_contrasts.py:12-21,28-37,48",
+        "analysis/validate_continuous_contrasts.py:5-13",
+        "docs/protocols/ASSUMPTIONS.md:9,32"
+      ],
+      "hermes_verdict": "upheld",
+      "hermes_objection": "Over-enclosure is not merely possible but guaranteed: the same origin interval feeds both operands (continuous_spherical_contrasts.py:30-33) and interval subtraction cannot cancel a shared dependence, so the bounds are conservative by construction.",
+      "hermes_evidence": [
+        "analysis/continuous_spherical_contrasts.py:30-33 (shared origin boxes a,b subtracted across group means)",
+        "analysis/continuous_spherical_contrasts.py:38,48 (scope string and caveat list)",
+        "analysis/validate_continuous_contrasts.py:12,16 (2000-draw cross-check with stated limit)"
+      ],
+      "main_agent_disposition": "qualified",
+      "rationale": "Retain the conditional code-level enclosure reading, with interval-library trust and no formal or archaeological certification. Reject Hermes guaranteed excess-width claim: shared variables alone do not prove strict over-enclosure; for x in [0,1], x - (-x) yields the exact [0,2] even without symbolic elimination. Keep may over-enclose. Correct the endpoint-storage description separately."
+    },
+    {
+      "id": "F10",
+      "title": "Identity evidence",
+      "initial_claim": "Fresh visual inspection of Schild 2025 printed p140 (PDF p142) confirms both A-X/A-4 in r/20 and A-5/A-6 in x/20. This confirms the textual premise only; <=50m scale, feature correspondence and historical point meanings remain separate premises. The numerical conflict cannot identify the erroneous record or prove movement.",
+      "initial_locators": "docs/evidence/source_reconciliation-2026-10-22/monograph2025/alignment_A_identity.csv; analysis/identity_chronology_checks.py; docs/protocols/EXPERIMENT_PROTOCOL.md:E4",
+      "codex_verdict": "unverifiable",
+      "codex_objection": "The fresh PDF visual observation cannot be checked from this packet, which contains no PDF. The CSV agrees with the described square assignments, but it is a derivative ledger and cannot independently verify the source page.",
+      "codex_evidence": [
+        "No .pdf files found under inputs/repo",
+        "docs/evidence/source_reconciliation-2026-10-22/monograph2025/alignment_A_identity.csv:6-10",
+        "docs/protocols/EXPERIMENT_PROTOCOL.md:35-37"
+      ],
+      "hermes_verdict": "unverifiable",
+      "hermes_objection": "The packet has no PDF and this worker has no vision tool, so the fresh printed-page read cannot be checked; the documentary table alone (page 140, r/20 and x/20) is an encoding, not an observation, and the pipeline hardcodes those squares instead of reading the crosswalk.",
+      "hermes_evidence": [
+        "docs/evidence/source_reconciliation-2026-10-22/monograph2025/alignment_A_identity.csv:6,7,9,10 (A-6/A-5 x/20; A-X/A-4 r/20; printed_page 140)",
+        "analysis/identity_chronology_checks.py:14 (same_cell_2025 hardcoded 'r20'/'x20', crosswalk not read)",
+        "packet source_identity_p140.png not decodeable by this worker; monograph PDF absent",
+        "no vision tool available in this session"
+      ],
+      "main_agent_disposition": "unresolved_source_premises",
+      "rationale": "Both reviewers lacked the PDF and could not independently confirm the main-agent render. The source-check note records its exact scope. Square text was visually checked; scale, feature identity, older representatives and historical positions remain separate premises. E4 is not complete."
+    },
+    {
+      "id": "F11",
+      "title": "Contribution and selection",
+      "initial_claim": "Northern ordering and membership differences are exploratory; their archaeological importance and novelty remain unestablished. The planned all-15-pair eligibility table and direct predecessor comparison are necessary but will not automatically prove publishability.",
+      "initial_locators": "docs/protocols/REVIEW.md; docs/protocols/ASSUMPTIONS.md; docs/manuscript/PRIOR_WORK_COMPARISON.md",
+      "codex_verdict": "upheld",
+      "codex_objection": "The all-15 comparison is an eligibility and selection-transparency requirement, not a demand to promote every cross-sector difference into a substantive result. The existing protocol already makes this distinction.",
+      "codex_evidence": [
+        "docs/protocols/ASSUMPTIONS.md:32",
+        "docs/protocols/REVIEW.md:14,26,65",
+        "docs/protocols/EXPERIMENT_PROTOCOL.md:31",
+        "docs/manuscript/PRIOR_WORK_COMPARISON.md:Readiness"
+      ],
+      "hermes_verdict": "upheld",
+      "hermes_objection": "This is a planning caution already written into the repo (REVIEW.md:65 forbids forcing a paper; PRIOR_WORK_COMPARISON.md:28 bars comprehensive novelty claims), so it identifies no repository defect and cannot be tested here.",
+      "hermes_evidence": [
+        "docs/protocols/REVIEW.md:26,65",
+        "docs/manuscript/PRIOR_WORK_COMPARISON.md:28,32",
+        "docs/PROJECT_STATE.json:46 ('Novelty is an open question')"
+      ],
+      "main_agent_disposition": "retained_scope",
+      "rationale": "Existing plans already constrain novelty and exploratory selection. All-15-pair eligibility is a transparency requirement, not 15 archaeological discoveries. No fresh exhaustive literature search or publishability finding is claimed."
+    },
+    {
+      "id": "F12",
+      "title": "Secondary claims",
+      "initial_claim": "Convex-family failure excludes only weighted means of two printed row means; chronology overlap is contextual arithmetic. They may be supporting diagnostics rather than substantive findings. Existing caveats are mostly sound; this is a scope limit, not a discovered calculation error.",
+      "initial_locators": "analysis/method_gate.py; analysis/chronology_compatibility.py; docs/manuscript/MANUSCRIPT_WORKING_DRAFT.md",
+      "codex_verdict": "upheld",
+      "codex_objection": "The restricted convex-family failure does not exclude other plausible combination procedures, rounding of the published final values, or underlying unrounded observations. Existing manuscript language largely protects against the overclaim. No arithmetic error was established by this inspection.",
+      "codex_evidence": [
+        "analysis/method_gate.py:8-14",
+        "analysis/chronology_compatibility.py:5-8",
+        "docs/manuscript/MANUSCRIPT_WORKING_DRAFT.md:55,65,87"
+      ],
+      "hermes_verdict": "upheld",
+      "hermes_objection": "Both scope limits are already stated verbatim (method_gate.py:14, draft:65,87), and the code tests only the [min,max] hull of two row means, so 'weighted means' should read 'convex combinations of the two printed row means'.",
+      "hermes_evidence": [
+        "analysis/method_gate.py:14 (scope string: nonnegative weighted average of two printed-coordinate row means only)",
+        "analysis/chronology_compatibility.py:9 (interval arithmetic only, no likelihood)",
+        "docs/manuscript/MANUSCRIPT_WORKING_DRAFT.md:65,87"
+      ],
+      "main_agent_disposition": "retained_scope",
+      "rationale": "Existing caveats are sound. Convex combinations concern displayed final values and two reconstructed row means, not all reductions or unrounded observations. Quarry overlap is contextual arithmetic. Scientific consequence remains a W1/W4 decision."
+    },
+    {
+      "id": "F13",
+      "title": "Reproduction scope",
+      "initial_claim": "Clean-clone numerical repeatability is demonstrated on one host. Figure generation, PDF transcription, source/map audit, fresh environment installation and external reproduction are not all covered. Figures are static snapshots. A prepared CI workflow is not a successful CI run.",
+      "initial_locators": "docs/REPRODUCIBILITY.md; docs/REPOSITORY_VALIDATION.json; .github/workflows/checks.yml",
+      "codex_verdict": "qualified",
+      "codex_objection": "The packet records a clean local clone run, revision and counts, but does not contain that run directory or independent execution evidence sufficient for this reviewer to recertify the historical run. The scope limitations themselves are explicit and well supported.",
+      "codex_evidence": [
+        "docs/REPOSITORY_VALIDATION.json:git_clone_validation, local_full_run_report",
+        "docs/REPRODUCIBILITY.md:3-15",
+        "scripts/reproduce.py:61-69",
+        ".github/workflows/checks.yml"
+      ],
+      "hermes_verdict": "qualified",
+      "hermes_objection": "The uncovered outputs are already enumerated in REPRODUCIBILITY.md:11 and the workflow is explicitly conditional ('if this repository is later hosted', :13), so the finding confirms existing disclosure rather than exposing an undisclosed gap.",
+      "hermes_evidence": [
+        "docs/REPRODUCIBILITY.md:11,13",
+        "docs/REPOSITORY_VALIDATION.json:16-24 (clean local clone, same host, ignored archives absent)",
+        "scripts/reproduce.py:60-63 (only the 13 reference CSVs are compared)",
+        ".github/workflows/checks.yml:1-18 (no run artifact or badge in the repo)"
+      ],
+      "main_agent_disposition": "qualified",
+      "rationale": "Scope exclusions were already disclosed. Main agent witnessed prior/current runs; reviewers inspected historical summaries, not that historical execution. Same-host repetition, static figures, incomplete source verification, unexecuted remote CI and external review remain distinct."
+    },
+    {
+      "id": "F14",
+      "title": "Stage/task consistency",
+      "initial_claim": "Stage W2 depends on W1; fine-grained tasks permit preparation when local premises are reviewed. The prior clarification must not wrongly require all unrelated W1 work before any useful preparation, nor imply all W2 can close from a partial W1.",
+      "initial_locators": "docs/PROJECT_PLAN.md; docs/work_packages/WORK_QUEUE.json; docs/work_packages/README.md",
+      "codex_verdict": "qualified",
+      "codex_objection": "The work-package README already explicitly distinguishes preparation from W2 stage acceptance, so this is primarily a consistency/enforcement issue rather than a missing prose clarification. The canonical plan permits acceptance of a source-dependent test once relevant W1 premises are reviewed; do not accidentally prohibit that merely because W2 stage closure waits for all W1.",
+      "codex_evidence": [
+        "docs/work_packages/README.md:3,11",
+        "docs/PROJECT_PLAN.md:24,30",
+        "docs/work_packages/WORK_QUEUE.json:E1-E4 depends_on",
+        "docs/protocols/EXPERIMENT_PROTOCOL.md:47"
+      ],
+      "hermes_verdict": "qualified",
+      "hermes_objection": "No repository text currently misstates the rule - PROJECT_PLAN.md:30 already permits limited preparatory W2 work once the local premise is reviewed - so this is prophylactic; the checkable gap is that task-level dependencies are machine-checked nowhere.",
+      "hermes_evidence": [
+        "docs/PROJECT_PLAN.md:30",
+        "docs/work_packages/WORK_QUEUE.json:55-62 (E1 depends on W1-01 and W1-02 only)",
+        "docs/PROJECT_STATE.json:163-169 (W2 depends on W1)",
+        "scripts/repository.py:75-104 (tasks[] and WORK_QUEUE.json never visited)"
+      ],
+      "main_agent_disposition": "qualified_and_fixed",
+      "rationale": "Existing prose already allows local preparation and acceptance after relevant premises. Checks now enforce required dependency edges and stage children. Individual experiments need local W1 prerequisites; whole W2 needs W1 and E1–E4 closed. E5/E6 may close by reasoned omission without claiming execution."
+    },
+    {
+      "id": "F15",
+      "title": "Source coverage",
+      "initial_claim": "The 100-row coordinate ledger has source/page fields and no repeated source-label keys in this snapshot. This does not verify every transcription. Source excerpts/notes, source PDFs, acquisition records and current review depth need traceable distinctions.",
+      "initial_locators": "data/source/source_coordinate_observations.csv; docs/evidence/source_reconciliation-2026-10-22/README.md",
+      "codex_verdict": "upheld",
+      "codex_objection": "A source/page field is a locator, not verification of its transcription or present access. Historical visually checked statements in the notes cannot be promoted into a fresh source audit by checking ledger uniqueness.",
+      "codex_evidence": [
+        "data/source/source_coordinate_observations.csv:1-101",
+        "probe_results.json: coordinate_rows=100, duplicate_source_label_keys=0, empty_source_page=0",
+        "docs/evidence/source_reconciliation-2026-10-22/README.md:1-5, Evidence locations"
+      ],
+      "hermes_verdict": "upheld",
+      "hermes_objection": "(source_id,label) uniqueness is a weak invariant: it cannot detect a duplicated coordinate pair under different labels, duplicated page attributions, or an unvalidated `status` vocabulary, and the row count is fixed only because the file is hash-locked.",
+      "hermes_evidence": [
+        "test: data/source/source_coordinate_observations.csv parses to 100 rows with source_id and source_page columns",
+        "test: duplicate (source_id,label) count = 0",
+        "data/pipeline.json:72 (ledger hash-locked)",
+        "docs/evidence/source_reconciliation-2026-10-22/README.md:1 (historical-record disclaimer)"
+      ],
+      "main_agent_disposition": "retained_limit",
+      "rationale": "100 rows and unique source-label keys were independently counted; that does not verify coordinates, page claims, repeated positions or free-text statuses. Historical labels are preserved; claim-level source review remains necessary."
+    },
+    {
+      "id": "F16",
+      "title": "Audit decision rule",
+      "initial_claim": "Each finding must receive both critiques and an evidence-based main-agent disposition. Agreement is not a vote proving truth; objections require a concrete locator/test or a clearly bounded uncertainty. Fixed repository defects may close while research gates remain open.",
+      "initial_locators": "This audit process",
+      "codex_verdict": "upheld",
+      "codex_objection": "This is a proposed process rule, not an empirical finding already satisfied. Neither this reviewer nor reviewer agreement can close scientific or external-review gates. Requiring a critique does not require inventing disagreement.",
+      "codex_evidence": [
+        "REVIEW_INSTRUCTIONS.md:1",
+        "INITIAL_FINDINGS.json:F16",
+        "This critiques.json contains F01-F16 in sequence; main-agent dispositions are outside this reviewer deliverable"
+      ],
+      "hermes_verdict": "qualified",
+      "hermes_objection": "This restates the assignment's own evidence rules and has no repository locator, so it is a procedural norm rather than a finding; no repository artifact can confirm or contradict it.",
+      "hermes_evidence": [
+        "docs/REPOSITORY_VALIDATION.json:3 (numerical scope only; W1/E1-E4 not performed)",
+        "docs/PROJECT_STATE.json:227 ('research_status_unchanged': true)",
+        "no repository artifact encodes an audit decision rule"
+      ],
+      "main_agent_disposition": "accepted_procedure",
+      "rationale": "This is a procedure, not a defect. Both ordered critiques now exist and every point is adjudicated here. Agreement is not proof. Tested controls can close while scientific gates remain open."
+    }
+  ],
+  "additional_findings": [
+    {
+      "id": "Codex-N01",
+      "disposition": "documentation_corrected",
+      "decision": "The frozen interval comment promises full endpoint strings but serializes padded float summaries. Documentation corrected; historical code/results preserved. This is not a demonstrated enclosure failure."
+    },
+    {
+      "id": "Hermes-NF01",
+      "disposition": "merged_with_F06_F07",
+      "decision": "The contract is outside its own hash map. Requiring a file to contain its own full-content hash is not a useful fix. Save/hash the contract separately, check it after execution, and enforce the fixed tolerance/staging policy. This overlaps F06/F07; any-comparison wording was too broad."
+    },
+    {
+      "id": "Hermes-NF02",
+      "disposition": "guard_added",
+      "decision": "Square labels are hardcoded rather than read from the crosswalk. IDENTITY_PREMISE.json and identity_premise_errors now flag crosswalk/script drift and differing square assignments. Historical outputs remain unchanged; E4 still needs source/identity review."
+    },
+    {
+      "id": "Hermes-NF03",
+      "disposition": "default_failure_rejected_local_presence_checked",
+      "decision": "Archive absence is intentional in a portable clone and already disclosed. Default checks must not require ignored files. All seven live local_archive_artifacts paths exist, verified by main agent; presence does not establish content/source validity."
+    },
+    {
+      "id": "Codex-CR01..04",
+      "disposition": "fixed_and_independently_rechecked",
+      "decision": "Deleted dependencies, unbound accepted input/output paths, inherited optimization and skipped nested records were found in candidate review, corrected, and independently re-probed by Codex. Added a documentary-drift regression for NF02."
+    }
+  ]
+}

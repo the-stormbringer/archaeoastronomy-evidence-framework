@@ -12,3 +12,5 @@ Read docs/PROJECT_PLAN.md, docs/PROJECT_STATE.json and the relevant protocol bef
 The main agent owns scientific planning, method choice, interpretation and acceptance. Hermes leaf workers handle bounded extraction, inventory and arithmetic only, with the authorized provider/model/effort. Their self-reports are not evidence of completion. All worker scratch artifacts stay under agent_artifacts.
 
 Changes to reference data, authorship, licences, publication, external correspondence and submission require their own substantive justification or user decision as applicable. No remote or publication destination is inferred from a local repository request.
+
+Follow [acceptance criteria](docs/ACCEPTANCE_CRITERIA.md). New structured research records belong in docs/records; completed work needs a hash-bound acceptance receipt and closed required dependencies. The validator checks structure and file integrity; the named reviewer must still judge evidence relevance and scientific adequacy.

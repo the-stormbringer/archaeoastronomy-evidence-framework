@@ -25,4 +25,4 @@ Hermes children may extract exact source locators, transcribe fixed label lists,
 
 Each headline claim has: its exact statement and scope; source/version/page; observation unit; assumptions; strongest competing explanation; contrary evidence; missing information; and main-agent disposition. The claim history marks exploratory findings honestly. W1-03 and W1-04 use comparable premises. Source uncertainty stays visible. W1 may yield an unresolved premise and a narrower permitted analysis; completion does not require inventing a resolution.
 
-Output location after acceptance: docs/evidence/scientific-review/ (create when actual evidence exists). Use the claim-audit schema in OUTPUT_SCHEMAS.json. Update affected state and claims only after review; do not mark all W1 complete because one extraction packet finishes.
+Output location after acceptance: docs/evidence/scientific-review/ for supporting notes and docs/records/ for each typed claim-audit JSON. Use the dispatched claim-audit schema in OUTPUT_SCHEMAS.json. Update affected state and claims only after review; do not mark all W1 complete because one extraction packet finishes.

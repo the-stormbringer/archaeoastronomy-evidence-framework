@@ -15,7 +15,8 @@
         "evidence",
         "limitations",
         "worker_verdict",
-        "main_agent_disposition"
+        "main_agent_disposition",
+        "record_type"
       ],
       "properties": {
         "claim_id": {
@@ -75,8 +76,67 @@
             "rejected",
             "unresolved"
           ]
+        },
+        "record_type": {
+          "const": "claim_audit"
+        },
+        "accepted_evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            }
+          }
+        },
+        "reviewer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_locator": {
+          "type": "string",
+          "minLength": 1
         }
-      }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "main_agent_disposition": {
+                "enum": [
+                  "accepted_as_attributed",
+                  "qualified"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "accepted_evidence",
+              "reviewer",
+              "source_locator"
+            ],
+            "properties": {
+              "assumptions": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      ]
     },
     "experiment_result": {
       "type": "object",
@@ -93,7 +153,8 @@
         "result_scope",
         "outcome",
         "output_path",
-        "review_status"
+        "review_status",
+        "record_type"
       ],
       "properties": {
         "experiment": {
@@ -129,7 +190,8 @@
           "additionalProperties": {
             "type": "string",
             "pattern": "^[a-f0-9]{64}$"
-          }
+          },
+          "minProperties": 1
         },
         "complete": {
           "type": "boolean"
@@ -157,8 +219,67 @@
             "revise",
             "rejected"
           ]
+        },
+        "record_type": {
+          "const": "experiment_result"
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            }
+          }
+        },
+        "reviewer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "interpretation": {
+          "type": "string",
+          "minLength": 1
         }
-      }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "review_status": {
+                "const": "accepted"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "evidence",
+              "reviewer",
+              "interpretation"
+            ]
+          }
+        }
+      ]
     }
-  }
+  },
+  "oneOf": [
+    {
+      "$ref": "#/$defs/claim_audit"
+    },
+    {
+      "$ref": "#/$defs/experiment_result"
+    }
+  ]
 }

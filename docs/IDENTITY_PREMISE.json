@@ -1,0 +1,14 @@
+{
+  "claim": "C06 and compatible-control premise",
+  "script": "analysis/identity_chronology_checks.py",
+  "script_sha256": "6622669a286d256007cc813bdda855b4474bf4815b0a92c8b2a7a11af2a54587",
+  "documentary_crosswalk": "docs/evidence/source_reconciliation-2026-10-22/monograph2025/alignment_A_identity.csv",
+  "crosswalk_sha256": "bb9a2b8088c622753e2d2371c3b045ba148b0a42b58aecc1a21a383675333b49",
+  "encoded_squares": {
+    "A-4": "r/20",
+    "A-X": "r/20",
+    "A-5": "x/20",
+    "A-6": "x/20"
+  },
+  "scope": "This guard detects changes to the reviewed crosswalk or frozen calculation. It does not verify the primary page, scale or physical identity, and never rewrites historical results. E4 must separately audit these premises."
+}
