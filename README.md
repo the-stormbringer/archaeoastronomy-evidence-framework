@@ -44,4 +44,4 @@ A clone contains everything needed for numerical reproduction. Primary publicati
 
 Published coordinate versions are dependent evidence. Membership and point identities remain partly unresolved; quarry chronology does not directly date individual rows. Mathematical bounds are conditional scenarios, not confidence intervals. The current paper and framework claims remain under review.
 
-This is a local research repository. Author attribution and an outbound licence have not been finalized; see [RIGHTS.md](RIGHTS.md). No public release or submission is implied by repository initialization.
+This public working-research repository includes the curated analysis, evidence ledgers, provisional manuscript, plans and review protocols. Public availability does not establish scientific acceptance or paper submission. Author attribution and an outbound licence have not been finalized; see [RIGHTS.md](RIGHTS.md).
