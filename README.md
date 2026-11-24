@@ -6,6 +6,9 @@ A source-critical case study of the published radial alignments at Nabta Playa: 
 
 ## Start here
 
+- **New maintainer:** read the [continuation handoff](docs/HANDOFF.md), [data dictionary](data/DICTIONARY.md) and [source catalogue](docs/sources/README.md).
+- **Known issue:** [hosted numerical reproduction fails](docs/validation/hosted-2026-11-24/README.md) despite passing repository checks and 34 tests; investigation remains open.
+
 - [Deep audit and dispositions](docs/audits/2026-11-23-DEEP_AUDIT.md), [strict acceptance criteria](docs/ACCEPTANCE_CRITERIA.md) and [claim evidence map](docs/CLAIM_EVIDENCE_MAP.json).
 - [Action plan](docs/PROJECT_PLAN.md), [current state](docs/PROJECT_STATE.json) and [research charter](docs/RESEARCH_CHARTER.md).
 - [Assumptions](docs/protocols/ASSUMPTIONS.md), [experiment protocol](docs/protocols/EXPERIMENT_PROTOCOL.md) and [next work packages](docs/work_packages/README.md).

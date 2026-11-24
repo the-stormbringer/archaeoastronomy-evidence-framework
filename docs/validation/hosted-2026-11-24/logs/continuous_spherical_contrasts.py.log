@@ -1,0 +1,139 @@
+{
+  "input_sha256": "5955de94f1c0fd8c1df37f2b60a4cb46e73ba66a61875676a66cf22e7c2f7cdf",
+  "mpmath_version": "1.4.1",
+  "interval_decimal_precision": 35,
+  "point_formula_vs_pyproj_sphere_max_difference_deg": 3.857536512441584e-11,
+  "all_refined_northern_contrasts_positive": true,
+  "domain": "Every stone and shared origin within independent +/-0.00005-degree latitude/longitude intervals; original printed table memberships.",
+  "caveats": [
+    "Interval-library numerical enclosure, not a formal proof-assistant certificate.",
+    "No probability distribution assigned.",
+    "Spherical model only; does not certify earlier WGS84 grid results.",
+    "No identity correction or ancient-position inference.",
+    "Repeated WM coordinate version is not independent evidence."
+  ]
+}
+[
+  {
+    "source": "BR2005_GPS2003",
+    "contrast": "A2 minus A3",
+    "origin_axis_subdivisions": 16,
+    "origin_boxes": 256,
+    "lower_enclosure_deg": 0.5618764135660927,
+    "upper_enclosure_deg": 2.5875071414274387,
+    "strictly_positive": true,
+    "scope": "Spherical arithmetic mean; table membership; continuous nearest-rounding coordinate boxes; shared origin; no physical displacement model"
+  },
+  {
+    "source": "BR2005_GPS2003",
+    "contrast": "A1 minus A2",
+    "origin_axis_subdivisions": 16,
+    "origin_boxes": 256,
+    "lower_enclosure_deg": 0.9606892283362488,
+    "upper_enclosure_deg": 3.735907005725532,
+    "strictly_positive": true,
+    "scope": "Spherical arithmetic mean; table membership; continuous nearest-rounding coordinate boxes; shared origin; no physical displacement model"
+  },
+  {
+    "source": "BR2005_GPS2003",
+    "contrast": "A1 minus A3",
+    "origin_axis_subdivisions": 16,
+    "origin_boxes": 256,
+    "lower_enclosure_deg": 2.536258253673707,
+    "upper_enclosure_deg": 5.298013997118012,
+    "strictly_positive": true,
+    "scope": "Spherical arithmetic mean; table membership; continuous nearest-rounding coordinate boxes; shared origin; no physical displacement model"
+  },
+  {
+    "source": "BR2005_QB2002",
+    "contrast": "A2 minus A3",
+    "origin_axis_subdivisions": 16,
+    "origin_boxes": 256,
+    "lower_enclosure_deg": 0.7505935471312003,
+    "upper_enclosure_deg": 2.7458915240448802,
+    "strictly_positive": true,
+    "scope": "Spherical arithmetic mean; table membership; continuous nearest-rounding coordinate boxes; shared origin; no physical displacement model"
+  },
+  {
+    "source": "BR2005_QB2002",
+    "contrast": "A1 minus A2",
+    "origin_axis_subdivisions": 16,
+    "origin_boxes": 256,
+    "lower_enclosure_deg": 1.2122969857229957,
+    "upper_enclosure_deg": 3.961470794936597,
+    "strictly_positive": true,
+    "scope": "Spherical arithmetic mean; table membership; continuous nearest-rounding coordinate boxes; shared origin; no physical displacement model"
+  },
+  {
+    "source": "BR2005_QB2002",
+    "contrast": "A1 minus A3",
+    "origin_axis_subdivisions": 16,
+    "origin_boxes": 256,
+    "lower_enclosure_deg": 2.9613964252826164,
+    "upper_enclosure_deg": 5.697568809281186,
+    "strictly_positive": true,
+    "scope": "Spherical arithmetic mean; table membership; continuous nearest-rounding coordinate boxes; shared origin; no physical displacement model"
+  },
+  {
+    "source": "BR2005_repeated_WM2001",
+    "contrast": "A2 minus A3",
+    "origin_axis_subdivisions": 16,
+    "origin_boxes": 256,
+    "lower_enclosure_deg": 0.7736237585707623,
+    "upper_enclosure_deg": 2.7644336807167713,
+    "strictly_positive": true,
+    "scope": "Spherical arithmetic mean; table membership; continuous nearest-rounding coordinate boxes; shared origin; no physical displacement model"
+  },
+  {
+    "source": "BR2005_repeated_WM2001",
+    "contrast": "A1 minus A2",
+    "origin_axis_subdivisions": 16,
+    "origin_boxes": 256,
+    "lower_enclosure_deg": 1.2673504676305196,
+    "upper_enclosure_deg": 4.039788654494733,
+    "strictly_positive": true,
+    "scope": "Spherical arithmetic mean; table membership; continuous nearest-rounding coordinate boxes; shared origin; no physical displacement model"
+  },
+  {
+    "source": "BR2005_repeated_WM2001",
+    "contrast": "A1 minus A3",
+    "origin_axis_subdivisions": 16,
+    "origin_boxes": 256,
+    "lower_enclosure_deg": 3.037235822824854,
+    "upper_enclosure_deg": 5.797275914848044,
+    "strictly_positive": true,
+    "scope": "Spherical arithmetic mean; table membership; continuous nearest-rounding coordinate boxes; shared origin; no physical displacement model"
+  },
+  {
+    "source": "WM2001_original",
+    "contrast": "A2 minus A3",
+    "origin_axis_subdivisions": 16,
+    "origin_boxes": 256,
+    "lower_enclosure_deg": 0.7736237585707623,
+    "upper_enclosure_deg": 2.7644336807167713,
+    "strictly_positive": true,
+    "scope": "Spherical arithmetic mean; table membership; continuous nearest-rounding coordinate boxes; shared origin; no physical displacement model"
+  },
+  {
+    "source": "WM2001_original",
+    "contrast": "A1 minus A2",
+    "origin_axis_subdivisions": 16,
+    "origin_boxes": 256,
+    "lower_enclosure_deg": 1.2673504676305196,
+    "upper_enclosure_deg": 4.039788654494733,
+    "strictly_positive": true,
+    "scope": "Spherical arithmetic mean; table membership; continuous nearest-rounding coordinate boxes; shared origin; no physical displacement model"
+  },
+  {
+    "source": "WM2001_original",
+    "contrast": "A1 minus A3",
+    "origin_axis_subdivisions": 16,
+    "origin_boxes": 256,
+    "lower_enclosure_deg": 3.037235822824854,
+    "upper_enclosure_deg": 5.797275914848044,
+    "strictly_positive": true,
+    "scope": "Spherical arithmetic mean; table membership; continuous nearest-rounding coordinate boxes; shared origin; no physical displacement model"
+  }
+]
+
+STDERR:

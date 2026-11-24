@@ -1,0 +1,14 @@
+{
+  "python": "3.13.15 (main, Aug 11 2026, 08:30:27) [GCC 16.2.0]",
+  "numpy": "2.3.5",
+  "coordinate_cell_east_m": 10.28903316609649,
+  "coordinate_cell_north_m": 11.07371913479206,
+  "rounding_half_diagonal_m": 7.557966971502545,
+  "grid_convergence_at_A_deg": -0.8710658451535253,
+  "notes": [
+    "All numbers are audit diagnostics, not validated archaeological estimates.",
+    "Rounding draws assume independent uniform quantization cells, including an origin shared across row stones. This is not a survey-error model.",
+    "Exact empirical bootstrap excludes only zero-variance samples; low unique counts are tabulated, not validated as confidence intervals.",
+    "Table16.1 C-8 is provisionally keyed C-6 solely for a coordinate-version comparison; no identity adjudication."
+  ]
+}

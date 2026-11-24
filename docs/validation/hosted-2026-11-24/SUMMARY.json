@@ -1,0 +1,93 @@
+[
+  {
+    "file": "analysis/case-study-2026-10-24/claim_register.csv",
+    "agreement": true,
+    "reported_differences": 0,
+    "max_reported_absolute_difference": 0,
+    "nonnumeric_differences": []
+  },
+  {
+    "file": "analysis/case-study-2026-10-24/continuous_spherical_contrasts.csv",
+    "agreement": true,
+    "reported_differences": 0,
+    "max_reported_absolute_difference": 0,
+    "nonnumeric_differences": []
+  },
+  {
+    "file": "analysis/geometry-comparison-2026-10-23/combination_family_check.csv",
+    "agreement": false,
+    "reported_differences": 8,
+    "max_reported_absolute_difference": 2.0691004465334117e-11,
+    "nonnumeric_differences": []
+  },
+  {
+    "file": "analysis/geometry-comparison-2026-10-23/comparisons.csv",
+    "agreement": false,
+    "reported_differences": 29,
+    "max_reported_absolute_difference": 2.0691004465334117e-11,
+    "nonnumeric_differences": []
+  },
+  {
+    "file": "analysis/geometry-comparison-2026-10-23/declination_scenarios.csv",
+    "agreement": false,
+    "reported_differences": 105,
+    "max_reported_absolute_difference": 2.0744295170516125e-11,
+    "nonnumeric_differences": []
+  },
+  {
+    "file": "analysis/geometry-comparison-2026-10-23/estimand_comparison.csv",
+    "agreement": false,
+    "reported_differences": 61,
+    "max_reported_absolute_difference": 2.1643131731252652e-11,
+    "nonnumeric_differences": []
+  },
+  {
+    "file": "analysis/geometry-comparison-2026-10-23/membership_comparison.csv",
+    "agreement": false,
+    "reported_differences": 4,
+    "max_reported_absolute_difference": 4.259703700881801e-12,
+    "nonnumeric_differences": []
+  },
+  {
+    "file": "analysis/geometry-comparison-2026-10-23/origin_scenarios.csv",
+    "agreement": false,
+    "reported_differences": 157,
+    "max_reported_absolute_difference": 8.256506589532364e-11,
+    "nonnumeric_differences": []
+  },
+  {
+    "file": "analysis/geometry-comparison-2026-10-23/rounding_scenarios.csv",
+    "agreement": false,
+    "reported_differences": 48,
+    "max_reported_absolute_difference": 2.3035795493342448e-11,
+    "nonnumeric_differences": []
+  },
+  {
+    "file": "analysis/geometry-comparison-2026-10-23/shared_origin_contrasts.csv",
+    "agreement": false,
+    "reported_differences": 30,
+    "max_reported_absolute_difference": 3.887024035975628e-11,
+    "nonnumeric_differences": []
+  },
+  {
+    "file": "analysis/identity-chronology-2026-10-24/chronology_compatibility.csv",
+    "agreement": true,
+    "reported_differences": 0,
+    "max_reported_absolute_difference": 0,
+    "nonnumeric_differences": []
+  },
+  {
+    "file": "analysis/identity-chronology-2026-10-24/date_label_comparison.csv",
+    "agreement": true,
+    "reported_differences": 0,
+    "max_reported_absolute_difference": 0,
+    "nonnumeric_differences": []
+  },
+  {
+    "file": "analysis/identity-chronology-2026-10-24/same_cell_screen.csv",
+    "agreement": false,
+    "reported_differences": 4,
+    "max_reported_absolute_difference": 3.5209524185120245e-10,
+    "nonnumeric_differences": []
+  }
+]

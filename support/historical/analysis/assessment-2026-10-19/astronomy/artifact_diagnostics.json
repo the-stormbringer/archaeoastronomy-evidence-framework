@@ -1,0 +1,559 @@
+{
+  "survey_rows": 254,
+  "survey_fields": [
+    "Gaia_ID",
+    "Name",
+    "Mag",
+    "Ancient_Dec",
+    "Dist_to_Pole_Deg",
+    "Status"
+  ],
+  "survey_magnitude_min": 1.9425238,
+  "survey_statuses": {
+    "Rise/Set": 239,
+    "Never Rises": 12,
+    "Circumpolar": 3
+  },
+  "match_rows": 132,
+  "match_unique_stars": 35,
+  "unique_star_target_event": 44,
+  "per_target_rows_and_unique_stars": {
+    "Calendar Circle Axis": {
+      "rows": 24,
+      "unique_stars": 8,
+      "azimuths": [
+        "61.8"
+      ]
+    },
+    "Line A (East)": {
+      "rows": 21,
+      "unique_stars": 7,
+      "azimuths": [
+        "90.0"
+      ]
+    },
+    "Meridian (North)": {
+      "rows": 18,
+      "unique_stars": 3,
+      "azimuths": [
+        "0.0"
+      ]
+    },
+    "PCA: gps2003": {
+      "rows": 21,
+      "unique_stars": 7,
+      "azimuths": [
+        "314.43"
+      ]
+    },
+    "PCA: legacy": {
+      "rows": 18,
+      "unique_stars": 6,
+      "azimuths": [
+        "311.35"
+      ]
+    },
+    "PCA: quickbird": {
+      "rows": 30,
+      "unique_stars": 10,
+      "azimuths": [
+        "316.75"
+      ]
+    }
+  },
+  "epoch_spans_deg": {
+    "min": 0.0,
+    "max": 0.010000000000047748
+  },
+  "north_matches": [
+    {
+      "Common_Name": "* gam Cep",
+      "Star": "2281778105594488192",
+      "Epoch": "-5500",
+      "Event": "Rise",
+      "Calculated_Az": "0.0",
+      "Target_Align": "Meridian (North)",
+      "Target_Az": "0.0",
+      "Error": "0.0",
+      "Type": "Manual",
+      "Robustness": "STRONG (All 3)"
+    },
+    {
+      "Common_Name": "* gam Cep",
+      "Star": "2281778105594488192",
+      "Epoch": "-5500",
+      "Event": "Set",
+      "Calculated_Az": "0.0",
+      "Target_Align": "Meridian (North)",
+      "Target_Az": "0.0",
+      "Error": "0.0",
+      "Type": "Manual",
+      "Robustness": "STRONG (All 3)"
+    },
+    {
+      "Common_Name": "* gam UMi",
+      "Star": "1696877570753454208",
+      "Epoch": "-5500",
+      "Event": "Rise",
+      "Calculated_Az": "0.0",
+      "Target_Align": "Meridian (North)",
+      "Target_Az": "0.0",
+      "Error": "0.0",
+      "Type": "Manual",
+      "Robustness": "STRONG (All 3)"
+    },
+    {
+      "Common_Name": "* gam UMi",
+      "Star": "1696877570753454208",
+      "Epoch": "-5500",
+      "Event": "Set",
+      "Calculated_Az": "0.0",
+      "Target_Align": "Meridian (North)",
+      "Target_Az": "0.0",
+      "Error": "0.0",
+      "Type": "Manual",
+      "Robustness": "STRONG (All 3)"
+    },
+    {
+      "Common_Name": "* lam Dra",
+      "Star": "1061909811871141504",
+      "Epoch": "-5500",
+      "Event": "Rise",
+      "Calculated_Az": "0.0",
+      "Target_Align": "Meridian (North)",
+      "Target_Az": "0.0",
+      "Error": "0.0",
+      "Type": "Manual",
+      "Robustness": "STRONG (All 3)"
+    },
+    {
+      "Common_Name": "* lam Dra",
+      "Star": "1061909811871141504",
+      "Epoch": "-5500",
+      "Event": "Set",
+      "Calculated_Az": "0.0",
+      "Target_Align": "Meridian (North)",
+      "Target_Az": "0.0",
+      "Error": "0.0",
+      "Type": "Manual",
+      "Robustness": "STRONG (All 3)"
+    },
+    {
+      "Common_Name": "* gam Cep",
+      "Star": "2281778105594488192",
+      "Epoch": "-5000",
+      "Event": "Rise",
+      "Calculated_Az": "0.0",
+      "Target_Align": "Meridian (North)",
+      "Target_Az": "0.0",
+      "Error": "0.0",
+      "Type": "Manual",
+      "Robustness": "STRONG (All 3)"
+    },
+    {
+      "Common_Name": "* gam Cep",
+      "Star": "2281778105594488192",
+      "Epoch": "-5000",
+      "Event": "Set",
+      "Calculated_Az": "0.0",
+      "Target_Align": "Meridian (North)",
+      "Target_Az": "0.0",
+      "Error": "0.0",
+      "Type": "Manual",
+      "Robustness": "STRONG (All 3)"
+    },
+    {
+      "Common_Name": "* gam UMi",
+      "Star": "1696877570753454208",
+      "Epoch": "-5000",
+      "Event": "Rise",
+      "Calculated_Az": "0.0",
+      "Target_Align": "Meridian (North)",
+      "Target_Az": "0.0",
+      "Error": "0.0",
+      "Type": "Manual",
+      "Robustness": "STRONG (All 3)"
+    },
+    {
+      "Common_Name": "* gam UMi",
+      "Star": "1696877570753454208",
+      "Epoch": "-5000",
+      "Event": "Set",
+      "Calculated_Az": "0.0",
+      "Target_Align": "Meridian (North)",
+      "Target_Az": "0.0",
+      "Error": "0.0",
+      "Type": "Manual",
+      "Robustness": "STRONG (All 3)"
+    },
+    {
+      "Common_Name": "* lam Dra",
+      "Star": "1061909811871141504",
+      "Epoch": "-5000",
+      "Event": "Rise",
+      "Calculated_Az": "0.0",
+      "Target_Align": "Meridian (North)",
+      "Target_Az": "0.0",
+      "Error": "0.0",
+      "Type": "Manual",
+      "Robustness": "STRONG (All 3)"
+    },
+    {
+      "Common_Name": "* lam Dra",
+      "Star": "1061909811871141504",
+      "Epoch": "-5000",
+      "Event": "Set",
+      "Calculated_Az": "0.0",
+      "Target_Align": "Meridian (North)",
+      "Target_Az": "0.0",
+      "Error": "0.0",
+      "Type": "Manual",
+      "Robustness": "STRONG (All 3)"
+    },
+    {
+      "Common_Name": "* gam Cep",
+      "Star": "2281778105594488192",
+      "Epoch": "-4500",
+      "Event": "Rise",
+      "Calculated_Az": "0.0",
+      "Target_Align": "Meridian (North)",
+      "Target_Az": "0.0",
+      "Error": "0.0",
+      "Type": "Manual",
+      "Robustness": "STRONG (All 3)"
+    },
+    {
+      "Common_Name": "* gam Cep",
+      "Star": "2281778105594488192",
+      "Epoch": "-4500",
+      "Event": "Set",
+      "Calculated_Az": "0.0",
+      "Target_Align": "Meridian (North)",
+      "Target_Az": "0.0",
+      "Error": "0.0",
+      "Type": "Manual",
+      "Robustness": "STRONG (All 3)"
+    },
+    {
+      "Common_Name": "* gam UMi",
+      "Star": "1696877570753454208",
+      "Epoch": "-4500",
+      "Event": "Rise",
+      "Calculated_Az": "0.0",
+      "Target_Align": "Meridian (North)",
+      "Target_Az": "0.0",
+      "Error": "0.0",
+      "Type": "Manual",
+      "Robustness": "STRONG (All 3)"
+    },
+    {
+      "Common_Name": "* gam UMi",
+      "Star": "1696877570753454208",
+      "Epoch": "-4500",
+      "Event": "Set",
+      "Calculated_Az": "0.0",
+      "Target_Align": "Meridian (North)",
+      "Target_Az": "0.0",
+      "Error": "0.0",
+      "Type": "Manual",
+      "Robustness": "STRONG (All 3)"
+    },
+    {
+      "Common_Name": "* lam Dra",
+      "Star": "1061909811871141504",
+      "Epoch": "-4500",
+      "Event": "Rise",
+      "Calculated_Az": "0.0",
+      "Target_Align": "Meridian (North)",
+      "Target_Az": "0.0",
+      "Error": "0.0",
+      "Type": "Manual",
+      "Robustness": "STRONG (All 3)"
+    },
+    {
+      "Common_Name": "* lam Dra",
+      "Star": "1061909811871141504",
+      "Epoch": "-4500",
+      "Event": "Set",
+      "Calculated_Az": "0.0",
+      "Target_Align": "Meridian (North)",
+      "Target_Az": "0.0",
+      "Error": "0.0",
+      "Type": "Manual",
+      "Robustness": "STRONG (All 3)"
+    }
+  ],
+  "geom_rows": 18,
+  "constellation_rows": 24,
+  "constellation_zero_rows": [
+    {
+      "Alignment_Feature": "Calendar Circle Axis",
+      "Constellation": "Gem",
+      "Hits": "9",
+      "Stars_Involved": "ups Gem, eps Gem, kap Gem",
+      "P_Value": "0.0",
+      "Verdict": "VERY SIGNIFICANT"
+    },
+    {
+      "Alignment_Feature": "Line A (East)",
+      "Constellation": "Vir",
+      "Hits": "9",
+      "Stars_Involved": "zet Vir, gam Vir, bet Vir",
+      "P_Value": "0.0",
+      "Verdict": "VERY SIGNIFICANT"
+    },
+    {
+      "Alignment_Feature": "Meridian (North)",
+      "Constellation": "Cep",
+      "Hits": "6",
+      "Stars_Involved": "gam Cep",
+      "P_Value": "0.0",
+      "Verdict": "VERY SIGNIFICANT"
+    },
+    {
+      "Alignment_Feature": "Meridian (North)",
+      "Constellation": "Dra",
+      "Hits": "6",
+      "Stars_Involved": "lam Dra",
+      "P_Value": "0.0",
+      "Verdict": "VERY SIGNIFICANT"
+    },
+    {
+      "Alignment_Feature": "PCA: gps2003",
+      "Constellation": "Aur",
+      "Hits": "6",
+      "Stars_Involved": "zet Aur, eta Aur",
+      "P_Value": "0.0",
+      "Verdict": "VERY SIGNIFICANT"
+    },
+    {
+      "Alignment_Feature": "PCA: legacy",
+      "Constellation": "Her",
+      "Hits": "9",
+      "Stars_Involved": "tet Her, pi. Her, eta Her",
+      "P_Value": "0.0",
+      "Verdict": "VERY SIGNIFICANT"
+    },
+    {
+      "Alignment_Feature": "PCA: quickbird",
+      "Constellation": "Aur",
+      "Hits": "9",
+      "Stars_Involved": "eps Aur, eta Aur, zet Aur",
+      "P_Value": "0.0",
+      "Verdict": "VERY SIGNIFICANT"
+    }
+  ],
+  "astropy_api": {
+    "version": "7.2.0",
+    "kuiper": true,
+    "kuipertest": false,
+    "watson_williams_test": false,
+    "rayleightest": true
+  },
+  "precession_comparison": {
+    "reference": "ERFA ltp, Vondrak et al 2011 long-term mean equator/equinox precession",
+    "values": [
+      {
+        "astro_year": -6500,
+        "Julian_epoch": -6499.826146475018,
+        "rotation_difference_arcsec": 701.896710562771
+      },
+      {
+        "astro_year": -6000,
+        "Julian_epoch": -5999.837097878166,
+        "rotation_difference_arcsec": 487.85322653250313
+      },
+      {
+        "astro_year": -5500,
+        "Julian_epoch": -5499.845311430527,
+        "rotation_difference_arcsec": 331.20999072039007
+      },
+      {
+        "astro_year": -5000,
+        "Julian_epoch": -4999.856262833676,
+        "rotation_difference_arcsec": 219.07550698265902
+      },
+      {
+        "astro_year": -4500,
+        "Julian_epoch": -4499.867214236824,
+        "rotation_difference_arcsec": 140.75509511731167
+      },
+      {
+        "astro_year": 2000,
+        "Julian_epoch": 1999.9986310746065,
+        "rotation_difference_arcsec": 0.0
+      }
+    ],
+    "caution": "Matrix rotation difference is model spread, not a calibrated error bound; no stellar/solar results recomputed."
+  },
+  "ephemeris_segments": [
+    {
+      "center": 2,
+      "target": 299,
+      "start_jd": -3100015.5,
+      "end_jd": 2440432.5
+    },
+    {
+      "center": 1,
+      "target": 199,
+      "start_jd": -3100015.5,
+      "end_jd": 2440432.5
+    },
+    {
+      "center": 3,
+      "target": 399,
+      "start_jd": -3100015.5,
+      "end_jd": 2440432.5
+    },
+    {
+      "center": 3,
+      "target": 301,
+      "start_jd": -3100015.5,
+      "end_jd": 2440432.5
+    },
+    {
+      "center": 0,
+      "target": 10,
+      "start_jd": -3100015.5,
+      "end_jd": 2440432.5
+    },
+    {
+      "center": 0,
+      "target": 9,
+      "start_jd": -3100015.5,
+      "end_jd": 2440432.5
+    },
+    {
+      "center": 0,
+      "target": 8,
+      "start_jd": -3100015.5,
+      "end_jd": 2440432.5
+    },
+    {
+      "center": 0,
+      "target": 7,
+      "start_jd": -3100015.5,
+      "end_jd": 2440432.5
+    },
+    {
+      "center": 0,
+      "target": 6,
+      "start_jd": -3100015.5,
+      "end_jd": 2440432.5
+    },
+    {
+      "center": 0,
+      "target": 5,
+      "start_jd": -3100015.5,
+      "end_jd": 2440432.5
+    },
+    {
+      "center": 0,
+      "target": 4,
+      "start_jd": -3100015.5,
+      "end_jd": 2440432.5
+    },
+    {
+      "center": 0,
+      "target": 3,
+      "start_jd": -3100015.5,
+      "end_jd": 2440432.5
+    },
+    {
+      "center": 0,
+      "target": 2,
+      "start_jd": -3100015.5,
+      "end_jd": 2440432.5
+    },
+    {
+      "center": 0,
+      "target": 1,
+      "start_jd": -3100015.5,
+      "end_jd": 2440432.5
+    },
+    {
+      "center": 2,
+      "target": 299,
+      "start_jd": 2440432.5,
+      "end_jd": 8000016.5
+    },
+    {
+      "center": 1,
+      "target": 199,
+      "start_jd": 2440432.5,
+      "end_jd": 8000016.5
+    },
+    {
+      "center": 3,
+      "target": 399,
+      "start_jd": 2440432.5,
+      "end_jd": 8000016.5
+    },
+    {
+      "center": 3,
+      "target": 301,
+      "start_jd": 2440432.5,
+      "end_jd": 8000016.5
+    },
+    {
+      "center": 0,
+      "target": 10,
+      "start_jd": 2440432.5,
+      "end_jd": 8000016.5
+    },
+    {
+      "center": 0,
+      "target": 9,
+      "start_jd": 2440432.5,
+      "end_jd": 8000016.5
+    },
+    {
+      "center": 0,
+      "target": 8,
+      "start_jd": 2440432.5,
+      "end_jd": 8000016.5
+    },
+    {
+      "center": 0,
+      "target": 7,
+      "start_jd": 2440432.5,
+      "end_jd": 8000016.5
+    },
+    {
+      "center": 0,
+      "target": 6,
+      "start_jd": 2440432.5,
+      "end_jd": 8000016.5
+    },
+    {
+      "center": 0,
+      "target": 5,
+      "start_jd": 2440432.5,
+      "end_jd": 8000016.5
+    },
+    {
+      "center": 0,
+      "target": 4,
+      "start_jd": 2440432.5,
+      "end_jd": 8000016.5
+    },
+    {
+      "center": 0,
+      "target": 3,
+      "start_jd": 2440432.5,
+      "end_jd": 8000016.5
+    },
+    {
+      "center": 0,
+      "target": 2,
+      "start_jd": 2440432.5,
+      "end_jd": 8000016.5
+    },
+    {
+      "center": 0,
+      "target": 1,
+      "start_jd": 2440432.5,
+      "end_jd": 8000016.5
+    }
+  ]
+}

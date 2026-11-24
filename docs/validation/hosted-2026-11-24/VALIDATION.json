@@ -1,0 +1,2931 @@
+{
+  "passed": false,
+  "generated_artifacts_sha256": {
+    "work/analysis/case-study-2026-10-24/CLAIMS.md": "81a387c6b54bb72c668ae19d486bc44787b3149c6bd2727990ee144a81d81e99",
+    "work/analysis/case-study-2026-10-24/claim_register.csv": "f518b4bdbe0494df4a10bd5f697437b736e69f7855664b7904ffd58d304cabb8",
+    "work/analysis/case-study-2026-10-24/continuous_spherical_contrasts.csv": "7c1a0be41f981b0b296fec73bea9b3ac9dd861660cc8b519083c9292ae5ef3e3",
+    "work/analysis/case-study-2026-10-24/continuous_validation.json": "864770ba2106b6543e47c309c3356dc646e779b79a9c0c300d5eee336314d73f",
+    "work/analysis/case-study-2026-10-24/independent_interval_validation.json": "1bcda8666bb7189fdc30be1ed8a53c7c73050fe56f4094c81f71c57af94962e0",
+    "work/analysis/geometry-comparison-2026-10-23/combination_family_check.csv": "714a18b72fac3c8eea4d6b6dfb31a425949655a83993db3d29ee405faeedc260",
+    "work/analysis/geometry-comparison-2026-10-23/comparisons.csv": "84f384a359b2225c934e7e946e15db9e0a8c7ba30cdd2c7d2fb91aeceac9ec22",
+    "work/analysis/geometry-comparison-2026-10-23/declination_scenarios.csv": "2d00d65a5f459605f40915bb71699a74fe1e00beeeea2e2ee9999856d08e19cb",
+    "work/analysis/geometry-comparison-2026-10-23/estimand_comparison.csv": "1a833faeaa3bedf2dfaa5bc6dffef28df2d2fd9397c309e4d4e5abd9d8822094",
+    "work/analysis/geometry-comparison-2026-10-23/estimand_validation.json": "ca6df88d0a382e68e294907f8152e8d977ebe98da9cc330e56c6230a5fe9abc1",
+    "work/analysis/geometry-comparison-2026-10-23/membership_comparison.csv": "a9902255a6125292f993075957043e9da87144448307d3f41f3db70cd9d77426",
+    "work/analysis/geometry-comparison-2026-10-23/method_gate_validation.json": "a85f437f48fec775335ed41d344fbece5927819342becd5e473367ed5fdd643a",
+    "work/analysis/geometry-comparison-2026-10-23/origin_scenarios.csv": "4953655c7a7d51a76626f781a93122763bf2fe6c3a523a98fbd0f8b2b3f963ef",
+    "work/analysis/geometry-comparison-2026-10-23/rounding_scenarios.csv": "bc216e8780ae1ee3737fc0ed11d4ee11bfed10de2fbf59735eb101dce56742cf",
+    "work/analysis/geometry-comparison-2026-10-23/sensitivity_validation.json": "c5efa5b09c4c305053f57887c07df5155921408e87ba3b4afc627213a2085e86",
+    "work/analysis/geometry-comparison-2026-10-23/shared_origin_contrasts.csv": "393c9e8edf5f9c9770d18de9a3c19b518ffafbfbbf419f9879de20f74e1be65b",
+    "work/analysis/geometry-comparison-2026-10-23/validation.json": "15fb078b353df688f6ff3c4c9491154216eedc47b87ed7ae86bab3ab70c7d8d4",
+    "work/analysis/identity-chronology-2026-10-24/chronology_compatibility.csv": "187078f91db0ff8ff392456d92fe91630b594dfdef95ebc5cb126e8c9734b8fc",
+    "work/analysis/identity-chronology-2026-10-24/date_label_comparison.csv": "082aee39455401a19b2626b0db85317c101e646cdc0f8367adf4c1244494c8c6",
+    "work/analysis/identity-chronology-2026-10-24/same_cell_screen.csv": "feaade2ca9ffe8ff803b1bf5adf0a8d7b76e332bda444d8df3ce1689a1ccacdb",
+    "work/analysis/identity-chronology-2026-10-24/validation.json": "e0f7a25e9b5fb03ac81b1677dd68f0ff79f275e638e3ca0db97588235a7e1019"
+  },
+  "scope": "Numerical repeatability, not archaeological or external scientific acceptance",
+  "provenance": {
+    "started_utc": "2026-11-24T13:52:14.677329+00:00",
+    "git_revision": "0d8b1ebb528a6e845ed0382cbd7d9781157523ae",
+    "git_worktree_dirty": false,
+    "platform": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43",
+    "contract_sha256": "3b5ae613e0cd47d665e2820553f11958223e0768132e6f7bcd58abb2ec5714d8",
+    "locked_files_sha256": {
+      "analysis/build_claim_register.py": "7b3a230cbd61e9304eeee840675aa28d38b4b35370c3ff83040c223945a481b4",
+      "analysis/chronology_compatibility.py": "35e926b5fd87be022a437bc2209d6bd29f9b878390aa44d699a9796432258f58",
+      "analysis/continuous_spherical_contrasts.py": "f96237244f62e2fb1fb2d8cdfa78fc51d46fa6cc7005d0fc99df3fb4d2052d3e",
+      "analysis/estimand_comparison.py": "1024a8fcb446413bd07b2c9cb7d177d6fa197f19de39070f87ab64f5d36fe265",
+      "analysis/geometry_comparison.py": "4870f8bfa0a42cec8116150b4c889331b7511ea405c5b897c1f5a5e28b27cbc7",
+      "analysis/geometry_sensitivity.py": "fc295d28391c7ac5db858da3556e8ef297a83a812ba42f5199256f10a2468bac",
+      "analysis/identity_chronology_checks.py": "6622669a286d256007cc813bdda855b4474bf4815b0a92c8b2a7a11af2a54587",
+      "analysis/method_gate.py": "274c486e8781a07fe0120cc2cf96cefe56a4139dccc436260bfd96c8a423338c",
+      "analysis/shared_origin_contrasts.py": "74359fb3a9521bed869dc3f1e7ed565f3715fce115b02312891be3eb05a0d2ca",
+      "analysis/validate_continuous_contrasts.py": "0791a802a3d646171ccec916ff5c7429b528d2826640db94ad8cd10014ecd4e3",
+      "data/reference/analysis/case-study-2026-10-24/claim_register.csv": "f518b4bdbe0494df4a10bd5f697437b736e69f7855664b7904ffd58d304cabb8",
+      "data/reference/analysis/case-study-2026-10-24/continuous_spherical_contrasts.csv": "7c1a0be41f981b0b296fec73bea9b3ac9dd861660cc8b519083c9292ae5ef3e3",
+      "data/reference/analysis/geometry-comparison-2026-10-23/combination_family_check.csv": "f618efaab2b146686cadf535aae37aeda7bc9cc61d72c42750640283d315f436",
+      "data/reference/analysis/geometry-comparison-2026-10-23/comparisons.csv": "f508ebd56f7ee46320aedbdbbe02076b4c6f6b78d4b67718900f231a4278c3ef",
+      "data/reference/analysis/geometry-comparison-2026-10-23/declination_scenarios.csv": "a4336ef0a3d278de3a1ee7b8ee32d28836b26097007b62292197f4c5c36d4967",
+      "data/reference/analysis/geometry-comparison-2026-10-23/estimand_comparison.csv": "e14c5331b555639049896453f96b89d9c5f594e9173bb00672fc99805cc13e66",
+      "data/reference/analysis/geometry-comparison-2026-10-23/membership_comparison.csv": "db2faf00214f26410eecc887e3e913c545c47d2a9c39cf43f1917bdc554c4af2",
+      "data/reference/analysis/geometry-comparison-2026-10-23/origin_scenarios.csv": "0fc763fe35084fc604913269500552d401581368a261f09543506a104f83c773",
+      "data/reference/analysis/geometry-comparison-2026-10-23/rounding_scenarios.csv": "8ee0c3c9d0222f95dbd7c8cb397f496c46d5b701cc1c1fa75953c99fdc57bd28",
+      "data/reference/analysis/geometry-comparison-2026-10-23/shared_origin_contrasts.csv": "6effef8f4bc0a779da401e84e8222797491425f352c8910d7511d2bdc2a276a3",
+      "data/reference/analysis/identity-chronology-2026-10-24/chronology_compatibility.csv": "187078f91db0ff8ff392456d92fe91630b594dfdef95ebc5cb126e8c9734b8fc",
+      "data/reference/analysis/identity-chronology-2026-10-24/date_label_comparison.csv": "082aee39455401a19b2626b0db85317c101e646cdc0f8367adf4c1244494c8c6",
+      "data/reference/analysis/identity-chronology-2026-10-24/same_cell_screen.csv": "9ef8563231b255b5c55713ca650234dc633cb3165176a17ae0180f7d2d95ddde",
+      "data/source/membership_scenarios.csv": "9236d957d7b3f69cfb25c9ec8e6b7b78b6e1101f3be55b201ab55a3b0d17d9ce",
+      "data/source/published_claims.csv": "7ba1f8040e68371957e8472fa51cf2849f3b8875aac3b3b86ae53c3f86f6d2ea",
+      "data/source/source_coordinate_observations.csv": "5955de94f1c0fd8c1df37f2b60a4cb46e73ba66a61875676a66cf22e7c2f7cdf"
+    },
+    "runner_files_sha256": {
+      "scripts/check_repository.py": "99079e7d2efe09e6a3daf650666cdbd1c4c966c5f15b1f81e7d1909d5f9f2db2",
+      "scripts/governance.py": "98ae98795085a1bd3cf7d4f098c9b60abe550803240ee2e7fde3a41c6f113597",
+      "scripts/repository.py": "706ed2fab55c6d70f9d7d85bf9aeaabdfe954be01d479452d343913b0432d420",
+      "scripts/reproduce.py": "60b2b0f7e7bb6ecfa70c160c722b97dc1de172adec0495c995e141b96b47e572"
+    },
+    "requirements_sha256": "bffd303810d839b62d1d993b35ab123f1ebd6f440035120d09a8e59213b0b5ab",
+    "command": [
+      "/opt/hostedtoolcache/Python/3.13.18/x64/bin/python",
+      "scripts/reproduce.py"
+    ],
+    "environment_scope": "Selected non-secret execution settings only; not a complete machine image",
+    "python_utf8": "1",
+    "python_optimized": false,
+    "staged_files_sha256": {
+      "analysis/geometry_comparison.py": "4870f8bfa0a42cec8116150b4c889331b7511ea405c5b897c1f5a5e28b27cbc7",
+      "analysis/geometry_sensitivity.py": "fc295d28391c7ac5db858da3556e8ef297a83a812ba42f5199256f10a2468bac",
+      "analysis/method_gate.py": "274c486e8781a07fe0120cc2cf96cefe56a4139dccc436260bfd96c8a423338c",
+      "analysis/estimand_comparison.py": "1024a8fcb446413bd07b2c9cb7d177d6fa197f19de39070f87ab64f5d36fe265",
+      "analysis/shared_origin_contrasts.py": "74359fb3a9521bed869dc3f1e7ed565f3715fce115b02312891be3eb05a0d2ca",
+      "analysis/identity_chronology_checks.py": "6622669a286d256007cc813bdda855b4474bf4815b0a92c8b2a7a11af2a54587",
+      "analysis/chronology_compatibility.py": "35e926b5fd87be022a437bc2209d6bd29f9b878390aa44d699a9796432258f58",
+      "analysis/continuous_spherical_contrasts.py": "f96237244f62e2fb1fb2d8cdfa78fc51d46fa6cc7005d0fc99df3fb4d2052d3e",
+      "analysis/validate_continuous_contrasts.py": "0791a802a3d646171ccec916ff5c7429b528d2826640db94ad8cd10014ecd4e3",
+      "analysis/build_claim_register.py": "7b3a230cbd61e9304eeee840675aa28d38b4b35370c3ff83040c223945a481b4",
+      "data/source/membership_scenarios.csv": "9236d957d7b3f69cfb25c9ec8e6b7b78b6e1101f3be55b201ab55a3b0d17d9ce",
+      "data/source/published_claims.csv": "7ba1f8040e68371957e8472fa51cf2849f3b8875aac3b3b86ae53c3f86f6d2ea",
+      "data/source/source_coordinate_observations.csv": "5955de94f1c0fd8c1df37f2b60a4cb46e73ba66a61875676a66cf22e7c2f7cdf"
+    }
+  },
+  "completed_utc": "2026-11-24T13:52:18.432396+00:00",
+  "python": "3.13.18 (main, Oct 26 2026, 14:19:33) [GCC 15.2.0]",
+  "dependencies": {
+    "numpy": "2.4.6",
+    "pyproj": "3.7.2",
+    "mpmath": "1.4.1",
+    "certifi": "2026.7.22",
+    "jsonschema": "4.26.0"
+  },
+  "scripts": [
+    {
+      "script": "geometry_comparison.py",
+      "exit_code": 0
+    },
+    {
+      "script": "geometry_sensitivity.py",
+      "exit_code": 0
+    },
+    {
+      "script": "method_gate.py",
+      "exit_code": 0
+    },
+    {
+      "script": "estimand_comparison.py",
+      "exit_code": 0
+    },
+    {
+      "script": "shared_origin_contrasts.py",
+      "exit_code": 0
+    },
+    {
+      "script": "identity_chronology_checks.py",
+      "exit_code": 0
+    },
+    {
+      "script": "chronology_compatibility.py",
+      "exit_code": 0
+    },
+    {
+      "script": "continuous_spherical_contrasts.py",
+      "exit_code": 0
+    },
+    {
+      "script": "validate_continuous_contrasts.py",
+      "exit_code": 0
+    },
+    {
+      "script": "build_claim_register.py",
+      "exit_code": 0
+    }
+  ],
+  "tables": [
+    {
+      "file": "analysis/case-study-2026-10-24/claim_register.csv",
+      "exists": true,
+      "byte_identical": true,
+      "agreement": true,
+      "differences": []
+    },
+    {
+      "file": "analysis/case-study-2026-10-24/continuous_spherical_contrasts.csv",
+      "exists": true,
+      "byte_identical": true,
+      "agreement": true,
+      "differences": []
+    },
+    {
+      "file": "analysis/geometry-comparison-2026-10-23/combination_family_check.csv",
+      "exists": true,
+      "byte_identical": false,
+      "agreement": false,
+      "differences": [
+        {
+          "row": 4,
+          "field": "input_max_deg",
+          "absolute_difference": 4.007461029686965e-12,
+          "accepted": false
+        },
+        {
+          "row": 8,
+          "field": "input_max_deg",
+          "absolute_difference": 4.142464149481384e-12,
+          "accepted": false
+        },
+        {
+          "row": 10,
+          "field": "input_min_deg",
+          "absolute_difference": 2.0691004465334117e-11,
+          "accepted": false
+        },
+        {
+          "row": 10,
+          "field": "input_max_deg",
+          "absolute_difference": 3.3573144264664734e-12,
+          "accepted": false
+        },
+        {
+          "row": 10,
+          "field": "outside_convex_range_deg",
+          "absolute_difference": 2.0691004465334117e-11,
+          "accepted": false
+        },
+        {
+          "row": 13,
+          "field": "input_min_deg",
+          "absolute_difference": 2.5011104298755527e-12,
+          "accepted": false
+        },
+        {
+          "row": 13,
+          "field": "input_max_deg",
+          "absolute_difference": 6.821210263296962e-12,
+          "accepted": false
+        },
+        {
+          "row": 13,
+          "field": "outside_convex_range_deg",
+          "absolute_difference": 6.821210263296962e-12,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "file": "analysis/geometry-comparison-2026-10-23/comparisons.csv",
+      "exists": true,
+      "byte_identical": false,
+      "agreement": false,
+      "differences": [
+        {
+          "row": 2,
+          "field": "circular_mean_deg",
+          "absolute_difference": 3.552713678800501e-15,
+          "accepted": false
+        },
+        {
+          "row": 8,
+          "field": "arithmetic_mean_deg",
+          "absolute_difference": 4.142464149481384e-12,
+          "accepted": false
+        },
+        {
+          "row": 8,
+          "field": "circular_mean_deg",
+          "absolute_difference": 4.142464149481384e-12,
+          "accepted": false
+        },
+        {
+          "row": 10,
+          "field": "arithmetic_mean_deg",
+          "absolute_difference": 2.0691004465334117e-11,
+          "accepted": false
+        },
+        {
+          "row": 10,
+          "field": "circular_mean_deg",
+          "absolute_difference": 2.0680346324297716e-11,
+          "accepted": false
+        },
+        {
+          "row": 13,
+          "field": "arithmetic_mean_deg",
+          "absolute_difference": 6.821210263296962e-12,
+          "accepted": false
+        },
+        {
+          "row": 13,
+          "field": "circular_mean_deg",
+          "absolute_difference": 6.821210263296962e-12,
+          "accepted": false
+        },
+        {
+          "row": 16,
+          "field": "arithmetic_mean_deg",
+          "absolute_difference": 4.007461029686965e-12,
+          "accepted": false
+        },
+        {
+          "row": 16,
+          "field": "circular_mean_deg",
+          "absolute_difference": 4.007461029686965e-12,
+          "accepted": false
+        },
+        {
+          "row": 22,
+          "field": "arithmetic_mean_deg",
+          "absolute_difference": 3.3573144264664734e-12,
+          "accepted": false
+        },
+        {
+          "row": 22,
+          "field": "circular_mean_deg",
+          "absolute_difference": 3.3502089991088724e-12,
+          "accepted": false
+        },
+        {
+          "row": 25,
+          "field": "arithmetic_mean_deg",
+          "absolute_difference": 2.5011104298755527e-12,
+          "accepted": false
+        },
+        {
+          "row": 25,
+          "field": "circular_mean_deg",
+          "absolute_difference": 2.5011104298755527e-12,
+          "accepted": false
+        },
+        {
+          "row": 26,
+          "field": "arithmetic_mean_deg",
+          "absolute_difference": 3.090860900556436e-12,
+          "accepted": false
+        },
+        {
+          "row": 26,
+          "field": "circular_mean_deg",
+          "absolute_difference": 3.083755473198835e-12,
+          "accepted": false
+        },
+        {
+          "row": 31,
+          "field": "arithmetic_mean_deg",
+          "absolute_difference": 2.5295321393059567e-12,
+          "accepted": false
+        },
+        {
+          "row": 31,
+          "field": "circular_mean_deg",
+          "absolute_difference": 2.5579538487363607e-12,
+          "accepted": false
+        },
+        {
+          "row": 34,
+          "field": "arithmetic_mean_deg",
+          "absolute_difference": 3.40349970429088e-12,
+          "accepted": false
+        },
+        {
+          "row": 34,
+          "field": "circular_mean_deg",
+          "absolute_difference": 3.40349970429088e-12,
+          "accepted": false
+        },
+        {
+          "row": 37,
+          "field": "arithmetic_mean_deg",
+          "absolute_difference": 2.8421709430404007e-13,
+          "accepted": false
+        },
+        {
+          "row": 37,
+          "field": "circular_mean_deg",
+          "absolute_difference": 2.8421709430404007e-13,
+          "accepted": false
+        },
+        {
+          "row": 38,
+          "field": "arithmetic_mean_deg",
+          "absolute_difference": 3.090860900556436e-12,
+          "accepted": false
+        },
+        {
+          "row": 38,
+          "field": "circular_mean_deg",
+          "absolute_difference": 3.083755473198835e-12,
+          "accepted": false
+        },
+        {
+          "row": 43,
+          "field": "arithmetic_mean_deg",
+          "absolute_difference": 2.5295321393059567e-12,
+          "accepted": false
+        },
+        {
+          "row": 43,
+          "field": "circular_mean_deg",
+          "absolute_difference": 2.5295321393059567e-12,
+          "accepted": false
+        },
+        {
+          "row": 46,
+          "field": "arithmetic_mean_deg",
+          "absolute_difference": 3.40349970429088e-12,
+          "accepted": false
+        },
+        {
+          "row": 46,
+          "field": "circular_mean_deg",
+          "absolute_difference": 3.40349970429088e-12,
+          "accepted": false
+        },
+        {
+          "row": 49,
+          "field": "arithmetic_mean_deg",
+          "absolute_difference": 2.7284841053187847e-12,
+          "accepted": false
+        },
+        {
+          "row": 49,
+          "field": "circular_mean_deg",
+          "absolute_difference": 2.7569058147491887e-12,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "file": "analysis/geometry-comparison-2026-10-23/declination_scenarios.csv",
+      "exists": true,
+      "byte_identical": false,
+      "agreement": false,
+      "differences": [
+        {
+          "row": 2,
+          "field": "declination_max_deg",
+          "absolute_difference": 2.9274360713316128e-12,
+          "accepted": false
+        },
+        {
+          "row": 2,
+          "field": "declination_width_deg",
+          "absolute_difference": 2.9274360713316128e-12,
+          "accepted": false
+        },
+        {
+          "row": 3,
+          "field": "declination_max_deg",
+          "absolute_difference": 2.9771740628348198e-12,
+          "accepted": false
+        },
+        {
+          "row": 3,
+          "field": "declination_width_deg",
+          "absolute_difference": 2.9771740628348198e-12,
+          "accepted": false
+        },
+        {
+          "row": 4,
+          "field": "declination_max_deg",
+          "absolute_difference": 3.0269120543380268e-12,
+          "accepted": false
+        },
+        {
+          "row": 4,
+          "field": "declination_width_deg",
+          "absolute_difference": 3.0269120543380268e-12,
+          "accepted": false
+        },
+        {
+          "row": 5,
+          "field": "declination_min_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": false
+        },
+        {
+          "row": 5,
+          "field": "declination_width_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": false
+        },
+        {
+          "row": 6,
+          "field": "declination_min_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": false
+        },
+        {
+          "row": 6,
+          "field": "declination_width_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": false
+        },
+        {
+          "row": 7,
+          "field": "declination_min_deg",
+          "absolute_difference": 1.4210854715202004e-14,
+          "accepted": false
+        },
+        {
+          "row": 7,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.4210854715202004e-14,
+          "accepted": false
+        },
+        {
+          "row": 11,
+          "field": "declination_min_deg",
+          "absolute_difference": 1.0096812275151024e-11,
+          "accepted": false
+        },
+        {
+          "row": 11,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.0096812275151024e-11,
+          "accepted": false
+        },
+        {
+          "row": 12,
+          "field": "declination_min_deg",
+          "absolute_difference": 1.0057732424684218e-11,
+          "accepted": false
+        },
+        {
+          "row": 12,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.0057732424684218e-11,
+          "accepted": false
+        },
+        {
+          "row": 13,
+          "field": "declination_min_deg",
+          "absolute_difference": 1.0011547146859812e-11,
+          "accepted": false
+        },
+        {
+          "row": 13,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.0011547146859812e-11,
+          "accepted": false
+        },
+        {
+          "row": 14,
+          "field": "declination_max_deg",
+          "absolute_difference": 1.6761703136580763e-11,
+          "accepted": false
+        },
+        {
+          "row": 14,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.6761703136580763e-11,
+          "accepted": false
+        },
+        {
+          "row": 15,
+          "field": "declination_max_deg",
+          "absolute_difference": 1.6694201576683554e-11,
+          "accepted": false
+        },
+        {
+          "row": 15,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.6694201576683554e-11,
+          "accepted": false
+        },
+        {
+          "row": 16,
+          "field": "declination_max_deg",
+          "absolute_difference": 1.6626700016786344e-11,
+          "accepted": false
+        },
+        {
+          "row": 16,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.6626700016786344e-11,
+          "accepted": false
+        },
+        {
+          "row": 17,
+          "field": "declination_max_deg",
+          "absolute_difference": 2.3732127374387346e-12,
+          "accepted": false
+        },
+        {
+          "row": 17,
+          "field": "declination_width_deg",
+          "absolute_difference": 2.3732127374387346e-12,
+          "accepted": false
+        },
+        {
+          "row": 18,
+          "field": "declination_max_deg",
+          "absolute_difference": 2.3661073100811336e-12,
+          "accepted": false
+        },
+        {
+          "row": 18,
+          "field": "declination_width_deg",
+          "absolute_difference": 2.3661073100811336e-12,
+          "accepted": false
+        },
+        {
+          "row": 19,
+          "field": "declination_max_deg",
+          "absolute_difference": 2.3447910280083306e-12,
+          "accepted": false
+        },
+        {
+          "row": 19,
+          "field": "declination_width_deg",
+          "absolute_difference": 2.3447910280083306e-12,
+          "accepted": false
+        },
+        {
+          "row": 20,
+          "field": "declination_min_deg",
+          "absolute_difference": 3.0269120543380268e-12,
+          "accepted": false
+        },
+        {
+          "row": 20,
+          "field": "declination_max_deg",
+          "absolute_difference": 1.4210854715202004e-14,
+          "accepted": false
+        },
+        {
+          "row": 20,
+          "field": "declination_width_deg",
+          "absolute_difference": 3.0127011996228248e-12,
+          "accepted": false
+        },
+        {
+          "row": 21,
+          "field": "declination_min_deg",
+          "absolute_difference": 3.062439191126032e-12,
+          "accepted": false
+        },
+        {
+          "row": 21,
+          "field": "declination_max_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": false
+        },
+        {
+          "row": 21,
+          "field": "declination_width_deg",
+          "absolute_difference": 3.055333763768431e-12,
+          "accepted": false
+        },
+        {
+          "row": 22,
+          "field": "declination_min_deg",
+          "absolute_difference": 3.126388037344441e-12,
+          "accepted": false
+        },
+        {
+          "row": 22,
+          "field": "declination_max_deg",
+          "absolute_difference": 1.4210854715202004e-14,
+          "accepted": false
+        },
+        {
+          "row": 22,
+          "field": "declination_width_deg",
+          "absolute_difference": 3.112177182629239e-12,
+          "accepted": false
+        },
+        {
+          "row": 26,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.6005864128819667e-12,
+          "accepted": false
+        },
+        {
+          "row": 26,
+          "field": "declination_max_deg",
+          "absolute_difference": 5.144329406903125e-12,
+          "accepted": false
+        },
+        {
+          "row": 26,
+          "field": "declination_width_deg",
+          "absolute_difference": 7.744915819785092e-12,
+          "accepted": false
+        },
+        {
+          "row": 27,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.6361135496699717e-12,
+          "accepted": false
+        },
+        {
+          "row": 27,
+          "field": "declination_max_deg",
+          "absolute_difference": 5.208278253121534e-12,
+          "accepted": false
+        },
+        {
+          "row": 27,
+          "field": "declination_width_deg",
+          "absolute_difference": 7.844391802791506e-12,
+          "accepted": false
+        },
+        {
+          "row": 28,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.6574298317427747e-12,
+          "accepted": false
+        },
+        {
+          "row": 28,
+          "field": "declination_max_deg",
+          "absolute_difference": 5.286437954055145e-12,
+          "accepted": false
+        },
+        {
+          "row": 28,
+          "field": "declination_width_deg",
+          "absolute_difference": 7.94386778579792e-12,
+          "accepted": false
+        },
+        {
+          "row": 32,
+          "field": "declination_min_deg",
+          "absolute_difference": 1.2395418025334948e-11,
+          "accepted": false
+        },
+        {
+          "row": 32,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.2395418025334948e-11,
+          "accepted": false
+        },
+        {
+          "row": 33,
+          "field": "declination_min_deg",
+          "absolute_difference": 1.2349232747510541e-11,
+          "accepted": false
+        },
+        {
+          "row": 33,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.2349232747510541e-11,
+          "accepted": false
+        },
+        {
+          "row": 34,
+          "field": "declination_min_deg",
+          "absolute_difference": 1.2285283901292132e-11,
+          "accepted": false
+        },
+        {
+          "row": 34,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.2285283901292132e-11,
+          "accepted": false
+        },
+        {
+          "row": 35,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.1316282072803006e-14,
+          "accepted": false
+        },
+        {
+          "row": 35,
+          "field": "declination_max_deg",
+          "absolute_difference": 1.9895196601282805e-12,
+          "accepted": false
+        },
+        {
+          "row": 35,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.9682033780554775e-12,
+          "accepted": false
+        },
+        {
+          "row": 36,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.842170943040401e-14,
+          "accepted": false
+        },
+        {
+          "row": 36,
+          "field": "declination_max_deg",
+          "absolute_difference": 1.9610979506978765e-12,
+          "accepted": false
+        },
+        {
+          "row": 36,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.9326762412674725e-12,
+          "accepted": false
+        },
+        {
+          "row": 37,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.1316282072803006e-14,
+          "accepted": false
+        },
+        {
+          "row": 37,
+          "field": "declination_max_deg",
+          "absolute_difference": 1.9610979506978765e-12,
+          "accepted": false
+        },
+        {
+          "row": 37,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.9397816686250735e-12,
+          "accepted": false
+        },
+        {
+          "row": 44,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.8279600883251987e-12,
+          "accepted": false
+        },
+        {
+          "row": 44,
+          "field": "declination_max_deg",
+          "absolute_difference": 1.660538373471354e-11,
+          "accepted": false
+        },
+        {
+          "row": 44,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.3777423646388343e-11,
+          "accepted": false
+        },
+        {
+          "row": 45,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.8705926524708048e-12,
+          "accepted": false
+        },
+        {
+          "row": 45,
+          "field": "declination_max_deg",
+          "absolute_difference": 1.6854073692229576e-11,
+          "accepted": false
+        },
+        {
+          "row": 45,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.3983481039758772e-11,
+          "accepted": false
+        },
+        {
+          "row": 46,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.9061197892588098e-12,
+          "accepted": false
+        },
+        {
+          "row": 46,
+          "field": "declination_max_deg",
+          "absolute_difference": 1.709565822238801e-11,
+          "accepted": false
+        },
+        {
+          "row": 46,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.41895384331292e-11,
+          "accepted": false
+        },
+        {
+          "row": 50,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.0744295170516125e-11,
+          "accepted": false
+        },
+        {
+          "row": 50,
+          "field": "declination_width_deg",
+          "absolute_difference": 2.0744295170516125e-11,
+          "accepted": false
+        },
+        {
+          "row": 51,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.0666135469582514e-11,
+          "accepted": false
+        },
+        {
+          "row": 51,
+          "field": "declination_width_deg",
+          "absolute_difference": 2.0666135469582514e-11,
+          "accepted": false
+        },
+        {
+          "row": 52,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.05666594865761e-11,
+          "accepted": false
+        },
+        {
+          "row": 52,
+          "field": "declination_width_deg",
+          "absolute_difference": 2.05666594865761e-11,
+          "accepted": false
+        },
+        {
+          "row": 53,
+          "field": "declination_max_deg",
+          "absolute_difference": 4.263256414560601e-14,
+          "accepted": false
+        },
+        {
+          "row": 53,
+          "field": "declination_width_deg",
+          "absolute_difference": 4.263256414560601e-14,
+          "accepted": false
+        },
+        {
+          "row": 54,
+          "field": "declination_max_deg",
+          "absolute_difference": 3.552713678800501e-14,
+          "accepted": false
+        },
+        {
+          "row": 54,
+          "field": "declination_width_deg",
+          "absolute_difference": 3.552713678800501e-14,
+          "accepted": false
+        },
+        {
+          "row": 55,
+          "field": "declination_max_deg",
+          "absolute_difference": 4.263256414560601e-14,
+          "accepted": false
+        },
+        {
+          "row": 55,
+          "field": "declination_width_deg",
+          "absolute_difference": 4.263256414560601e-14,
+          "accepted": false
+        },
+        {
+          "row": 62,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.8279600883251987e-12,
+          "accepted": false
+        },
+        {
+          "row": 62,
+          "field": "declination_max_deg",
+          "absolute_difference": 1.660538373471354e-11,
+          "accepted": false
+        },
+        {
+          "row": 62,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.3777423646388343e-11,
+          "accepted": false
+        },
+        {
+          "row": 63,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.8705926524708048e-12,
+          "accepted": false
+        },
+        {
+          "row": 63,
+          "field": "declination_max_deg",
+          "absolute_difference": 1.6854073692229576e-11,
+          "accepted": false
+        },
+        {
+          "row": 63,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.3983481039758772e-11,
+          "accepted": false
+        },
+        {
+          "row": 64,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.9061197892588098e-12,
+          "accepted": false
+        },
+        {
+          "row": 64,
+          "field": "declination_max_deg",
+          "absolute_difference": 1.709565822238801e-11,
+          "accepted": false
+        },
+        {
+          "row": 64,
+          "field": "declination_width_deg",
+          "absolute_difference": 1.41895384331292e-11,
+          "accepted": false
+        },
+        {
+          "row": 68,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.0744295170516125e-11,
+          "accepted": false
+        },
+        {
+          "row": 68,
+          "field": "declination_width_deg",
+          "absolute_difference": 2.0744295170516125e-11,
+          "accepted": false
+        },
+        {
+          "row": 69,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.0666135469582514e-11,
+          "accepted": false
+        },
+        {
+          "row": 69,
+          "field": "declination_width_deg",
+          "absolute_difference": 2.0666135469582514e-11,
+          "accepted": false
+        },
+        {
+          "row": 70,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.05666594865761e-11,
+          "accepted": false
+        },
+        {
+          "row": 70,
+          "field": "declination_width_deg",
+          "absolute_difference": 2.05666594865761e-11,
+          "accepted": false
+        },
+        {
+          "row": 71,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.842170943040401e-14,
+          "accepted": false
+        },
+        {
+          "row": 71,
+          "field": "declination_width_deg",
+          "absolute_difference": 2.842170943040401e-14,
+          "accepted": false
+        },
+        {
+          "row": 72,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.842170943040401e-14,
+          "accepted": false
+        },
+        {
+          "row": 72,
+          "field": "declination_width_deg",
+          "absolute_difference": 2.842170943040401e-14,
+          "accepted": false
+        },
+        {
+          "row": 73,
+          "field": "declination_min_deg",
+          "absolute_difference": 2.1316282072803006e-14,
+          "accepted": false
+        },
+        {
+          "row": 73,
+          "field": "declination_width_deg",
+          "absolute_difference": 2.1316282072803006e-14,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "file": "analysis/geometry-comparison-2026-10-23/estimand_comparison.csv",
+      "exists": true,
+      "byte_identical": false,
+      "agreement": false,
+      "differences": [
+        {
+          "row": 2,
+          "field": "arithmetic_radial_mean_deg",
+          "absolute_difference": 4.142464149481384e-12,
+          "accepted": false
+        },
+        {
+          "row": 2,
+          "field": "circular_radial_mean_deg",
+          "absolute_difference": 4.142464149481384e-12,
+          "accepted": false
+        },
+        {
+          "row": 2,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 4.170885858911788e-12,
+          "accepted": true
+        },
+        {
+          "row": 2,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 2.842170943040401e-14,
+          "accepted": true
+        },
+        {
+          "row": 3,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 3.552713678800501e-15,
+          "accepted": true
+        },
+        {
+          "row": 3,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 3.552713678800501e-15,
+          "accepted": true
+        },
+        {
+          "row": 4,
+          "field": "arithmetic_radial_mean_deg",
+          "absolute_difference": 2.0691004465334117e-11,
+          "accepted": false
+        },
+        {
+          "row": 4,
+          "field": "circular_radial_mean_deg",
+          "absolute_difference": 2.0680346324297716e-11,
+          "accepted": false
+        },
+        {
+          "row": 4,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 2.1643131731252652e-11,
+          "accepted": true
+        },
+        {
+          "row": 4,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 9.521272659185342e-13,
+          "accepted": true
+        },
+        {
+          "row": 4,
+          "field": "circular_minus_arithmetic_deg",
+          "absolute_difference": 1.0658141036401503e-14,
+          "accepted": false
+        },
+        {
+          "row": 5,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 2.984279490192421e-13,
+          "accepted": true
+        },
+        {
+          "row": 5,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 2.984279490192421e-13,
+          "accepted": true
+        },
+        {
+          "row": 7,
+          "field": "arithmetic_radial_mean_deg",
+          "absolute_difference": 6.821210263296962e-12,
+          "accepted": false
+        },
+        {
+          "row": 7,
+          "field": "circular_radial_mean_deg",
+          "absolute_difference": 6.821210263296962e-12,
+          "accepted": false
+        },
+        {
+          "row": 7,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 6.16751094639767e-12,
+          "accepted": true
+        },
+        {
+          "row": 7,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 6.536993168992922e-13,
+          "accepted": true
+        },
+        {
+          "row": 9,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 1.4210854715202004e-13,
+          "accepted": true
+        },
+        {
+          "row": 9,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 1.4210854715202004e-13,
+          "accepted": true
+        },
+        {
+          "row": 10,
+          "field": "arithmetic_radial_mean_deg",
+          "absolute_difference": 3.3573144264664734e-12,
+          "accepted": false
+        },
+        {
+          "row": 10,
+          "field": "circular_radial_mean_deg",
+          "absolute_difference": 3.3502089991088724e-12,
+          "accepted": false
+        },
+        {
+          "row": 10,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 2.8137492336099967e-12,
+          "accepted": true
+        },
+        {
+          "row": 10,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 5.435651928564766e-13,
+          "accepted": true
+        },
+        {
+          "row": 10,
+          "field": "circular_minus_arithmetic_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": false
+        },
+        {
+          "row": 11,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 7.105427357601002e-14,
+          "accepted": true
+        },
+        {
+          "row": 11,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 7.105427357601002e-14,
+          "accepted": true
+        },
+        {
+          "row": 12,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 8.526512829121202e-14,
+          "accepted": true
+        },
+        {
+          "row": 12,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 8.526512829121202e-14,
+          "accepted": true
+        },
+        {
+          "row": 13,
+          "field": "arithmetic_radial_mean_deg",
+          "absolute_difference": 2.5011104298755527e-12,
+          "accepted": false
+        },
+        {
+          "row": 13,
+          "field": "circular_radial_mean_deg",
+          "absolute_difference": 2.5011104298755527e-12,
+          "accepted": false
+        },
+        {
+          "row": 13,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 2.3021584638627246e-12,
+          "accepted": true
+        },
+        {
+          "row": 13,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 1.9895196601282805e-13,
+          "accepted": true
+        },
+        {
+          "row": 14,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": true
+        },
+        {
+          "row": 14,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": true
+        },
+        {
+          "row": 15,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": true
+        },
+        {
+          "row": 15,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": true
+        },
+        {
+          "row": 16,
+          "field": "arithmetic_radial_mean_deg",
+          "absolute_difference": 3.40349970429088e-12,
+          "accepted": false
+        },
+        {
+          "row": 16,
+          "field": "circular_radial_mean_deg",
+          "absolute_difference": 3.40349970429088e-12,
+          "accepted": false
+        },
+        {
+          "row": 16,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 3.3928415632544784e-12,
+          "accepted": true
+        },
+        {
+          "row": 16,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 1.0658141036401503e-14,
+          "accepted": true
+        },
+        {
+          "row": 17,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 2.5579538487363607e-13,
+          "accepted": true
+        },
+        {
+          "row": 17,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 2.5579538487363607e-13,
+          "accepted": true
+        },
+        {
+          "row": 19,
+          "field": "arithmetic_radial_mean_deg",
+          "absolute_difference": 2.8421709430404007e-13,
+          "accepted": false
+        },
+        {
+          "row": 19,
+          "field": "circular_radial_mean_deg",
+          "absolute_difference": 2.8421709430404007e-13,
+          "accepted": false
+        },
+        {
+          "row": 19,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 2.5579538487363607e-13,
+          "accepted": true
+        },
+        {
+          "row": 19,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 2.842170943040401e-14,
+          "accepted": true
+        },
+        {
+          "row": 20,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": true
+        },
+        {
+          "row": 20,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": true
+        },
+        {
+          "row": 21,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": true
+        },
+        {
+          "row": 21,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": true
+        },
+        {
+          "row": 22,
+          "field": "arithmetic_radial_mean_deg",
+          "absolute_difference": 3.40349970429088e-12,
+          "accepted": false
+        },
+        {
+          "row": 22,
+          "field": "circular_radial_mean_deg",
+          "absolute_difference": 3.40349970429088e-12,
+          "accepted": false
+        },
+        {
+          "row": 22,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 3.3928415632544784e-12,
+          "accepted": true
+        },
+        {
+          "row": 22,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 1.0658141036401503e-14,
+          "accepted": true
+        },
+        {
+          "row": 23,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 2.5579538487363607e-13,
+          "accepted": true
+        },
+        {
+          "row": 23,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 2.5579538487363607e-13,
+          "accepted": true
+        },
+        {
+          "row": 25,
+          "field": "arithmetic_radial_mean_deg",
+          "absolute_difference": 2.7284841053187847e-12,
+          "accepted": false
+        },
+        {
+          "row": 25,
+          "field": "circular_radial_mean_deg",
+          "absolute_difference": 2.7569058147491887e-12,
+          "accepted": false
+        },
+        {
+          "row": 25,
+          "field": "origin_constrained_TLS_deg",
+          "absolute_difference": 2.8705926524708048e-12,
+          "accepted": true
+        },
+        {
+          "row": 25,
+          "field": "TLS_minus_arithmetic_deg",
+          "absolute_difference": 1.4210854715202004e-13,
+          "accepted": true
+        },
+        {
+          "row": 25,
+          "field": "circular_minus_arithmetic_deg",
+          "absolute_difference": 2.842170943040401e-14,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "file": "analysis/geometry-comparison-2026-10-23/membership_comparison.csv",
+      "exists": true,
+      "byte_identical": false,
+      "agreement": false,
+      "differences": [
+        {
+          "row": 4,
+          "field": "mean_deg",
+          "absolute_difference": 4.259703700881801e-12,
+          "accepted": false
+        },
+        {
+          "row": 7,
+          "field": "mean_deg",
+          "absolute_difference": 3.296918293926865e-12,
+          "accepted": false
+        },
+        {
+          "row": 10,
+          "field": "mean_deg",
+          "absolute_difference": 3.40349970429088e-12,
+          "accepted": false
+        },
+        {
+          "row": 13,
+          "field": "mean_deg",
+          "absolute_difference": 2.7284841053187847e-12,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "file": "analysis/geometry-comparison-2026-10-23/origin_scenarios.csv",
+      "exists": true,
+      "byte_identical": false,
+      "agreement": false,
+      "differences": [
+        {
+          "row": 2,
+          "field": "sampled_min_deg",
+          "absolute_difference": 2.312816604899126e-12,
+          "accepted": false
+        },
+        {
+          "row": 2,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 1.829647544582258e-12,
+          "accepted": false
+        },
+        {
+          "row": 3,
+          "field": "sampled_min_deg",
+          "absolute_difference": 4.1389114358025836e-12,
+          "accepted": false
+        },
+        {
+          "row": 3,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 8.281375585283968e-12,
+          "accepted": false
+        },
+        {
+          "row": 4,
+          "field": "sampled_min_deg",
+          "absolute_difference": 4.238387418808998e-12,
+          "accepted": false
+        },
+        {
+          "row": 4,
+          "field": "sampled_max_deg",
+          "absolute_difference": 1.0658141036401503e-14,
+          "accepted": false
+        },
+        {
+          "row": 4,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 9.592326932761353e-14,
+          "accepted": false
+        },
+        {
+          "row": 5,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 4.142464149481384e-12,
+          "accepted": false
+        },
+        {
+          "row": 7,
+          "field": "sampled_max_deg",
+          "absolute_difference": 2.5778490453376435e-11,
+          "accepted": false
+        },
+        {
+          "row": 7,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 2.5778490453376435e-11,
+          "accepted": false
+        },
+        {
+          "row": 9,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.552713678800501e-15,
+          "accepted": false
+        },
+        {
+          "row": 9,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 3.552713678800501e-15,
+          "accepted": false
+        },
+        {
+          "row": 10,
+          "field": "sampled_min_deg",
+          "absolute_difference": 5.506706202140776e-13,
+          "accepted": false
+        },
+        {
+          "row": 10,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.4212632726848824e-12,
+          "accepted": false
+        },
+        {
+          "row": 10,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 2.1241675085548195e-11,
+          "accepted": false
+        },
+        {
+          "row": 11,
+          "field": "sampled_min_deg",
+          "absolute_difference": 5.400124791776761e-13,
+          "accepted": false
+        },
+        {
+          "row": 11,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.388578306839918e-11,
+          "accepted": false
+        },
+        {
+          "row": 11,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 2.1231016944511794e-11,
+          "accepted": false
+        },
+        {
+          "row": 12,
+          "field": "sampled_min_deg",
+          "absolute_difference": 2.1326940213839407e-11,
+          "accepted": false
+        },
+        {
+          "row": 12,
+          "field": "sampled_max_deg",
+          "absolute_difference": 5.755396159656812e-13,
+          "accepted": false
+        },
+        {
+          "row": 12,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 4.2017944679173524e-11,
+          "accepted": false
+        },
+        {
+          "row": 13,
+          "field": "sampled_min_deg",
+          "absolute_difference": 1.7479351299698465e-11,
+          "accepted": false
+        },
+        {
+          "row": 13,
+          "field": "sampled_max_deg",
+          "absolute_difference": 2.781064267765032e-11,
+          "accepted": false
+        },
+        {
+          "row": 13,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 3.817035576503258e-11,
+          "accepted": false
+        },
+        {
+          "row": 14,
+          "field": "sampled_min_deg",
+          "absolute_difference": 3.558398020686582e-11,
+          "accepted": false
+        },
+        {
+          "row": 14,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 3.558398020686582e-11,
+          "accepted": false
+        },
+        {
+          "row": 20,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.8824055081931874e-11,
+          "accepted": false
+        },
+        {
+          "row": 21,
+          "field": "sampled_max_deg",
+          "absolute_difference": 4.5645265345228836e-11,
+          "accepted": false
+        },
+        {
+          "row": 21,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 4.5645265345228836e-11,
+          "accepted": false
+        },
+        {
+          "row": 22,
+          "field": "sampled_min_deg",
+          "absolute_difference": 1.688249540165998e-11,
+          "accepted": false
+        },
+        {
+          "row": 22,
+          "field": "sampled_max_deg",
+          "absolute_difference": 4.718003765447065e-12,
+          "accepted": false
+        },
+        {
+          "row": 22,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 1.1539214028744027e-11,
+          "accepted": false
+        },
+        {
+          "row": 23,
+          "field": "sampled_min_deg",
+          "absolute_difference": 8.242295734817162e-12,
+          "accepted": false
+        },
+        {
+          "row": 23,
+          "field": "sampled_max_deg",
+          "absolute_difference": 7.574385563202668e-11,
+          "accepted": false
+        },
+        {
+          "row": 23,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 8.256506589532364e-11,
+          "accepted": false
+        },
+        {
+          "row": 24,
+          "field": "sampled_min_deg",
+          "absolute_difference": 9.748646334628575e-12,
+          "accepted": false
+        },
+        {
+          "row": 24,
+          "field": "sampled_max_deg",
+          "absolute_difference": 1.0317080523236655e-11,
+          "accepted": false
+        },
+        {
+          "row": 24,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 1.7138290786533616e-11,
+          "accepted": false
+        },
+        {
+          "row": 25,
+          "field": "sampled_min_deg",
+          "absolute_difference": 5.1159076974727213e-11,
+          "accepted": false
+        },
+        {
+          "row": 25,
+          "field": "sampled_max_deg",
+          "absolute_difference": 4.990852175978944e-11,
+          "accepted": false
+        },
+        {
+          "row": 25,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 5.67297320230864e-11,
+          "accepted": false
+        },
+        {
+          "row": 26,
+          "field": "sampled_max_deg",
+          "absolute_difference": 1.4431122963287635e-11,
+          "accepted": false
+        },
+        {
+          "row": 27,
+          "field": "sampled_min_deg",
+          "absolute_difference": 4.192202140984591e-12,
+          "accepted": false
+        },
+        {
+          "row": 27,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 4.192202140984591e-12,
+          "accepted": false
+        },
+        {
+          "row": 28,
+          "field": "sampled_min_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": false
+        },
+        {
+          "row": 28,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": false
+        },
+        {
+          "row": 30,
+          "field": "sampled_max_deg",
+          "absolute_difference": 1.0658141036401503e-14,
+          "accepted": false
+        },
+        {
+          "row": 30,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 1.0658141036401503e-14,
+          "accepted": false
+        },
+        {
+          "row": 34,
+          "field": "sampled_min_deg",
+          "absolute_difference": 3.346656285430072e-12,
+          "accepted": false
+        },
+        {
+          "row": 34,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.3644198538240744e-12,
+          "accepted": false
+        },
+        {
+          "row": 34,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 1.0658141036401503e-14,
+          "accepted": false
+        },
+        {
+          "row": 35,
+          "field": "sampled_min_deg",
+          "absolute_difference": 3.3146818623208674e-12,
+          "accepted": false
+        },
+        {
+          "row": 35,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.3999469906120794e-12,
+          "accepted": false
+        },
+        {
+          "row": 35,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 4.263256414560601e-14,
+          "accepted": false
+        },
+        {
+          "row": 36,
+          "field": "sampled_min_deg",
+          "absolute_difference": 1.1620926443356439e-11,
+          "accepted": false
+        },
+        {
+          "row": 36,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.446132268436486e-12,
+          "accepted": false
+        },
+        {
+          "row": 36,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 1.4978240869822912e-11,
+          "accepted": false
+        },
+        {
+          "row": 37,
+          "field": "sampled_min_deg",
+          "absolute_difference": 3.126388037344441e-12,
+          "accepted": false
+        },
+        {
+          "row": 37,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.581135388230905e-12,
+          "accepted": false
+        },
+        {
+          "row": 37,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 2.3092638912203256e-13,
+          "accepted": false
+        },
+        {
+          "row": 40,
+          "field": "sampled_max_deg",
+          "absolute_difference": 6.266986929404084e-11,
+          "accepted": false
+        },
+        {
+          "row": 41,
+          "field": "sampled_max_deg",
+          "absolute_difference": 7.027267656667391e-11,
+          "accepted": false
+        },
+        {
+          "row": 41,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 7.027267656667391e-11,
+          "accepted": false
+        },
+        {
+          "row": 43,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.2514435588382185e-11,
+          "accepted": false
+        },
+        {
+          "row": 43,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 3.2514435588382185e-11,
+          "accepted": false
+        },
+        {
+          "row": 44,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.413447302591521e-11,
+          "accepted": false
+        },
+        {
+          "row": 44,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 3.413447302591521e-11,
+          "accepted": false
+        },
+        {
+          "row": 46,
+          "field": "sampled_min_deg",
+          "absolute_difference": 1.1112888387287967e-11,
+          "accepted": false
+        },
+        {
+          "row": 46,
+          "field": "sampled_max_deg",
+          "absolute_difference": 4.149569576838985e-12,
+          "accepted": false
+        },
+        {
+          "row": 46,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 1.6484591469634324e-12,
+          "accepted": false
+        },
+        {
+          "row": 47,
+          "field": "sampled_min_deg",
+          "absolute_difference": 2.2737367544323206e-13,
+          "accepted": false
+        },
+        {
+          "row": 47,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.0127011996228248e-12,
+          "accepted": false
+        },
+        {
+          "row": 47,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 5.115907697472721e-13,
+          "accepted": false
+        },
+        {
+          "row": 48,
+          "field": "sampled_min_deg",
+          "absolute_difference": 2.90754087473033e-11,
+          "accepted": false
+        },
+        {
+          "row": 48,
+          "field": "sampled_max_deg",
+          "absolute_difference": 2.5579538487363607e-13,
+          "accepted": false
+        },
+        {
+          "row": 48,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 2.2453150450019166e-12,
+          "accepted": false
+        },
+        {
+          "row": 49,
+          "field": "sampled_min_deg",
+          "absolute_difference": 2.9558577807620168e-12,
+          "accepted": false
+        },
+        {
+          "row": 49,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.430500328249764e-11,
+          "accepted": false
+        },
+        {
+          "row": 49,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 3.1803892852622084e-11,
+          "accepted": false
+        },
+        {
+          "row": 50,
+          "field": "sampled_min_deg",
+          "absolute_difference": 4.163780431554187e-12,
+          "accepted": false
+        },
+        {
+          "row": 50,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 4.163780431554187e-12,
+          "accepted": false
+        },
+        {
+          "row": 51,
+          "field": "sampled_min_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": false
+        },
+        {
+          "row": 51,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.552713678800501e-15,
+          "accepted": false
+        },
+        {
+          "row": 51,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": false
+        },
+        {
+          "row": 54,
+          "field": "sampled_min_deg",
+          "absolute_difference": 1.4210854715202004e-14,
+          "accepted": false
+        },
+        {
+          "row": 55,
+          "field": "sampled_min_deg",
+          "absolute_difference": 3.552713678800501e-15,
+          "accepted": false
+        },
+        {
+          "row": 55,
+          "field": "sampled_max_deg",
+          "absolute_difference": 4.796163466380676e-11,
+          "accepted": false
+        },
+        {
+          "row": 55,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 4.796163466380676e-11,
+          "accepted": false
+        },
+        {
+          "row": 56,
+          "field": "sampled_min_deg",
+          "absolute_difference": 1.3706369372812333e-11,
+          "accepted": false
+        },
+        {
+          "row": 58,
+          "field": "sampled_min_deg",
+          "absolute_difference": 1.9305446130601922e-11,
+          "accepted": false
+        },
+        {
+          "row": 58,
+          "field": "sampled_max_deg",
+          "absolute_difference": 2.206235194535111e-11,
+          "accepted": false
+        },
+        {
+          "row": 58,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 2.2708945834892802e-11,
+          "accepted": false
+        },
+        {
+          "row": 59,
+          "field": "sampled_min_deg",
+          "absolute_difference": 3.360867140145274e-12,
+          "accepted": false
+        },
+        {
+          "row": 59,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.065991904804832e-11,
+          "accepted": false
+        },
+        {
+          "row": 59,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 4.263256414560601e-14,
+          "accepted": false
+        },
+        {
+          "row": 60,
+          "field": "sampled_min_deg",
+          "absolute_difference": 2.042099822574528e-11,
+          "accepted": false
+        },
+        {
+          "row": 60,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 2.382449793003616e-11,
+          "accepted": false
+        },
+        {
+          "row": 61,
+          "field": "sampled_min_deg",
+          "absolute_difference": 3.183231456205249e-12,
+          "accepted": false
+        },
+        {
+          "row": 61,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.146993776681484e-11,
+          "accepted": false
+        },
+        {
+          "row": 61,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 2.2026824808563106e-13,
+          "accepted": false
+        },
+        {
+          "row": 62,
+          "field": "sampled_min_deg",
+          "absolute_difference": 3.579714302759385e-11,
+          "accepted": false
+        },
+        {
+          "row": 62,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 3.579714302759385e-11,
+          "accepted": false
+        },
+        {
+          "row": 63,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.5555558497435413e-11,
+          "accepted": false
+        },
+        {
+          "row": 68,
+          "field": "sampled_max_deg",
+          "absolute_difference": 4.993694346921984e-11,
+          "accepted": false
+        },
+        {
+          "row": 68,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 4.993694346921984e-11,
+          "accepted": false
+        },
+        {
+          "row": 69,
+          "field": "sampled_max_deg",
+          "absolute_difference": 4.631317551684333e-11,
+          "accepted": false
+        },
+        {
+          "row": 70,
+          "field": "sampled_min_deg",
+          "absolute_difference": 1.475086719437968e-11,
+          "accepted": false
+        },
+        {
+          "row": 70,
+          "field": "sampled_max_deg",
+          "absolute_difference": 9.57811607804615e-12,
+          "accepted": false
+        },
+        {
+          "row": 70,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 9.86233317235019e-12,
+          "accepted": false
+        },
+        {
+          "row": 71,
+          "field": "sampled_min_deg",
+          "absolute_difference": 1.5916157281026244e-12,
+          "accepted": false
+        },
+        {
+          "row": 71,
+          "field": "sampled_max_deg",
+          "absolute_difference": 5.368860911403317e-11,
+          "accepted": false
+        },
+        {
+          "row": 71,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 5.397282620833721e-11,
+          "accepted": false
+        },
+        {
+          "row": 72,
+          "field": "sampled_min_deg",
+          "absolute_difference": 5.400124791776761e-13,
+          "accepted": false
+        },
+        {
+          "row": 72,
+          "field": "sampled_max_deg",
+          "absolute_difference": 2.944489096989855e-11,
+          "accepted": false
+        },
+        {
+          "row": 72,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 2.972910806420259e-11,
+          "accepted": false
+        },
+        {
+          "row": 73,
+          "field": "sampled_min_deg",
+          "absolute_difference": 6.713207767461427e-11,
+          "accepted": false
+        },
+        {
+          "row": 73,
+          "field": "sampled_max_deg",
+          "absolute_difference": 5.519495971384458e-11,
+          "accepted": false
+        },
+        {
+          "row": 73,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 5.547917680814862e-11,
+          "accepted": false
+        },
+        {
+          "row": 74,
+          "field": "sampled_min_deg",
+          "absolute_difference": 4.163780431554187e-12,
+          "accepted": false
+        },
+        {
+          "row": 74,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 4.163780431554187e-12,
+          "accepted": false
+        },
+        {
+          "row": 75,
+          "field": "sampled_min_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": false
+        },
+        {
+          "row": 75,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.552713678800501e-15,
+          "accepted": false
+        },
+        {
+          "row": 75,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": false
+        },
+        {
+          "row": 78,
+          "field": "sampled_min_deg",
+          "absolute_difference": 1.4210854715202004e-14,
+          "accepted": false
+        },
+        {
+          "row": 79,
+          "field": "sampled_min_deg",
+          "absolute_difference": 3.552713678800501e-15,
+          "accepted": false
+        },
+        {
+          "row": 79,
+          "field": "sampled_max_deg",
+          "absolute_difference": 4.796163466380676e-11,
+          "accepted": false
+        },
+        {
+          "row": 79,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 4.796163466380676e-11,
+          "accepted": false
+        },
+        {
+          "row": 80,
+          "field": "sampled_min_deg",
+          "absolute_difference": 1.3706369372812333e-11,
+          "accepted": false
+        },
+        {
+          "row": 82,
+          "field": "sampled_min_deg",
+          "absolute_difference": 1.9305446130601922e-11,
+          "accepted": false
+        },
+        {
+          "row": 82,
+          "field": "sampled_max_deg",
+          "absolute_difference": 2.206235194535111e-11,
+          "accepted": false
+        },
+        {
+          "row": 82,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 2.2708945834892802e-11,
+          "accepted": false
+        },
+        {
+          "row": 83,
+          "field": "sampled_min_deg",
+          "absolute_difference": 3.360867140145274e-12,
+          "accepted": false
+        },
+        {
+          "row": 83,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.065991904804832e-11,
+          "accepted": false
+        },
+        {
+          "row": 83,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 4.263256414560601e-14,
+          "accepted": false
+        },
+        {
+          "row": 84,
+          "field": "sampled_min_deg",
+          "absolute_difference": 2.042099822574528e-11,
+          "accepted": false
+        },
+        {
+          "row": 84,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 2.382449793003616e-11,
+          "accepted": false
+        },
+        {
+          "row": 85,
+          "field": "sampled_min_deg",
+          "absolute_difference": 3.183231456205249e-12,
+          "accepted": false
+        },
+        {
+          "row": 85,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.146993776681484e-11,
+          "accepted": false
+        },
+        {
+          "row": 85,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 2.2026824808563106e-13,
+          "accepted": false
+        },
+        {
+          "row": 86,
+          "field": "sampled_min_deg",
+          "absolute_difference": 3.579714302759385e-11,
+          "accepted": false
+        },
+        {
+          "row": 86,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 3.579714302759385e-11,
+          "accepted": false
+        },
+        {
+          "row": 87,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.5555558497435413e-11,
+          "accepted": false
+        },
+        {
+          "row": 92,
+          "field": "sampled_max_deg",
+          "absolute_difference": 4.993694346921984e-11,
+          "accepted": false
+        },
+        {
+          "row": 92,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 4.993694346921984e-11,
+          "accepted": false
+        },
+        {
+          "row": 93,
+          "field": "sampled_max_deg",
+          "absolute_difference": 4.631317551684333e-11,
+          "accepted": false
+        },
+        {
+          "row": 94,
+          "field": "sampled_min_deg",
+          "absolute_difference": 1.7763568394002505e-11,
+          "accepted": false
+        },
+        {
+          "row": 94,
+          "field": "sampled_max_deg",
+          "absolute_difference": 7.02016222930979e-12,
+          "accepted": false
+        },
+        {
+          "row": 94,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 9.748646334628575e-12,
+          "accepted": false
+        },
+        {
+          "row": 95,
+          "field": "sampled_min_deg",
+          "absolute_difference": 6.195932655828074e-12,
+          "accepted": false
+        },
+        {
+          "row": 95,
+          "field": "sampled_max_deg",
+          "absolute_difference": 5.269384928396903e-11,
+          "accepted": false
+        },
+        {
+          "row": 95,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 5.5422333389287814e-11,
+          "accepted": false
+        },
+        {
+          "row": 96,
+          "field": "sampled_min_deg",
+          "absolute_difference": 5.7980287238024175e-12,
+          "accepted": false
+        },
+        {
+          "row": 96,
+          "field": "sampled_max_deg",
+          "absolute_difference": 2.6119550966541283e-11,
+          "accepted": false
+        },
+        {
+          "row": 96,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 2.8848035071860068e-11,
+          "accepted": false
+        },
+        {
+          "row": 97,
+          "field": "sampled_min_deg",
+          "absolute_difference": 5.269384928396903e-11,
+          "accepted": false
+        },
+        {
+          "row": 97,
+          "field": "sampled_max_deg",
+          "absolute_difference": 4.4707348934025504e-11,
+          "accepted": false
+        },
+        {
+          "row": 97,
+          "field": "max_abs_shift_deg",
+          "absolute_difference": 4.743583303934429e-11,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "file": "analysis/geometry-comparison-2026-10-23/rounding_scenarios.csv",
+      "exists": true,
+      "byte_identical": false,
+      "agreement": false,
+      "differences": [
+        {
+          "row": 2,
+          "field": "nominal_deg",
+          "absolute_difference": 4.142464149481384e-12,
+          "accepted": false
+        },
+        {
+          "row": 2,
+          "field": "sampled_min_deg",
+          "absolute_difference": 4.0465408801537706e-12,
+          "accepted": false
+        },
+        {
+          "row": 2,
+          "field": "sampled_width_deg",
+          "absolute_difference": 4.0465408801537706e-12,
+          "accepted": false
+        },
+        {
+          "row": 3,
+          "field": "sampled_max_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": false
+        },
+        {
+          "row": 3,
+          "field": "sampled_width_deg",
+          "absolute_difference": 7.105427357601002e-15,
+          "accepted": false
+        },
+        {
+          "row": 4,
+          "field": "nominal_deg",
+          "absolute_difference": 2.0691004465334117e-11,
+          "accepted": false
+        },
+        {
+          "row": 5,
+          "field": "sampled_max_deg",
+          "absolute_difference": 1.1183942660863977e-11,
+          "accepted": false
+        },
+        {
+          "row": 5,
+          "field": "sampled_width_deg",
+          "absolute_difference": 1.1183942660863977e-11,
+          "accepted": false
+        },
+        {
+          "row": 6,
+          "field": "sampled_min_deg",
+          "absolute_difference": 1.851674369390821e-11,
+          "accepted": false
+        },
+        {
+          "row": 6,
+          "field": "sampled_width_deg",
+          "absolute_difference": 1.851674369390821e-11,
+          "accepted": false
+        },
+        {
+          "row": 7,
+          "field": "nominal_deg",
+          "absolute_difference": 6.821210263296962e-12,
+          "accepted": false
+        },
+        {
+          "row": 7,
+          "field": "sampled_min_deg",
+          "absolute_difference": 2.7000623958883807e-12,
+          "accepted": false
+        },
+        {
+          "row": 7,
+          "field": "sampled_width_deg",
+          "absolute_difference": 2.7000623958883807e-12,
+          "accepted": false
+        },
+        {
+          "row": 8,
+          "field": "sampled_min_deg",
+          "absolute_difference": 1.4210854715202004e-14,
+          "accepted": false
+        },
+        {
+          "row": 8,
+          "field": "sampled_max_deg",
+          "absolute_difference": 4.078515303262975e-12,
+          "accepted": false
+        },
+        {
+          "row": 8,
+          "field": "sampled_width_deg",
+          "absolute_difference": 4.064304448547773e-12,
+          "accepted": false
+        },
+        {
+          "row": 10,
+          "field": "nominal_deg",
+          "absolute_difference": 3.3573144264664734e-12,
+          "accepted": false
+        },
+        {
+          "row": 10,
+          "field": "sampled_min_deg",
+          "absolute_difference": 6.721734280290548e-12,
+          "accepted": false
+        },
+        {
+          "row": 10,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.3075764349632664e-12,
+          "accepted": false
+        },
+        {
+          "row": 10,
+          "field": "sampled_width_deg",
+          "absolute_difference": 1.0029310715253814e-11,
+          "accepted": false
+        },
+        {
+          "row": 12,
+          "field": "sampled_max_deg",
+          "absolute_difference": 1.375610736431554e-11,
+          "accepted": false
+        },
+        {
+          "row": 12,
+          "field": "sampled_width_deg",
+          "absolute_difference": 1.375610736431554e-11,
+          "accepted": false
+        },
+        {
+          "row": 13,
+          "field": "nominal_deg",
+          "absolute_difference": 2.5011104298755527e-12,
+          "accepted": false
+        },
+        {
+          "row": 13,
+          "field": "sampled_min_deg",
+          "absolute_difference": 2.2453150450019166e-12,
+          "accepted": false
+        },
+        {
+          "row": 13,
+          "field": "sampled_max_deg",
+          "absolute_difference": 2.842170943040401e-14,
+          "accepted": false
+        },
+        {
+          "row": 13,
+          "field": "sampled_width_deg",
+          "absolute_difference": 2.2168933355715126e-12,
+          "accepted": false
+        },
+        {
+          "row": 14,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.552713678800501e-15,
+          "accepted": false
+        },
+        {
+          "row": 14,
+          "field": "sampled_width_deg",
+          "absolute_difference": 3.552713678800501e-15,
+          "accepted": false
+        },
+        {
+          "row": 16,
+          "field": "nominal_deg",
+          "absolute_difference": 3.40349970429088e-12,
+          "accepted": false
+        },
+        {
+          "row": 16,
+          "field": "sampled_min_deg",
+          "absolute_difference": 2.155076117560384e-11,
+          "accepted": false
+        },
+        {
+          "row": 16,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.559819106158102e-12,
+          "accepted": false
+        },
+        {
+          "row": 16,
+          "field": "sampled_width_deg",
+          "absolute_difference": 1.7990942069445737e-11,
+          "accepted": false
+        },
+        {
+          "row": 18,
+          "field": "sampled_max_deg",
+          "absolute_difference": 2.3035795493342448e-11,
+          "accepted": false
+        },
+        {
+          "row": 18,
+          "field": "sampled_width_deg",
+          "absolute_difference": 2.3035795493342448e-11,
+          "accepted": false
+        },
+        {
+          "row": 19,
+          "field": "nominal_deg",
+          "absolute_difference": 2.8421709430404007e-13,
+          "accepted": false
+        },
+        {
+          "row": 19,
+          "field": "sampled_min_deg",
+          "absolute_difference": 2.842170943040401e-14,
+          "accepted": false
+        },
+        {
+          "row": 19,
+          "field": "sampled_width_deg",
+          "absolute_difference": 2.842170943040401e-14,
+          "accepted": false
+        },
+        {
+          "row": 20,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.552713678800501e-15,
+          "accepted": false
+        },
+        {
+          "row": 20,
+          "field": "sampled_width_deg",
+          "absolute_difference": 3.552713678800501e-15,
+          "accepted": false
+        },
+        {
+          "row": 22,
+          "field": "nominal_deg",
+          "absolute_difference": 3.40349970429088e-12,
+          "accepted": false
+        },
+        {
+          "row": 22,
+          "field": "sampled_min_deg",
+          "absolute_difference": 2.155076117560384e-11,
+          "accepted": false
+        },
+        {
+          "row": 22,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.559819106158102e-12,
+          "accepted": false
+        },
+        {
+          "row": 22,
+          "field": "sampled_width_deg",
+          "absolute_difference": 1.7990942069445737e-11,
+          "accepted": false
+        },
+        {
+          "row": 24,
+          "field": "sampled_max_deg",
+          "absolute_difference": 2.3035795493342448e-11,
+          "accepted": false
+        },
+        {
+          "row": 24,
+          "field": "sampled_width_deg",
+          "absolute_difference": 2.3035795493342448e-11,
+          "accepted": false
+        },
+        {
+          "row": 25,
+          "field": "nominal_deg",
+          "absolute_difference": 2.7284841053187847e-12,
+          "accepted": false
+        },
+        {
+          "row": 25,
+          "field": "sampled_max_deg",
+          "absolute_difference": 2.842170943040401e-14,
+          "accepted": false
+        },
+        {
+          "row": 25,
+          "field": "sampled_width_deg",
+          "absolute_difference": 2.842170943040401e-14,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "file": "analysis/geometry-comparison-2026-10-23/shared_origin_contrasts.csv",
+      "exists": true,
+      "byte_identical": false,
+      "agreement": false,
+      "differences": [
+        {
+          "row": 2,
+          "field": "nominal_deg",
+          "absolute_difference": 4.142464149481384e-12,
+          "accepted": false
+        },
+        {
+          "row": 2,
+          "field": "sampled_max_deg",
+          "absolute_difference": 1.7763568394002505e-14,
+          "accepted": false
+        },
+        {
+          "row": 3,
+          "field": "nominal_deg",
+          "absolute_difference": 2.0691004465334117e-11,
+          "accepted": false
+        },
+        {
+          "row": 3,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.887024035975628e-11,
+          "accepted": false
+        },
+        {
+          "row": 4,
+          "field": "nominal_deg",
+          "absolute_difference": 1.6548540315852733e-11,
+          "accepted": false
+        },
+        {
+          "row": 4,
+          "field": "sampled_max_deg",
+          "absolute_difference": 1.0658141036401503e-14,
+          "accepted": false
+        },
+        {
+          "row": 5,
+          "field": "sampled_min_deg",
+          "absolute_difference": 1.851674369390821e-11,
+          "accepted": false
+        },
+        {
+          "row": 6,
+          "field": "sampled_min_deg",
+          "absolute_difference": 4.0820680169417756e-12,
+          "accepted": false
+        },
+        {
+          "row": 6,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.552713678800501e-15,
+          "accepted": false
+        },
+        {
+          "row": 7,
+          "field": "nominal_deg",
+          "absolute_difference": 3.3573144264664734e-12,
+          "accepted": false
+        },
+        {
+          "row": 7,
+          "field": "sampled_min_deg",
+          "absolute_difference": 2.1955770534987096e-12,
+          "accepted": false
+        },
+        {
+          "row": 7,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.3075764349632664e-12,
+          "accepted": false
+        },
+        {
+          "row": 8,
+          "field": "nominal_deg",
+          "absolute_difference": 3.3573144264664734e-12,
+          "accepted": false
+        },
+        {
+          "row": 8,
+          "field": "sampled_min_deg",
+          "absolute_difference": 1.0803802297232323e-11,
+          "accepted": false
+        },
+        {
+          "row": 8,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.304023721284466e-12,
+          "accepted": false
+        },
+        {
+          "row": 9,
+          "field": "sampled_max_deg",
+          "absolute_difference": 1.375610736431554e-11,
+          "accepted": false
+        },
+        {
+          "row": 11,
+          "field": "nominal_deg",
+          "absolute_difference": 3.40349970429088e-12,
+          "accepted": false
+        },
+        {
+          "row": 11,
+          "field": "sampled_min_deg",
+          "absolute_difference": 3.058886477447231e-11,
+          "accepted": false
+        },
+        {
+          "row": 11,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.559819106158102e-12,
+          "accepted": false
+        },
+        {
+          "row": 12,
+          "field": "nominal_deg",
+          "absolute_difference": 3.40349970429088e-12,
+          "accepted": false
+        },
+        {
+          "row": 12,
+          "field": "sampled_min_deg",
+          "absolute_difference": 2.155076117560384e-11,
+          "accepted": false
+        },
+        {
+          "row": 12,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.559819106158102e-12,
+          "accepted": false
+        },
+        {
+          "row": 13,
+          "field": "sampled_max_deg",
+          "absolute_difference": 2.3035795493342448e-11,
+          "accepted": false
+        },
+        {
+          "row": 15,
+          "field": "nominal_deg",
+          "absolute_difference": 3.40349970429088e-12,
+          "accepted": false
+        },
+        {
+          "row": 15,
+          "field": "sampled_min_deg",
+          "absolute_difference": 3.058886477447231e-11,
+          "accepted": false
+        },
+        {
+          "row": 15,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.559819106158102e-12,
+          "accepted": false
+        },
+        {
+          "row": 16,
+          "field": "nominal_deg",
+          "absolute_difference": 3.40349970429088e-12,
+          "accepted": false
+        },
+        {
+          "row": 16,
+          "field": "sampled_min_deg",
+          "absolute_difference": 2.155076117560384e-11,
+          "accepted": false
+        },
+        {
+          "row": 16,
+          "field": "sampled_max_deg",
+          "absolute_difference": 3.559819106158102e-12,
+          "accepted": false
+        },
+        {
+          "row": 17,
+          "field": "sampled_max_deg",
+          "absolute_difference": 2.3035795493342448e-11,
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "file": "analysis/identity-chronology-2026-10-24/chronology_compatibility.csv",
+      "exists": true,
+      "byte_identical": true,
+      "agreement": true,
+      "differences": []
+    },
+    {
+      "file": "analysis/identity-chronology-2026-10-24/date_label_comparison.csv",
+      "exists": true,
+      "byte_identical": true,
+      "agreement": true,
+      "differences": []
+    },
+    {
+      "file": "analysis/identity-chronology-2026-10-24/same_cell_screen.csv",
+      "exists": true,
+      "byte_identical": false,
+      "agreement": false,
+      "differences": [
+        {
+          "row": 2,
+          "field": "published_point_separation_m",
+          "absolute_difference": 1.3642420526593924e-12,
+          "accepted": false
+        },
+        {
+          "row": 4,
+          "field": "published_point_separation_m",
+          "absolute_difference": 1.3642420526593924e-12,
+          "accepted": false
+        },
+        {
+          "row": 7,
+          "field": "meridional_gap_after_rounding_m",
+          "absolute_difference": 3.5209524185120245e-10,
+          "accepted": false
+        },
+        {
+          "row": 9,
+          "field": "meridional_gap_after_rounding_m",
+          "absolute_difference": 3.5209524185120245e-10,
+          "accepted": false
+        }
+      ]
+    }
+  ],
+  "locked_repository_inputs_unchanged": true,
+  "output": "/home/runner/work/nabta/nabta/runs/reproduce-20261124T135214688754Z",
+  "tolerance": {
+    "file": "analysis/geometry-comparison-2026-10-23/estimand_comparison.csv",
+    "columns": [
+      "origin_constrained_TLS_deg",
+      "TLS_minus_arithmetic_deg"
+    ],
+    "absolute_degrees": 1e-10,
+    "reason": "Post-inspection tolerance from the October isolated repeatability check; not a survey-error distribution."
+  }
+}

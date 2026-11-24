@@ -1,0 +1,13 @@
+scenario,group,available,listed,missing,mean_deg,status
+WM2001_narrative,A3,3,3,,26.966011090647743,complete coordinate membership
+WM2001_narrative,A2,2,2,,29.805062896256338,complete coordinate membership
+WM2001_narrative,A1,4,5,A-10,31.47069589194608,partial; do not interpret as full row
+WM2001_narrative,B2,4,4,,115.68299633624875,complete coordinate membership
+WM2001_narrative,B1,3,3,,118.83330312865381,complete coordinate membership
+WM2001_narrative,C1,5,6,C-6,129.49107146734156,partial; do not interpret as full row
+WM2001_table,A3,3,3,,26.966011090647743,complete coordinate membership
+WM2001_table,A2,3,3,,28.735475178227016,complete coordinate membership
+WM2001_table,A1,5,5,,31.387763112203608,complete coordinate membership
+WM2001_table,B2,4,4,,115.68299633624875,complete coordinate membership
+WM2001_table,B1,3,3,,118.83330312865381,complete coordinate membership
+WM2001_table,C1,6,6,,129.61913997705196,complete coordinate membership

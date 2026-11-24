@@ -1,0 +1,144 @@
+[
+  {
+    "group": "A3",
+    "target": "Arcturus",
+    "published_target_date_BC": "4530\u20134320",
+    "context_window_BC": "4600\u20134200",
+    "intersection_duration_years": 210,
+    "minimum_gap_years": 0,
+    "status": "overlap",
+    "interpretation": "Conditional interval arithmetic only; context window is a source hypothesis, not a hard row-construction bound; no likelihood or probability assigned."
+  },
+  {
+    "group": "A3",
+    "target": "Arcturus",
+    "published_target_date_BC": "4530\u20134320",
+    "context_window_BC": "4600\u20134100",
+    "intersection_duration_years": 210,
+    "minimum_gap_years": 0,
+    "status": "overlap",
+    "interpretation": "Conditional interval arithmetic only; context window is a source hypothesis, not a hard row-construction bound; no likelihood or probability assigned."
+  },
+  {
+    "group": "A2",
+    "target": "Arcturus",
+    "published_target_date_BC": "4220\u20134020",
+    "context_window_BC": "4600\u20134200",
+    "intersection_duration_years": 20,
+    "minimum_gap_years": 0,
+    "status": "overlap",
+    "interpretation": "Conditional interval arithmetic only; context window is a source hypothesis, not a hard row-construction bound; no likelihood or probability assigned."
+  },
+  {
+    "group": "A2",
+    "target": "Arcturus",
+    "published_target_date_BC": "4220\u20134020",
+    "context_window_BC": "4600\u20134100",
+    "intersection_duration_years": 120,
+    "minimum_gap_years": 0,
+    "status": "overlap",
+    "interpretation": "Conditional interval arithmetic only; context window is a source hypothesis, not a hard row-construction bound; no likelihood or probability assigned."
+  },
+  {
+    "group": "A1",
+    "target": "Arcturus",
+    "published_target_date_BC": "3810\u20133630",
+    "context_window_BC": "4600\u20134200",
+    "intersection_duration_years": 0,
+    "minimum_gap_years": 390,
+    "status": "no overlap",
+    "interpretation": "Conditional interval arithmetic only; context window is a source hypothesis, not a hard row-construction bound; no likelihood or probability assigned."
+  },
+  {
+    "group": "A1",
+    "target": "Arcturus",
+    "published_target_date_BC": "3810\u20133630",
+    "context_window_BC": "4600\u20134100",
+    "intersection_duration_years": 0,
+    "minimum_gap_years": 290,
+    "status": "no overlap",
+    "interpretation": "Conditional interval arithmetic only; context window is a source hypothesis, not a hard row-construction bound; no likelihood or probability assigned."
+  },
+  {
+    "group": "B2",
+    "target": "Alnilam",
+    "published_target_date_BC": "4340\u20134150",
+    "context_window_BC": "4600\u20134200",
+    "intersection_duration_years": 140,
+    "minimum_gap_years": 0,
+    "status": "overlap",
+    "interpretation": "Conditional interval arithmetic only; context window is a source hypothesis, not a hard row-construction bound; no likelihood or probability assigned."
+  },
+  {
+    "group": "B2",
+    "target": "Alnilam",
+    "published_target_date_BC": "4340\u20134150",
+    "context_window_BC": "4600\u20134100",
+    "intersection_duration_years": 190,
+    "minimum_gap_years": 0,
+    "status": "overlap",
+    "interpretation": "Conditional interval arithmetic only; context window is a source hypothesis, not a hard row-construction bound; no likelihood or probability assigned."
+  },
+  {
+    "group": "B2",
+    "target": "Sirius",
+    "published_target_date_BC": "3700\u20133430",
+    "context_window_BC": "4600\u20134200",
+    "intersection_duration_years": 0,
+    "minimum_gap_years": 500,
+    "status": "no overlap",
+    "interpretation": "Conditional interval arithmetic only; context window is a source hypothesis, not a hard row-construction bound; no likelihood or probability assigned."
+  },
+  {
+    "group": "B2",
+    "target": "Sirius",
+    "published_target_date_BC": "3700\u20133430",
+    "context_window_BC": "4600\u20134100",
+    "intersection_duration_years": 0,
+    "minimum_gap_years": 400,
+    "status": "no overlap",
+    "interpretation": "Conditional interval arithmetic only; context window is a source hypothesis, not a hard row-construction bound; no likelihood or probability assigned."
+  },
+  {
+    "group": "B1",
+    "target": "Sirius",
+    "published_target_date_BC": "4640\u20134400",
+    "context_window_BC": "4600\u20134200",
+    "intersection_duration_years": 200,
+    "minimum_gap_years": 0,
+    "status": "overlap",
+    "interpretation": "Conditional interval arithmetic only; context window is a source hypothesis, not a hard row-construction bound; no likelihood or probability assigned."
+  },
+  {
+    "group": "B1",
+    "target": "Sirius",
+    "published_target_date_BC": "4640\u20134400",
+    "context_window_BC": "4600\u20134100",
+    "intersection_duration_years": 200,
+    "minimum_gap_years": 0,
+    "status": "overlap",
+    "interpretation": "Conditional interval arithmetic only; context window is a source hypothesis, not a hard row-construction bound; no likelihood or probability assigned."
+  },
+  {
+    "group": "B1",
+    "target": "\u03b1 Centauri",
+    "published_target_date_BC": "4500\u20134260",
+    "context_window_BC": "4600\u20134200",
+    "intersection_duration_years": 240,
+    "minimum_gap_years": 0,
+    "status": "overlap",
+    "interpretation": "Conditional interval arithmetic only; context window is a source hypothesis, not a hard row-construction bound; no likelihood or probability assigned."
+  },
+  {
+    "group": "B1",
+    "target": "\u03b1 Centauri",
+    "published_target_date_BC": "4500\u20134260",
+    "context_window_BC": "4600\u20134100",
+    "intersection_duration_years": 240,
+    "minimum_gap_years": 0,
+    "status": "overlap",
+    "interpretation": "Conditional interval arithmetic only; context window is a source hypothesis, not a hard row-construction bound; no likelihood or probability assigned."
+  }
+]
+
+STDERR:

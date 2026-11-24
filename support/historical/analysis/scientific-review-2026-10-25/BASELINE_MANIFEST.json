@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-25",
+  "purpose": "Existing results, code, inputs and draft retained during scientific realignment. Hashes are a change record, not scientific acceptance.",
+  "sha256": {
+    "analysis/case-study-2026-10-24/MANUSCRIPT_WORKING_DRAFT.md": "afe7276df24081d9a98a4f99165b6a1a04bce35bd3bfc89846625497145f63e7",
+    "analysis/nabta-reviewer-package-2026-10-25.zip": "19dbb949b317d88ff36b6cf2787683d323cc723d66288a4d6ce716f1781b4d00",
+    "source_reconciliation-2026-10-22/source_coordinate_observations.csv": "5955de94f1c0fd8c1df37f2b60a4cb46e73ba66a61875676a66cf22e7c2f7cdf",
+    "source_reconciliation-2026-10-22/membership_scenarios.csv": "9236d957d7b3f69cfb25c9ec8e6b7b78b6e1101f3be55b201ab55a3b0d17d9ce",
+    "source_reconciliation-2026-10-22/published_claims.csv": "7ba1f8040e68371957e8472fa51cf2849f3b8875aac3b3b86ae53c3f86f6d2ea",
+    "estimand_comparison.py": "1024a8fcb446413bd07b2c9cb7d177d6fa197f19de39070f87ab64f5d36fe265",
+    "shared_origin_contrasts.py": "74359fb3a9521bed869dc3f1e7ed565f3715fce115b02312891be3eb05a0d2ca",
+    "validate_sensitivity.py": "d27f58f825f9a1b9dec961fbdc5724c1e18b95ed87bf8dad01fdf93c06775b98",
+    "method_gate.py": "274c486e8781a07fe0120cc2cf96cefe56a4139dccc436260bfd96c8a423338c",
+    "build_claim_register.py": "7b3a230cbd61e9304eeee840675aa28d38b4b35370c3ff83040c223945a481b4",
+    "build_reviewer_package.py": "be4fc3b1b00574139e5918c81e8ef18388eaa9d08c484f07ad4b07f5991f27be",
+    "chronology_compatibility.py": "35e926b5fd87be022a437bc2209d6bd29f9b878390aa44d699a9796432258f58",
+    "plot_case_study.py": "ec5242fda17ec8fe81690898e2c9df58198cbe8519368c61206aa72d910d5277",
+    "validate_continuous_contrasts.py": "0791a802a3d646171ccec916ff5c7429b528d2826640db94ad8cd10014ecd4e3",
+    "identity_chronology_checks.py": "6622669a286d256007cc813bdda855b4474bf4815b0a92c8b2a7a11af2a54587",
+    "geometry_sensitivity.py": "fc295d28391c7ac5db858da3556e8ef297a83a812ba42f5199256f10a2468bac",
+    "geometry_comparison.py": "4870f8bfa0a42cec8116150b4c889331b7511ea405c5b897c1f5a5e28b27cbc7",
+    "map_catalogue_audit.py": "a0ffa22c1f8981cb8e7fb134b12a8c0027250c97b9bec1d3fd2706e83f96e527",
+    "continuous_spherical_contrasts.py": "f96237244f62e2fb1fb2d8cdfa78fc51d46fa6cc7005d0fc99df3fb4d2052d3e",
+    "plot_geometry.py": "e1b3e5049dca37c96d2b511faa20ef87b568572f21a2e5b6b4225431f18aaffc"
+  }
+}

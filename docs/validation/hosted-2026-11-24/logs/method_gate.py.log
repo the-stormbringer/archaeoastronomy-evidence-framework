@@ -1,0 +1,124 @@
+[
+  {
+    "group": "A3",
+    "model": "sphere",
+    "published_final_deg": 25.86,
+    "input_min_deg": 26.177197433708344,
+    "input_max_deg": 26.288759886307265,
+    "outside_convex_range_deg": 0.3171974337083441,
+    "both_rows_complete": true,
+    "scope": "nonnegative weighted average of two printed-coordinate row means only"
+  },
+  {
+    "group": "A2",
+    "model": "sphere",
+    "published_final_deg": 27.68,
+    "input_min_deg": 27.857593928236906,
+    "input_max_deg": 27.919792649557152,
+    "outside_convex_range_deg": 0.1775939282369059,
+    "both_rows_complete": true,
+    "scope": "nonnegative weighted average of two printed-coordinate row means only"
+  },
+  {
+    "group": "A1",
+    "model": "sphere",
+    "published_final_deg": 30.0,
+    "input_min_deg": 30.19644884254468,
+    "input_max_deg": 30.497608271692293,
+    "outside_convex_range_deg": 0.19644884254467954,
+    "both_rows_complete": true,
+    "scope": "nonnegative weighted average of two printed-coordinate row means only"
+  },
+  {
+    "group": "B2",
+    "model": "sphere",
+    "published_final_deg": 117.49,
+    "input_min_deg": 116.06827664232762,
+    "input_max_deg": 117.49972582869259,
+    "outside_convex_range_deg": 0,
+    "both_rows_complete": false,
+    "scope": "nonnegative weighted average of two printed-coordinate row means only"
+  },
+  {
+    "group": "B1",
+    "model": "sphere",
+    "published_final_deg": 121.11,
+    "input_min_deg": 118.80955409555197,
+    "input_max_deg": 120.80497925618761,
+    "outside_convex_range_deg": 0.30502074381239197,
+    "both_rows_complete": true,
+    "scope": "nonnegative weighted average of two printed-coordinate row means only"
+  },
+  {
+    "group": "C1",
+    "model": "sphere",
+    "published_final_deg": 130.1,
+    "input_min_deg": 129.49689638441262,
+    "input_max_deg": 129.9396384688382,
+    "outside_convex_range_deg": 0.16036153116178298,
+    "both_rows_complete": false,
+    "scope": "nonnegative weighted average of two printed-coordinate row means only"
+  },
+  {
+    "group": "A3",
+    "model": "WGS84_assumed",
+    "published_final_deg": 25.86,
+    "input_min_deg": 26.307515619306457,
+    "input_max_deg": 26.419469829536883,
+    "outside_convex_range_deg": 0.4475156193064578,
+    "both_rows_complete": true,
+    "scope": "nonnegative weighted average of two printed-coordinate row means only"
+  },
+  {
+    "group": "A2",
+    "model": "WGS84_assumed",
+    "published_final_deg": 27.68,
+    "input_min_deg": 27.993541229861876,
+    "input_max_deg": 28.05594804596036,
+    "outside_convex_range_deg": 0.31354122986187605,
+    "both_rows_complete": true,
+    "scope": "nonnegative weighted average of two printed-coordinate row means only"
+  },
+  {
+    "group": "A1",
+    "model": "WGS84_assumed",
+    "published_final_deg": 30.0,
+    "input_min_deg": 30.339459548091675,
+    "input_max_deg": 30.641420707308107,
+    "outside_convex_range_deg": 0.3394595480916749,
+    "both_rows_complete": true,
+    "scope": "nonnegative weighted average of two printed-coordinate row means only"
+  },
+  {
+    "group": "B2",
+    "model": "WGS84_assumed",
+    "published_final_deg": 117.49,
+    "input_min_deg": 115.93878829137427,
+    "input_max_deg": 117.36535712307841,
+    "outside_convex_range_deg": 0.12464287692158393,
+    "both_rows_complete": false,
+    "scope": "nonnegative weighted average of two printed-coordinate row means only"
+  },
+  {
+    "group": "B1",
+    "model": "WGS84_assumed",
+    "published_final_deg": 121.11,
+    "input_min_deg": 118.67109772475152,
+    "input_max_deg": 120.66070211661237,
+    "outside_convex_range_deg": 0.4492978833876293,
+    "both_rows_complete": true,
+    "scope": "nonnegative weighted average of two printed-coordinate row means only"
+  },
+  {
+    "group": "C1",
+    "model": "WGS84_assumed",
+    "published_final_deg": 130.1,
+    "input_min_deg": 129.3358988626785,
+    "input_max_deg": 129.77819230316624,
+    "outside_convex_range_deg": 0.3218076968337584,
+    "both_rows_complete": false,
+    "scope": "nonnegative weighted average of two printed-coordinate row means only"
+  }
+]
+
+STDERR:

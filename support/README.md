@@ -1,0 +1,9 @@
+# Historical supporting code and diagnostics
+
+These 15 files were omitted from the initial portable pipeline but retained here for developer context. [MANIFEST.json](MANIFEST.json) maps each exact historical source to its public destination and SHA-256. Files are byte-preserved. Their inclusion is not scientific acceptance.
+
+`historical/plot_case_study.py` generated the provisional manuscript's two figure pairs; it needs matplotlib and the historical staged layout. `plot_geometry.py` generated earlier exploratory plots. `map_catalogue_audit.py` needs PyMuPDF (`fitz`) and the privately held 2025 monograph; it outputs drawing-space candidates and overlays, never recovered survey positions. Ledger-building scripts contain historical transcription logic. Earlier assessment diagnostics and tables explain the original assessment's numerical concerns.
+
+Do not run these directly in this tree. They use paths relative to their own location and some create or overwrite outputs. Stage copies in a disposable ignored directory, reconstruct their declared inputs from the public ledgers and catalogue, and inspect paths before execution. Dependency versions and fresh standalone execution are not validated for this support collection. The supported numerical runner remains `python scripts/reproduce.py`, with its ten locked scripts. Figure rendering and source-PDF extraction require a separately reviewed portability task; do not confuse their availability here with a tested regeneration workflow.
+
+The older Markdown worker audits and source page images remain local; accepted conclusions are available in the curated assessment, later deep audit and current protocols. An archive link in an old assessment may still land on the local-archive notice; use this manifest to find the included code/table counterpart.

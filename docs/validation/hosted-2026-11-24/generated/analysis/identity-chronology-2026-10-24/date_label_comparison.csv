@@ -1,0 +1,6 @@
+group,target,BC_2007,BP_2015,older_endpoint_offset,younger_endpoint_offset,status
+A3,Arcturus,4530–4320,"6,530–6,320",2000,2000,"Source-labelled ranges retained; 2000-year arithmetic offset observed, BP epoch not silently assumed"
+A2,Arcturus,4220–4020,"6,220–6,020",2000,2000,"Source-labelled ranges retained; 2000-year arithmetic offset observed, BP epoch not silently assumed"
+A1,Arcturus,3810–3630,"5,810–5,630",2000,2000,"Source-labelled ranges retained; 2000-year arithmetic offset observed, BP epoch not silently assumed"
+B1,Sirius,4640–4400,"6,640–6,400",2000,2000,"Source-labelled ranges retained; 2000-year arithmetic offset observed, BP epoch not silently assumed"
+B1,α Centauri,4500–4260,"6,500–6,260",2000,2000,"Source-labelled ranges retained; 2000-year arithmetic offset observed, BP epoch not silently assumed"

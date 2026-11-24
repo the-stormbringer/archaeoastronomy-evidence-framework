@@ -1,0 +1,92 @@
+[
+  {
+    "source": "agent_artifacts/analysis/assessment-2026-10-19/astronomy/artifact_diagnostics.json",
+    "destination": "support/historical/analysis/assessment-2026-10-19/astronomy/artifact_diagnostics.json",
+    "sha256": "3ef74cd1dacf3fcb37cee36293f410bb1ad2b14176576be4cb91a6a4a0e4dd6a",
+    "status": "Historical supporting artifact; not an accepted new result or part of the ten-script runner."
+  },
+  {
+    "source": "agent_artifacts/analysis/assessment-2026-10-19/geometry/bootstrap_diagnostics.csv",
+    "destination": "support/historical/analysis/assessment-2026-10-19/geometry/bootstrap_diagnostics.csv",
+    "sha256": "af5e72e0b5ae451c9396bae34de762c4bc924a288ef6356e1c4c0ea77c7557a8",
+    "status": "Historical supporting artifact; not an accepted new result or part of the ten-script runner."
+  },
+  {
+    "source": "agent_artifacts/analysis/assessment-2026-10-19/geometry/diagnostics.py",
+    "destination": "support/historical/analysis/assessment-2026-10-19/geometry/diagnostics.py",
+    "sha256": "b45b1562c956c87593a74bf7594f572e0a08309dd5cf789ea615012cbefc8bbb",
+    "status": "Historical supporting artifact; not an accepted new result or part of the ten-script runner."
+  },
+  {
+    "source": "agent_artifacts/analysis/assessment-2026-10-19/geometry/diagnostics_metadata.json",
+    "destination": "support/historical/analysis/assessment-2026-10-19/geometry/diagnostics_metadata.json",
+    "sha256": "613f8208fd83f138945772a733a63de5cea248f4902c7e6ddd78bbf0f0f85d10",
+    "status": "Historical supporting artifact; not an accepted new result or part of the ten-script runner."
+  },
+  {
+    "source": "agent_artifacts/analysis/assessment-2026-10-19/geometry/estimand_membership_diagnostics.csv",
+    "destination": "support/historical/analysis/assessment-2026-10-19/geometry/estimand_membership_diagnostics.csv",
+    "sha256": "ec58369f6afca1ee80772b60e66371335ce6c266c53885a16fc28e0704909a1a",
+    "status": "Historical supporting artifact; not an accepted new result or part of the ten-script runner."
+  },
+  {
+    "source": "agent_artifacts/analysis/assessment-2026-10-19/geometry/rounding_sensitivity.csv",
+    "destination": "support/historical/analysis/assessment-2026-10-19/geometry/rounding_sensitivity.csv",
+    "sha256": "23fa22b0a15bd70d4b6cae878906f81fc1b1461c82404ff80b74c6730d908466",
+    "status": "Historical supporting artifact; not an accepted new result or part of the ten-script runner."
+  },
+  {
+    "source": "agent_artifacts/analysis/assessment-2026-10-19/geometry/source_discrepancy_scenarios.csv",
+    "destination": "support/historical/analysis/assessment-2026-10-19/geometry/source_discrepancy_scenarios.csv",
+    "sha256": "cc7f7209ab1a210cbc06f7d724e536b4de4fac4a70421542f2371ac6428dad37",
+    "status": "Historical supporting artifact; not an accepted new result or part of the ten-script runner."
+  },
+  {
+    "source": "agent_artifacts/analysis/scientific-review-2026-10-25/BASELINE_MANIFEST.json",
+    "destination": "support/historical/analysis/scientific-review-2026-10-25/BASELINE_MANIFEST.json",
+    "sha256": "8d1be86247afd6103ded04a74f132ac8e504d8a073efe2a673f14c9fe85b3895",
+    "status": "Historical supporting artifact; not an accepted new result or part of the ten-script runner."
+  },
+  {
+    "source": "agent_artifacts/map_catalogue_audit.py",
+    "destination": "support/historical/map_catalogue_audit.py",
+    "sha256": "a0ffa22c1f8981cb8e7fb134b12a8c0027250c97b9bec1d3fd2706e83f96e527",
+    "status": "Historical supporting artifact; not an accepted new result or part of the ten-script runner."
+  },
+  {
+    "source": "agent_artifacts/plot_case_study.py",
+    "destination": "support/historical/plot_case_study.py",
+    "sha256": "ec5242fda17ec8fe81690898e2c9df58198cbe8519368c61206aa72d910d5277",
+    "status": "Historical supporting artifact; not an accepted new result or part of the ten-script runner."
+  },
+  {
+    "source": "agent_artifacts/plot_geometry.py",
+    "destination": "support/historical/plot_geometry.py",
+    "sha256": "e1b3e5049dca37c96d2b511faa20ef87b568572f21a2e5b6b4225431f18aaffc",
+    "status": "Historical supporting artifact; not an accepted new result or part of the ten-script runner."
+  },
+  {
+    "source": "agent_artifacts/source_reconciliation-2026-10-22/build_ledger.py",
+    "destination": "support/historical/source_reconciliation-2026-10-22/build_ledger.py",
+    "sha256": "2e508e542c882a3ad82908080689409684c4120dbda98d06b3e40187a55471c3",
+    "status": "Historical supporting artifact; not an accepted new result or part of the ten-script runner."
+  },
+  {
+    "source": "agent_artifacts/source_reconciliation-2026-10-22/extend.py",
+    "destination": "support/historical/source_reconciliation-2026-10-22/extend.py",
+    "sha256": "46c3254a6b8ecb73b5fdda47cbfadac00abae7f7c23ac3af684e45eef73f6b65",
+    "status": "Historical supporting artifact; not an accepted new result or part of the ten-script runner."
+  },
+  {
+    "source": "agent_artifacts/source_reconciliation-2026-10-22/reproduce.py",
+    "destination": "support/historical/source_reconciliation-2026-10-22/reproduce.py",
+    "sha256": "cc995d14b622729bf42ec5b42fb38c1f29157295962be52681693702631c6ae0",
+    "status": "Historical supporting artifact; not an accepted new result or part of the ten-script runner."
+  },
+  {
+    "source": "agent_artifacts/validate_sensitivity.py",
+    "destination": "support/historical/validate_sensitivity.py",
+    "sha256": "d27f58f825f9a1b9dec961fbdc5724c1e18b95ed87bf8dad01fdf93c06775b98",
+    "status": "Historical supporting artifact; not an accepted new result or part of the ten-script runner."
+  }
+]

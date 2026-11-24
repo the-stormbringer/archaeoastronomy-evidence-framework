@@ -1,0 +1,13 @@
+group,model,published_final_deg,input_min_deg,input_max_deg,outside_convex_range_deg,both_rows_complete,scope
+A3,sphere,25.86,26.177197433708344,26.288759886307265,0.3171974337083441,True,nonnegative weighted average of two printed-coordinate row means only
+A2,sphere,27.68,27.857593928236906,27.919792649557152,0.1775939282369059,True,nonnegative weighted average of two printed-coordinate row means only
+A1,sphere,30.0,30.19644884254468,30.497608271692293,0.19644884254467954,True,nonnegative weighted average of two printed-coordinate row means only
+B2,sphere,117.49,116.06827664232762,117.49972582869259,0,False,nonnegative weighted average of two printed-coordinate row means only
+B1,sphere,121.11,118.80955409555197,120.80497925618761,0.30502074381239197,True,nonnegative weighted average of two printed-coordinate row means only
+C1,sphere,130.1,129.49689638441262,129.9396384688382,0.16036153116178298,False,nonnegative weighted average of two printed-coordinate row means only
+A3,WGS84_assumed,25.86,26.307515619306457,26.419469829536883,0.4475156193064578,True,nonnegative weighted average of two printed-coordinate row means only
+A2,WGS84_assumed,27.68,27.993541229861876,28.05594804596036,0.31354122986187605,True,nonnegative weighted average of two printed-coordinate row means only
+A1,WGS84_assumed,30.0,30.339459548091675,30.641420707308107,0.3394595480916749,True,nonnegative weighted average of two printed-coordinate row means only
+B2,WGS84_assumed,117.49,115.93878829137427,117.36535712307841,0.12464287692158393,False,nonnegative weighted average of two printed-coordinate row means only
+B1,WGS84_assumed,121.11,118.67109772475152,120.66070211661237,0.4492978833876293,True,nonnegative weighted average of two printed-coordinate row means only
+C1,WGS84_assumed,130.1,129.3358988626785,129.77819230316624,0.3218076968337584,False,nonnegative weighted average of two printed-coordinate row means only

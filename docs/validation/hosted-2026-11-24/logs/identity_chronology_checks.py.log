@@ -1,0 +1,139 @@
+[
+  {
+    "source": "WM2001_original",
+    "pair": "A-4/A-X",
+    "same_cell_2025": "r20",
+    "published_point_separation_m": 160.96866392478196,
+    "meridional_gap_after_rounding_m": 132.88473350117766,
+    "maximum_square_side_tested_m": 50,
+    "maximum_square_diagonal_m": 70.71067811865476,
+    "incompatible_under_test": true,
+    "scope": "Same labelled features, same physical positions, square side <=50m, nearest coordinate rounding, WGS84 assumed. Not proof which source is wrong."
+  },
+  {
+    "source": "WM2001_original",
+    "pair": "A-5/A-6",
+    "same_cell_2025": "x20",
+    "published_point_separation_m": 24.420601843345068,
+    "meridional_gap_after_rounding_m": 11.07372634772327,
+    "maximum_square_side_tested_m": 50,
+    "maximum_square_diagonal_m": 70.71067811865476,
+    "incompatible_under_test": false,
+    "scope": "Same labelled features, same physical positions, square side <=50m, nearest coordinate rounding, WGS84 assumed. Not proof which source is wrong."
+  },
+  {
+    "source": "BR2005_repeated_WM2001",
+    "pair": "A-4/A-X",
+    "same_cell_2025": "r20",
+    "published_point_separation_m": 160.96866392478196,
+    "meridional_gap_after_rounding_m": 132.88473350117766,
+    "maximum_square_side_tested_m": 50,
+    "maximum_square_diagonal_m": 70.71067811865476,
+    "incompatible_under_test": true,
+    "scope": "Same labelled features, same physical positions, square side <=50m, nearest coordinate rounding, WGS84 assumed. Not proof which source is wrong."
+  },
+  {
+    "source": "BR2005_repeated_WM2001",
+    "pair": "A-5/A-6",
+    "same_cell_2025": "x20",
+    "published_point_separation_m": 24.420601843345068,
+    "meridional_gap_after_rounding_m": 11.07372634772327,
+    "maximum_square_side_tested_m": 50,
+    "maximum_square_diagonal_m": 70.71067811865476,
+    "incompatible_under_test": false,
+    "scope": "Same labelled features, same physical positions, square side <=50m, nearest coordinate rounding, WGS84 assumed. Not proof which source is wrong."
+  },
+  {
+    "source": "BR2005_QB2002",
+    "pair": "A-4/A-X",
+    "same_cell_2025": "r20",
+    "published_point_separation_m": 165.8274344440556,
+    "meridional_gap_after_rounding_m": 132.884731852409,
+    "maximum_square_side_tested_m": 50,
+    "maximum_square_diagonal_m": 70.71067811865476,
+    "incompatible_under_test": true,
+    "scope": "Same labelled features, same physical positions, square side <=50m, nearest coordinate rounding, WGS84 assumed. Not proof which source is wrong."
+  },
+  {
+    "source": "BR2005_QB2002",
+    "pair": "A-5/A-6",
+    "same_cell_2025": "x20",
+    "published_point_separation_m": 53.98836767930901,
+    "meridional_gap_after_rounding_m": 33.22117904648268,
+    "maximum_square_side_tested_m": 50,
+    "maximum_square_diagonal_m": 70.71067811865476,
+    "incompatible_under_test": false,
+    "scope": "Same labelled features, same physical positions, square side <=50m, nearest coordinate rounding, WGS84 assumed. Not proof which source is wrong."
+  },
+  {
+    "source": "BR2005_GPS2003",
+    "pair": "A-4/A-X",
+    "same_cell_2025": "r20",
+    "published_point_separation_m": 171.16736747585438,
+    "meridional_gap_after_rounding_m": 132.884731852409,
+    "maximum_square_side_tested_m": 50,
+    "maximum_square_diagonal_m": 70.71067811865476,
+    "incompatible_under_test": true,
+    "scope": "Same labelled features, same physical positions, square side <=50m, nearest coordinate rounding, WGS84 assumed. Not proof which source is wrong."
+  },
+  {
+    "source": "BR2005_GPS2003",
+    "pair": "A-5/A-6",
+    "same_cell_2025": "x20",
+    "published_point_separation_m": 53.98836767930901,
+    "meridional_gap_after_rounding_m": 33.22117904648268,
+    "maximum_square_side_tested_m": 50,
+    "maximum_square_diagonal_m": 70.71067811865476,
+    "incompatible_under_test": false,
+    "scope": "Same labelled features, same physical positions, square side <=50m, nearest coordinate rounding, WGS84 assumed. Not proof which source is wrong."
+  }
+]
+[
+  {
+    "group": "A3",
+    "target": "Arcturus",
+    "BC_2007": "4530\u20134320",
+    "BP_2015": "6,530\u20136,320",
+    "older_endpoint_offset": 2000,
+    "younger_endpoint_offset": 2000,
+    "status": "Source-labelled ranges retained; 2000-year arithmetic offset observed, BP epoch not silently assumed"
+  },
+  {
+    "group": "A2",
+    "target": "Arcturus",
+    "BC_2007": "4220\u20134020",
+    "BP_2015": "6,220\u20136,020",
+    "older_endpoint_offset": 2000,
+    "younger_endpoint_offset": 2000,
+    "status": "Source-labelled ranges retained; 2000-year arithmetic offset observed, BP epoch not silently assumed"
+  },
+  {
+    "group": "A1",
+    "target": "Arcturus",
+    "BC_2007": "3810\u20133630",
+    "BP_2015": "5,810\u20135,630",
+    "older_endpoint_offset": 2000,
+    "younger_endpoint_offset": 2000,
+    "status": "Source-labelled ranges retained; 2000-year arithmetic offset observed, BP epoch not silently assumed"
+  },
+  {
+    "group": "B1",
+    "target": "Sirius",
+    "BC_2007": "4640\u20134400",
+    "BP_2015": "6,640\u20136,400",
+    "older_endpoint_offset": 2000,
+    "younger_endpoint_offset": 2000,
+    "status": "Source-labelled ranges retained; 2000-year arithmetic offset observed, BP epoch not silently assumed"
+  },
+  {
+    "group": "B1",
+    "target": "\u03b1 Centauri",
+    "BC_2007": "4500\u20134260",
+    "BP_2015": "6,500\u20136,260",
+    "older_endpoint_offset": 2000,
+    "younger_endpoint_offset": 2000,
+    "status": "Source-labelled ranges retained; 2000-year arithmetic offset observed, BP epoch not silently assumed"
+  }
+]
+
+STDERR:

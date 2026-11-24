@@ -1,0 +1,46 @@
+[
+  {
+    "group": "A3",
+    "n_complete_source_versions": 4,
+    "min_deg": 26.307515619306457,
+    "max_deg": 26.966011090647743,
+    "span_deg": 0.6584954713412863
+  },
+  {
+    "group": "A2",
+    "n_complete_source_versions": 4,
+    "min_deg": 27.993541229861876,
+    "max_deg": 28.735475178227016,
+    "span_deg": 0.7419339483651406
+  },
+  {
+    "group": "A1",
+    "n_complete_source_versions": 4,
+    "min_deg": 30.339459548091675,
+    "max_deg": 31.387763112203608,
+    "span_deg": 1.048303564111933
+  },
+  {
+    "group": "B2",
+    "n_complete_source_versions": 3,
+    "min_deg": 115.68299633624875,
+    "max_deg": 115.93878829137427,
+    "span_deg": 0.2557919551255168
+  },
+  {
+    "group": "B1",
+    "n_complete_source_versions": 4,
+    "min_deg": 118.67109772475152,
+    "max_deg": 120.66070211661237,
+    "span_deg": 1.9896043918608513
+  },
+  {
+    "group": "C1",
+    "n_complete_source_versions": 3,
+    "min_deg": 129.3358988626785,
+    "max_deg": 129.61913997705196,
+    "span_deg": 0.28324111437345323
+  }
+]
+
+STDERR:
