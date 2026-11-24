@@ -45,3 +45,7 @@ For disputed source passages, obtain the corresponding publications through the 
 The ignored legacy archive contains inherited notebooks, terrain/astronomy assets and outputs with earlier reliability concerns. These are not prerequisites for the approved current pipeline. Any future reuse must begin with an explicit provenance and validation task, not importing them as accepted results. No private full-text or archive handoff is implied by public availability. The [local-archive policy](LOCAL_ARCHIVE.md) and [rights statement](../RIGHTS.md) apply.
 
 No scientific gate was advanced by this handoff or GitHub publication. The owner authorized public repository publication; authorship, a reuse licence, journal submission and external correspondence still require their own decisions where applicable.
+
+## Literature and references
+
+See the [literature dependency matrix](sources/LITERATURE_DEPENDENCIES.md), [Chicago author–date bibliography](sources/BIBLIOGRAPHY_CHICAGO.md) and [citation guide](sources/CITATION_GUIDE.md). Catalogue entries map to stable reference keys; citation metadata does not upgrade source read depth.

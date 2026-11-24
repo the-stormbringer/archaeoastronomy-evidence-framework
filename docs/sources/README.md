@@ -19,3 +19,7 @@ The historical `checked` and acquisition fields are dated evidence; later curate
 Iwaniszewski and Malville's climate chapter are in the supplied 2021 SEAC proceedings of the 2009 conference, ISBN 978-3-00-069946-7. Their acquisition gaps are closed locally. The calendar-circle reassessment does not replace a radial-row survey.
 
 Sahara 5:7–16 remains unavailable by working assumption. Raw survey coordinates, observation-point definitions and an adjudicated old/new label crosswalk are not supplied. These are evidence limits, not missing software dependencies. See [handoff](../HANDOFF.md) for affected tasks. Astronomy/terrain/visibility references in the catalogue are conditional reading, not authorization to open that branch.
+
+## Literature and references
+
+See the [literature dependency matrix](LITERATURE_DEPENDENCIES.md), [Chicago author–date bibliography](BIBLIOGRAPHY_CHICAGO.md) and [citation guide](CITATION_GUIDE.md). Catalogue entries map to stable reference keys; citation metadata does not upgrade source read depth.

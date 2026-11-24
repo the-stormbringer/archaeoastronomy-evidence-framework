@@ -6,6 +6,7 @@ A source-critical case study of the published radial alignments at Nabta Playa: 
 
 ## Start here
 
+- [Literature dependencies](docs/sources/LITERATURE_DEPENDENCIES.md), [Chicago bibliography](docs/sources/BIBLIOGRAPHY_CHICAGO.md) and [citation conventions](docs/sources/CITATION_GUIDE.md).
 - **New maintainer:** read the [continuation handoff](docs/HANDOFF.md), [data dictionary](data/DICTIONARY.md) and [source catalogue](docs/sources/README.md).
 - **Known issue:** [hosted numerical reproduction fails](docs/validation/hosted-2026-11-24/README.md) despite passing repository checks and 34 tests; investigation remains open.
 

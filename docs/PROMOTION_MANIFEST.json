@@ -241,10 +241,10 @@
       "source": "agent_artifacts/analysis/case-study-2026-10-24/MANUSCRIPT_WORKING_DRAFT.md",
       "destination": "docs/manuscript/MANUSCRIPT_WORKING_DRAFT.md",
       "source_sha256": "afe7276df24081d9a98a4f99165b6a1a04bce35bd3bfc89846625497145f63e7",
-      "destination_sha256": "be5dbea446ab4c27240b5c84de6cec6d407e7270b544e2a4627ce1f56cf577fb",
+      "destination_sha256": "5fd65508f8b17d7944578e9d2c670af4112661f3ede8d3173d8670b3109bbb35",
       "transformation": "local links/status metadata adapted for repository; scientific results not edited",
       "initial_promotion_destination_sha256": "390041833ee8dafcc6f5369a4bbdf531914798299773f17387a0a391b3777044",
-      "post_promotion_amendment": "2026-11-23 deep-audit acceptance/state/documentation changes; original source snapshot preserved"
+      "post_promotion_amendment": "2026-11-24 Chicago author-date reference formatting and literature guide links; scientific claims unchanged."
     },
     {
       "source": "agent_artifacts/analysis/case-study-2026-10-24/SPECIFICATION.md",

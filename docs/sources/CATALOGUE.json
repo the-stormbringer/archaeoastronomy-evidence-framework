@@ -15,7 +15,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/malville2015.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "8329edef90f6d14ff286027e0275ee132f138bf6800295e3518ec2e3eefaec4f"
+      "local_file_sha256": "8329edef90f6d14ff286027e0275ee132f138bf6800295e3518ec2e3eefaec4f",
+      "reference_id": "malville2015"
     },
     {
       "id": "malville2008",
@@ -30,7 +31,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/malville2008.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "a6626ba87daa38bc4cc7ace33a37ae152781f7e8b7fc4d9360ccfba796a87de9"
+      "local_file_sha256": "a6626ba87daa38bc4cc7ace33a37ae152781f7e8b7fc4d9360ccfba796a87de9",
+      "reference_id": "malville2008"
     },
     {
       "id": "schild2004",
@@ -45,7 +47,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/schild2004.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "285b1cc124ff9f4967056ba14227ac7f67610d8f83ea66083ac1cc8c841f8535"
+      "local_file_sha256": "285b1cc124ff9f4967056ba14227ac7f67610d8f83ea66083ac1cc8c841f8535",
+      "reference_id": "schild2004"
     },
     {
       "id": "kuper2006",
@@ -60,7 +63,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/kuper2006.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "11003c7906d9b3c6f3f35fd1d741836d2b02a7e8c78d08648431ea4471fb6e1b"
+      "local_file_sha256": "11003c7906d9b3c6f3f35fd1d741836d2b02a7e8c78d08648431ea4471fb6e1b",
+      "reference_id": "kuper2006"
     },
     {
       "id": "kuper2006_supplement",
@@ -75,7 +79,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/kuper2006_supplement.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "622c51ddde75691ae56ba99d8a28e38761480381f6592974b0e3b6bbc04b313d"
+      "local_file_sha256": "622c51ddde75691ae56ba99d8a28e38761480381f6592974b0e3b6bbc04b313d",
+      "reference_id": "kuper2006"
     },
     {
       "id": "silva2017",
@@ -90,7 +95,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/silva2017.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "f24251ca03d68cdbd593ed012bd9d1b6ebf896d5299b005f8ec6633fa6f339bc"
+      "local_file_sha256": "f24251ca03d68cdbd593ed012bd9d1b6ebf896d5299b005f8ec6633fa6f339bc",
+      "reference_id": "silva2017"
     },
     {
       "id": "skyscapeR2021",
@@ -105,7 +111,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/skyscapeR2021.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "2db0e5fc04871f2bdbc15be2dc118597d1f19272956891e7d8fe51e56d6af4e5"
+      "local_file_sha256": "2db0e5fc04871f2bdbc15be2dc118597d1f19272956891e7d8fe51e56d6af4e5",
+      "reference_id": "skyscapeR2021"
     },
     {
       "id": "reimer2020",
@@ -120,7 +127,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/reimer2020.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "2cad7a58d0ebef85ba457ae30306ea6bcf813a43831bdb67ec9af9ea02af3967"
+      "local_file_sha256": "2cad7a58d0ebef85ba457ae30306ea6bcf813a43831bdb67ec9af9ea02af3967",
+      "reference_id": "reimer2020"
     },
     {
       "id": "park2021",
@@ -135,7 +143,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/park2021.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "96c3945deb12e0f0843c2bf0703d3542d950cf85ff903b1fe11a501634f68ee0"
+      "local_file_sha256": "96c3945deb12e0f0843c2bf0703d3542d950cf85ff903b1fe11a501634f68ee0",
+      "reference_id": "park2021"
     },
     {
       "id": "phipson2010",
@@ -150,7 +159,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/phipson2010.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "3ae85ec85dc069064c859778282e96c2700f2734ea9ae20d2ed4d7dfb9947a9b"
+      "local_file_sha256": "3ae85ec85dc069064c859778282e96c2700f2734ea9ae20d2ed4d7dfb9947a9b",
+      "reference_id": "phipson2010"
     },
     {
       "id": "schaefer1993",
@@ -165,7 +175,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/schaefer1993.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "22e7c21dfdf75973b07a7399bfbd1234ecaacfc503b8eff237f3022542c6333b"
+      "local_file_sha256": "22e7c21dfdf75973b07a7399bfbd1234ecaacfc503b8eff237f3022542c6333b",
+      "reference_id": "schaefer1993"
     },
     {
       "id": "henty2014",
@@ -180,7 +191,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/henty2014.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "0e03ad23e4ac440dd7d0c1dddf0d9e09f9bb1b5449a94743b40eabcecd3036b4"
+      "local_file_sha256": "0e03ad23e4ac440dd7d0c1dddf0d9e09f9bb1b5449a94743b40eabcecd3036b4",
+      "reference_id": "henty2014"
     },
     {
       "id": "jaxa_v32",
@@ -195,7 +207,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/jaxa_v32.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "bbd22414452c5583d6eb562a5cd95360dbf979f2676be17393ab87be84b13858"
+      "local_file_sha256": "bbd22414452c5583d6eb562a5cd95360dbf979f2676be17393ab87be84b13858",
+      "reference_id": "jaxa_v32"
     },
     {
       "id": "vondrak2011_corrected",
@@ -210,7 +223,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/vondrak2011_corrected.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "45429bccb663a19f9ee15732fdac3c5dcfa161318869eabd711475f2fbb7c5df"
+      "local_file_sha256": "45429bccb663a19f9ee15732fdac3c5dcfa161318869eabd711475f2fbb7c5df",
+      "reference_id": "vondrak2011_corrected"
     },
     {
       "id": "zotti2021",
@@ -225,7 +239,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/zotti2021.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "2a72991e326cbd2744255c8fc2895352cea749169b73c565e174529d2b236df2"
+      "local_file_sha256": "2a72991e326cbd2744255c8fc2895352cea749169b73c565e174529d2b236df2",
+      "reference_id": "zotti2021"
     },
     {
       "id": "gaia2021",
@@ -240,7 +255,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/gaia2021.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "43b8727ddb12b08d485a03d26a6b92b01d2a4d91c42dd9888c9827000888862a"
+      "local_file_sha256": "43b8727ddb12b08d485a03d26a6b92b01d2a4d91c42dd9888c9827000888862a",
+      "reference_id": "gaia2021"
     },
     {
       "id": "takaku2020",
@@ -255,7 +271,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/takaku2020.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "b375f5403c6ceaa5b73ce608e5034b53b6ed04e2d2bbe35c297298da8d697d80"
+      "local_file_sha256": "b375f5403c6ceaa5b73ce608e5034b53b6ed04e2d2bbe35c297298da8d697d80",
+      "reference_id": "takaku2020"
     },
     {
       "id": "efron1979",
@@ -270,7 +287,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/efron1979.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "8f341a0b65090f758d48e956e2eaafc95078f4e0e5d746a5b2a3ebb1c277ba91"
+      "local_file_sha256": "8f341a0b65090f758d48e956e2eaafc95078f4e0e5d746a5b2a3ebb1c277ba91",
+      "reference_id": "efron1979"
     },
     {
       "id": "golub1980_clean",
@@ -285,7 +303,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/golub1980_clean.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "bbe9e93b72f88913f6c3440408166984cd55f033d61bf75cb22b58ee30cd7566"
+      "local_file_sha256": "bbe9e93b72f88913f6c3440408166984cd55f033d61bf75cb22b58ee30cd7566",
+      "reference_id": "golub1980_clean"
     },
     {
       "id": "malville1998_user",
@@ -298,7 +317,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/user sourced/33131.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "a0cf938232f063e01784aa78d81e1640f7eec3044bf0981d57bd616f23651b4a"
+      "local_file_sha256": "a0cf938232f063e01784aa78d81e1640f7eec3044bf0981d57bd616f23651b4a",
+      "reference_id": "malville1998_user"
     },
     {
       "id": "wendorf1998_user",
@@ -311,7 +331,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/user sourced/1-s2.0-S0278416598903191-main.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "86b90ba313b53da04da2ac0ec749869e98c8d39230c3d5666f46e18dc8b6c324"
+      "local_file_sha256": "86b90ba313b53da04da2ac0ec749869e98c8d39230c3d5666f46e18dc8b6c324",
+      "reference_id": "wendorf1998_user"
     },
     {
       "id": "wendorf2001_user_copy",
@@ -324,7 +345,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/user sourced/Source 2 Candidates/978-1-4615-0653-9.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "3843fdb9dbc2c69f800fedce2778907206be858652d628d127d51d26735be937"
+      "local_file_sha256": "3843fdb9dbc2c69f800fedce2778907206be858652d628d127d51d26735be937",
+      "reference_id": "wendorf2001_original"
     },
     {
       "id": "wendorf1987_candidate",
@@ -337,7 +359,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/user sourced/Source 2 Candidates/BF01117082.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "be2aa6142b57d14fbdb454706bbdd58f100e187d77ec95e582ba498ca3f26e11"
+      "local_file_sha256": "be2aa6142b57d14fbdb454706bbdd58f100e187d77ec95e582ba498ca3f26e11",
+      "reference_id": "wendorf1987_candidate"
     },
     {
       "id": "ruggles2015_handbook_user",
@@ -349,7 +372,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/user sourced/978-1-4614-6141-8.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "2ad6f3dcc4ad3de611b616fde2dbce6eb40518444a88ed0a0c5282073d7aa2ba"
+      "local_file_sha256": "2ad6f3dcc4ad3de611b616fde2dbce6eb40518444a88ed0a0c5282073d7aa2ba",
+      "reference_id": "ruggles2015_handbook_user"
     },
     {
       "id": "iwaniszewski2021",
@@ -361,7 +385,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/user sourced/SEAC2009ISBN978-3-00-069946-7PDFlowressearchable.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "37b23d33b6b6afd5e806cc8c62614456c373cf7fa099d18e48610ac38c1e7253"
+      "local_file_sha256": "37b23d33b6b6afd5e806cc8c62614456c373cf7fa099d18e48610ac38c1e7253",
+      "reference_id": "iwaniszewski2021"
     },
     {
       "id": "malville_climate2021",
@@ -373,7 +398,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/user sourced/SEAC2009ISBN978-3-00-069946-7PDFlowressearchable.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "37b23d33b6b6afd5e806cc8c62614456c373cf7fa099d18e48610ac38c1e7253"
+      "local_file_sha256": "37b23d33b6b6afd5e806cc8c62614456c373cf7fa099d18e48610ac38c1e7253",
+      "reference_id": "malville_climate2021"
     },
     {
       "id": "haynie2014",
@@ -386,7 +412,8 @@
       "read_depth_note": "Historical acquisition screening only unless a later curated review records more; this catalogue does not upgrade reading depth.",
       "local_archive_locator": "agent_artifacts/source_library-2026-10-22/papers/user sourced/haynie2014.pdf",
       "local_file_present_at_handoff": true,
-      "local_file_sha256": "d06fea80bc9903922d9a0564da1a266fd93f8e49b325a6f7682de9939f3114bb"
+      "local_file_sha256": "d06fea80bc9903922d9a0564da1a266fd93f8e49b325a6f7682de9939f3114bb",
+      "reference_id": "haynie2014"
     },
     {
       "id": "wendorf2001_original",
@@ -397,7 +424,8 @@
       "local_file_present_at_handoff": true,
       "redistributed": false,
       "read_depth_note": "Selected passages reviewed in curated evidence notes; full critical reading is not asserted.",
-      "local_file_sha256": "9af53f39403a68227070d811624f37322b103e934f5acb638d38ca1c5a26c757"
+      "local_file_sha256": "9af53f39403a68227070d811624f37322b103e934f5acb638d38ca1c5a26c757",
+      "reference_id": "wendorf2001_original"
     },
     {
       "id": "brophy_rosen2005",
@@ -408,7 +436,8 @@
       "local_file_present_at_handoff": true,
       "redistributed": false,
       "read_depth_note": "Selected passages reviewed in curated evidence notes; full critical reading is not asserted.",
-      "local_file_sha256": "90e95fb0b1d403abc1c15cbf1105e2f7c34a4fde9a21b0ca7fb65ae7ff753afe"
+      "local_file_sha256": "90e95fb0b1d403abc1c15cbf1105e2f7c34a4fde9a21b0ca7fb65ae7ff753afe",
+      "reference_id": "brophy_rosen2005"
     },
     {
       "id": "malville2007",
@@ -419,7 +448,8 @@
       "local_file_present_at_handoff": true,
       "redistributed": false,
       "read_depth_note": "Selected passages reviewed in curated evidence notes; full critical reading is not asserted.",
-      "local_file_sha256": "d6bd152c7b1402ab4ff1ae6a3c80d3ec60f76f85c5c3f68c2eaac56b3008b7b8"
+      "local_file_sha256": "d6bd152c7b1402ab4ff1ae6a3c80d3ec60f76f85c5c3f68c2eaac56b3008b7b8",
+      "reference_id": "malville2007"
     },
     {
       "id": "silva2020",
@@ -430,7 +460,8 @@
       "local_file_present_at_handoff": true,
       "redistributed": false,
       "read_depth_note": "Selected passages reviewed in curated evidence notes; full critical reading is not asserted.",
-      "local_file_sha256": "df21bd64a86b98be34a2c2493f05a7d9263a3662201a2755e6bc81bd91161317"
+      "local_file_sha256": "df21bd64a86b98be34a2c2493f05a7d9263a3662201a2755e6bc81bd91161317",
+      "reference_id": "silva2020"
     },
     {
       "id": "schild2025",
@@ -442,7 +473,8 @@
       "redistributed": false,
       "read_depth_note": "Selected passages reviewed in curated evidence notes; full critical reading is not asserted.",
       "local_file_sha256": "b766a47dac2f1adda6b72e4e360e42a80991502e682abf61d845e9d93f814694",
-      "url": "https://rcin.org.pl/dlibra/publication/284542/edition/247676?language=en"
+      "url": "https://rcin.org.pl/dlibra/publication/284542/edition/247676?language=en",
+      "reference_id": "schild2025"
     },
     {
       "id": "wendorf_close_schild1992_1993",
@@ -451,7 +483,8 @@
       "doi": null,
       "redistributed": false,
       "local_file_present_at_handoff": false,
-      "purpose": "Early discovery history; assume unavailable. Not a blanket radial-analysis blocker."
+      "purpose": "Early discovery history; assume unavailable. Not a blanket radial-analysis blocker.",
+      "reference_id": "wendorf_close_schild1992_1993"
     }
   ]
 }

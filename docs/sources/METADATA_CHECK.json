@@ -1,0 +1,472 @@
+{
+  "checked": "2026-11-24",
+  "scope": "Bibliographic metadata only; not a new substantive literature review. Some DOI requests returned HTTP 429; no repeated retry campaign. Primary PDFs and existing records resolve cited exceptions.",
+  "online_checks": [
+    "https://www.chicagomanualofstyle.org/help-tools/what-s-new.html",
+    "https://link.springer.com/book/10.1007/978-1-4020-6639-9",
+    "https://www.maajournal.com/index.php/maa/article/download/82/57/108"
+  ],
+  "primary_pages_checked": [
+    {
+      "catalogue_id": "henty2014",
+      "pdf_pages": [
+        1
+      ],
+      "fields": "author, issue year, journal, article number, pages"
+    },
+    {
+      "catalogue_id": "skyscapeR2021",
+      "pdf_pages": [
+        1
+      ],
+      "fields": "specific title, author, issue year and pages"
+    },
+    {
+      "catalogue_id": "zotti2021",
+      "pdf_pages": [
+        1
+      ],
+      "fields": "authors, title, issue year and pages"
+    },
+    {
+      "catalogue_id": "reimer2020",
+      "pdf_pages": [
+        1
+      ],
+      "fields": "author order, journal, year and pages"
+    },
+    {
+      "catalogue_id": "schild2025",
+      "pdf_pages": [
+        5,
+        8,
+        87
+      ],
+      "fields": "editor roles, publisher, year, quarry chapter author line"
+    },
+    {
+      "catalogue_id": "iwaniszewski2021",
+      "pdf_pages": [
+        4,
+        5,
+        19
+      ],
+      "fields": "proceedings title, editors, publisher, year, ISBN, chapter title and author"
+    },
+    {
+      "catalogue_id": "malville_climate2021",
+      "pdf_pages": [
+        12
+      ],
+      "fields": "chapter title and author"
+    },
+    {
+      "catalogue_id": "wendorf2001_original",
+      "pdf_pages": [
+        500
+      ],
+      "fields": "chapter 16 title and authors"
+    }
+  ],
+  "doi_retrieval": [
+    {
+      "doi": "10.1006/jaar.1998.0319",
+      "metadata_endpoint": "https://api.crossref.org/works/10.1006/jaar.1998.0319",
+      "metadata_retrieved": false,
+      "citation_retrieved": true,
+      "retrieval_error": "HTTP Error 429: Too Many Requests",
+      "fields": {}
+    },
+    {
+      "doi": "10.1007/978-1-4020-6639-9_11",
+      "metadata_endpoint": "https://api.crossref.org/works/10.1007/978-1-4020-6639-9_11",
+      "metadata_retrieved": true,
+      "citation_retrieved": true,
+      "retrieval_error": null,
+      "fields": {
+        "title": [
+          "Astronomy of Nabta Playa"
+        ],
+        "container-title": [
+          "Astrophysics and Space Science Proceedings",
+          "African Cultural Astronomy"
+        ],
+        "page": "131-143",
+        "publisher": "Springer Netherlands"
+      }
+    },
+    {
+      "doi": "10.1007/978-1-4614-6141-8",
+      "metadata_endpoint": "https://api.crossref.org/works/10.1007/978-1-4614-6141-8",
+      "metadata_retrieved": true,
+      "citation_retrieved": true,
+      "retrieval_error": null,
+      "fields": {
+        "title": [
+          "Handbook of Archaeoastronomy and Ethnoastronomy"
+        ],
+        "container-title": [],
+        "published": {
+          "date-parts": [
+            [
+              2015
+            ]
+          ]
+        },
+        "publisher": "Springer New York"
+      }
+    },
+    {
+      "doi": "10.1007/978-1-4614-6141-8_101",
+      "metadata_endpoint": "https://api.crossref.org/works/10.1007/978-1-4614-6141-8_101",
+      "metadata_retrieved": false,
+      "citation_retrieved": false,
+      "retrieval_error": "HTTP Error 429: Too Many Requests",
+      "fields": {}
+    },
+    {
+      "doi": "10.1007/978-1-4615-0653-9",
+      "metadata_endpoint": "https://api.crossref.org/works/10.1007/978-1-4615-0653-9",
+      "metadata_retrieved": false,
+      "citation_retrieved": true,
+      "retrieval_error": "HTTP Error 429: Too Many Requests",
+      "fields": {}
+    },
+    {
+      "doi": "10.1007/BF01117082",
+      "metadata_endpoint": "https://api.crossref.org/works/10.1007/BF01117082",
+      "metadata_retrieved": true,
+      "citation_retrieved": true,
+      "retrieval_error": null,
+      "fields": {
+        "title": [
+          "Recent work on the Middle Palaeolithic of the Eastern Sahara"
+        ],
+        "container-title": [
+          "The African Archaeological Review"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1987
+            ]
+          ]
+        },
+        "volume": "5",
+        "issue": "1",
+        "page": "49-63",
+        "publisher": "Springer Science and Business Media LLC"
+      }
+    },
+    {
+      "doi": "10.1016/0083-6656(93)90113-X",
+      "metadata_endpoint": "https://api.crossref.org/works/10.1016/0083-6656(93)90113-X",
+      "metadata_retrieved": false,
+      "citation_retrieved": true,
+      "retrieval_error": "HTTP Error 429: Too Many Requests",
+      "fields": {}
+    },
+    {
+      "doi": "10.1016/j.jas.2020.105138",
+      "metadata_endpoint": "https://api.crossref.org/works/10.1016/j.jas.2020.105138",
+      "metadata_retrieved": false,
+      "citation_retrieved": false,
+      "retrieval_error": "HTTP Error 429: Too Many Requests",
+      "fields": {}
+    },
+    {
+      "doi": "10.1017/RDC.2020.41",
+      "metadata_endpoint": "https://api.crossref.org/works/10.1017/RDC.2020.41",
+      "metadata_retrieved": false,
+      "citation_retrieved": false,
+      "retrieval_error": "HTTP Error 429: Too Many Requests",
+      "fields": {}
+    },
+    {
+      "doi": "10.1038/33131",
+      "metadata_endpoint": "https://api.crossref.org/works/10.1038/33131",
+      "metadata_retrieved": false,
+      "citation_retrieved": true,
+      "retrieval_error": "HTTP Error 429: Too Many Requests",
+      "fields": {}
+    },
+    {
+      "doi": "10.1051/0004-6361/201117274",
+      "metadata_endpoint": "https://api.crossref.org/works/10.1051/0004-6361/201117274",
+      "metadata_retrieved": true,
+      "citation_retrieved": false,
+      "retrieval_error": null,
+      "fields": {
+        "title": [
+          "New precession expressions, valid for long time intervals"
+        ],
+        "container-title": [
+          "Astronomy &amp; Astrophysics"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              9,
+              23
+            ]
+          ]
+        },
+        "volume": "534",
+        "page": "A22",
+        "publisher": "EDP Sciences"
+      }
+    },
+    {
+      "doi": "10.1051/0004-6361/202039657",
+      "metadata_endpoint": "https://api.crossref.org/works/10.1051/0004-6361/202039657",
+      "metadata_retrieved": true,
+      "citation_retrieved": true,
+      "retrieval_error": null,
+      "fields": {
+        "title": [
+          "<i>Gaia</i>\n                    Early Data Release 3"
+        ],
+        "container-title": [
+          "Astronomy &amp; Astrophysics"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              28
+            ]
+          ]
+        },
+        "volume": "649",
+        "page": "A1",
+        "publisher": "EDP Sciences"
+      }
+    },
+    {
+      "doi": "10.1126/science.1130989",
+      "metadata_endpoint": "https://api.crossref.org/works/10.1126/science.1130989",
+      "metadata_retrieved": true,
+      "citation_retrieved": true,
+      "retrieval_error": null,
+      "fields": {
+        "title": [
+          "Climate-Controlled Holocene Occupation in the Sahara: Motor of Africa's Evolution"
+        ],
+        "container-title": [
+          "Science"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2006,
+              8,
+              11
+            ]
+          ]
+        },
+        "volume": "313",
+        "issue": "5788",
+        "page": "803-807",
+        "publisher": "American Association for the Advancement of Science (AAAS)"
+      }
+    },
+    {
+      "doi": "10.1137/0717073",
+      "metadata_endpoint": "https://api.crossref.org/works/10.1137/0717073",
+      "metadata_retrieved": false,
+      "citation_retrieved": true,
+      "retrieval_error": "HTTP Error 429: Too Many Requests",
+      "fields": {}
+    },
+    {
+      "doi": "10.1214/aos/1176344552",
+      "metadata_endpoint": "https://api.crossref.org/works/10.1214/aos/1176344552",
+      "metadata_retrieved": true,
+      "citation_retrieved": true,
+      "retrieval_error": null,
+      "fields": {
+        "title": [
+          "Bootstrap Methods: Another Look at the Jackknife"
+        ],
+        "container-title": [
+          "The Annals of Statistics"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1979,
+              1,
+              1
+            ]
+          ]
+        },
+        "volume": "7",
+        "issue": "1",
+        "page": "1-26",
+        "publisher": "Institute of Mathematical Statistics"
+      }
+    },
+    {
+      "doi": "10.1558/jsa.17822",
+      "metadata_endpoint": "https://api.crossref.org/works/10.1558/jsa.17822",
+      "metadata_retrieved": true,
+      "citation_retrieved": false,
+      "retrieval_error": null,
+      "fields": {
+        "title": [
+          "Simulated Sky"
+        ],
+        "container-title": [
+          "Journal of Skyscape Archaeology"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              24
+            ]
+          ]
+        },
+        "volume": "6",
+        "issue": "2",
+        "publisher": "Equinox Publishing"
+      }
+    },
+    {
+      "doi": "10.1558/jsa.22285",
+      "metadata_endpoint": "https://api.crossref.org/works/10.1558/jsa.22285",
+      "metadata_retrieved": true,
+      "citation_retrieved": true,
+      "retrieval_error": null,
+      "fields": {
+        "title": [
+          "Software"
+        ],
+        "container-title": [
+          "Journal of Skyscape Archaeology"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              2,
+              18
+            ]
+          ]
+        },
+        "volume": "7",
+        "issue": "2",
+        "page": "325-326",
+        "publisher": "Equinox Publishing"
+      }
+    },
+    {
+      "doi": "10.1558/jsa.31958",
+      "metadata_endpoint": "https://api.crossref.org/works/10.1558/jsa.31958",
+      "metadata_retrieved": true,
+      "citation_retrieved": false,
+      "retrieval_error": null,
+      "fields": {
+        "title": [
+          "Inferring Alignments I: Exploring the Accuracy and Precision of Two Statistical Approaches"
+        ],
+        "container-title": [
+          "Journal of Skyscape Archaeology"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              17
+            ]
+          ]
+        },
+        "volume": "3",
+        "issue": "1",
+        "page": "93-111",
+        "publisher": "Equinox Publishing"
+      }
+    },
+    {
+      "doi": "10.2202/1544-6115.1585",
+      "metadata_endpoint": "https://api.crossref.org/works/10.2202/1544-6115.1585",
+      "metadata_retrieved": false,
+      "citation_retrieved": true,
+      "retrieval_error": "HTTP Error 429: Too Many Requests",
+      "fields": {}
+    },
+    {
+      "doi": "10.3727/194982414X13971392823433",
+      "metadata_endpoint": "https://api.crossref.org/works/10.3727/194982414X13971392823433",
+      "metadata_retrieved": true,
+      "citation_retrieved": false,
+      "retrieval_error": null,
+      "fields": {
+        "title": [
+          "NABTA PLAYA IN THE DEVELOPMENT OF SCIENCE AND TECHNOLOGY"
+        ],
+        "container-title": [
+          "Technology &amp; Innovation"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              6,
+              10
+            ]
+          ]
+        },
+        "volume": "16",
+        "issue": "1",
+        "page": "63-73",
+        "publisher": "Informa UK Limited"
+      }
+    },
+    {
+      "doi": "10.3847/1538-3881/abd414",
+      "metadata_endpoint": "https://api.crossref.org/works/10.3847/1538-3881/abd414",
+      "metadata_retrieved": false,
+      "citation_retrieved": true,
+      "retrieval_error": "HTTP Error 429: Too Many Requests",
+      "fields": {}
+    },
+    {
+      "doi": "10.5194/isprs-archives-XLIII-B4-2020-183-2020",
+      "metadata_endpoint": "https://api.crossref.org/works/10.5194/isprs-archives-XLIII-B4-2020-183-2020",
+      "metadata_retrieved": false,
+      "citation_retrieved": false,
+      "retrieval_error": "HTTP Error 429: Too Many Requests",
+      "fields": {}
+    },
+    {
+      "doi": "10.5334/pia.464",
+      "metadata_endpoint": "https://api.crossref.org/works/10.5334/pia.464",
+      "metadata_retrieved": true,
+      "citation_retrieved": true,
+      "retrieval_error": null,
+      "fields": {
+        "title": [
+          "The Archaeoastronomy of Tomnaverie Recumbent Stone Circle: A Comparison of Methodologies"
+        ],
+        "container-title": [
+          "PIA"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              12,
+              19
+            ]
+          ]
+        },
+        "publisher": "UCL Press"
+      }
+    }
+  ]
+}

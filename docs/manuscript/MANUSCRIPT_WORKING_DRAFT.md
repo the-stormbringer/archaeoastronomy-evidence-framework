@@ -116,15 +116,26 @@ Derived tables, scripts, input hashes and validation records accompany the draft
 
 ## References cited in this working draft
 
-- Brophy, T. G., and P. A. Rosen. 2005. Satellite imagery measures of the astronomically aligned megaliths at Nabta Playa. *Mediterranean Archaeology and Archaeometry* 5(1):15–24.
-- Malville, J. M., F. Wendorf, A. A. Mazar, and R. Schild. 1998. Megaliths and Neolithic astronomy in southern Egypt. *Nature* 392:488–491. https://doi.org/10.1038/33131
-- Malville, J. M., R. Schild, F. Wendorf, and R. Brenmer. 2007. Astronomy of Nabta Playa. *African Skies/Cieux Africains* 11:2–7.
-- Malville, J. M. 2015. Astronomy at Nabta Playa, Southern Egypt. In *Handbook of Archaeoastronomy and Ethnoastronomy*, pp. 1079–1091. https://doi.org/10.1007/978-1-4614-6141-8_101
-- Schild, R., ed., with A. Czekaj-Zastawny and H. Królik. 2025. *The Megaliths of Nabta Playa*. Warsaw: Institute of Archaeology and Ethnology, Polish Academy of Sciences. Chapters 2, 5 and 7 and the catalogue are cited by printed page.
-- Silva, F. 2017. Inferring Alignments I: Exploring the Accuracy and Precision of Two Statistical Approaches. *Journal of Skyscape Archaeology* 3(1):93–111. https://doi.org/10.1558/jsa.31958
-- Silva, F. 2020. A probabilistic framework and significance test for the analysis of structural orientations in skyscape archaeology. *Journal of Archaeological Science* 118:105138. https://doi.org/10.1016/j.jas.2020.105138
-- Silva, F. 2021. skyscapeR: Data Analysis and Visualisation for Skyscape Archaeology. *Journal of Skyscape Archaeology* 7(2):325–326. https://doi.org/10.1558/jsa.22285
-- Wendorf, F., and J. M. Malville. 2001. The Megalithic Alignments. Chapter 16 in *Holocene Settlement of the Egyptian Sahara, Volume 1: The Archaeology of Nabta Playa*, pp. 489–502.
+Chicago author–date; see the [citation guide](../sources/CITATION_GUIDE.md) and [full literature list](../sources/BIBLIOGRAPHY_CHICAGO.md) for metadata qualifications and conditional references.
 
-- Haynie, D. T. 2014. Nabta Playa in the Development of Science and Technology. *Technology and Innovation* 16:63–73. https://doi.org/10.3727/194982414X13971392823433
-- Królik, H., R. Schild, M. Jórdeczka, D. Mańka, and H. A. A. Ibrahim. 2025. Quartzitic Nubia Sandstone Quarries and the Duration of the Final Neolithic Occupation. Chapter 5 in R. Schild, ed., *The Megaliths of Nabta Playa*, pp. 85–105.
+Brophy, Thomas G., and Paul A. Rosen. 2005. “Satellite Imagery Measures of the Astronomically Aligned Megaliths at Nabta Playa.” *Mediterranean Archaeology and Archaeometry* 5 (1): 15–24. https://www.maajournal.com/index.php/maa/article/download/82/57/108.
+
+Haynie, Donald T. 2014. “Nabta Playa in the Development of Science and Technology.” *Technology and Innovation* 16 (1): 63–73. https://doi.org/10.3727/194982414X13971392823433.
+
+Królik, Halina, Romuald Schild, Maciej Jórdeczka, Dagmara Mańka, and HebatAllah A. A. Ibrahim. 2025. “Quartzitic Nubia Sandstone Quarries and the Duration of the Final Neolithic Occupation.” In *The Megaliths of Nabta Playa*, edited by Romuald Schild, with Agnieszka Czekaj-Zastawny and Halina Królik, 85–105. Institute of Archaeology and Ethnology, Polish Academy of Sciences.
+
+Malville, J. McKim, Fred Wendorf, Ali A. Mazar, and Romuald Schild. 1998. “Megaliths and Neolithic Astronomy in Southern Egypt.” *Nature* 392 (6675): 488–91. https://doi.org/10.1038/33131.
+
+Malville, J. McKim, Romuald Schild, Fred Wendorf, and Robert Brenmer. 2007. “Astronomy of Nabta Playa.” *African Skies/Cieux Africains* 11: 2–7.
+
+Malville, J. McKim. 2015. “Astronomy at Nabta Playa, Southern Egypt.” In *Handbook of Archaeoastronomy and Ethnoastronomy*, edited by Clive L. N. Ruggles, 1079–91. Springer. https://doi.org/10.1007/978-1-4614-6141-8_101.
+
+Schild, Romuald, ed., with Agnieszka Czekaj-Zastawny and Halina Królik. 2025. *The Megaliths of Nabta Playa*. Institute of Archaeology and Ethnology, Polish Academy of Sciences. https://rcin.org.pl/dlibra/publication/284542/edition/247676?language=en.
+
+Silva, Fabio. 2017. “Inferring Alignments I: Exploring the Accuracy and Precision of Two Statistical Approaches.” *Journal of Skyscape Archaeology* 3 (1): 93–111. https://doi.org/10.1558/jsa.31958.
+
+Silva, Fabio. 2020. “A Probabilistic Framework and Significance Test for the Analysis of Structural Orientations in Skyscape Archaeology.” *Journal of Archaeological Science* 118: 105138. https://doi.org/10.1016/j.jas.2020.105138.
+
+Silva, Fabio. 2021. “skyscapeR: Data Analysis and Visualisation for Skyscape Archaeology.” *Journal of Skyscape Archaeology* 7 (2): 325–26. https://doi.org/10.1558/jsa.22285.
+
+Wendorf, Fred, and J. McKim Malville. 2001. “The Megalithic Alignments.” In *Holocene Settlement of the Egyptian Sahara*, vol. 1, *The Archaeology of Nabta Playa*, by Fred Wendorf and Romuald Schild, 489–502. Kluwer Academic/Plenum Publishers. https://doi.org/10.1007/978-1-4615-0653-9.
