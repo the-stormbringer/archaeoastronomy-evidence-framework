@@ -23,3 +23,5 @@ Sahara 5:7–16 remains unavailable by working assumption. Raw survey coordinate
 ## Literature and references
 
 See the [literature dependency matrix](LITERATURE_DEPENDENCIES.md), [Chicago author–date bibliography](BIBLIOGRAPHY_CHICAGO.md) and [citation guide](CITATION_GUIDE.md). Catalogue entries map to stable reference keys; citation metadata does not upgrade source read depth.
+
+For the actual observations, numbers, interpretations and limits used by this case, start with [LITERATURE_EVIDENCE.md](LITERATURE_EVIDENCE.md). It provides Chicago page references and links to transcribed data while distinguishing published claims from project-derived results.

@@ -1,6 +1,8 @@
-# Nabta Playa research
+# Archaeoastronomy Evidence Framework
 
-A source-critical case study of the published radial alignments at Nabta Playa: what the numerical record supports, what depends on archaeological identification, and what remains unresolved.
+A framework under development for source-critical, reproducible archaeoastronomical research. **Nabta Playa is the first development case**: what the numerical record supports, what depends on archaeological identification, and what remains unresolved. Generality requires an independent follow-up case.
+
+Start with the [framework design](framework/README.md), [Nabta case index](cases/nabta/README.md), [repository architecture](docs/ARCHITECTURE.md), [phased roadmap](docs/ROADMAP.md) and [cited literature evidence](docs/sources/LITERATURE_EVIDENCE.md).
 
 **Current research stage:** scientific design and evidence validation. W0 planning is complete; W1 evidence and competing-explanation review is next. E1–E4 experiments are specified but have not run. The working manuscript is provisional. A general framework requires an independent follow-up study.
 
@@ -34,6 +36,7 @@ The runner uses the ten existing scientific scripts, three source ledgers and th
 
 | Directory | Contents |
 |---|---|
+| `framework/`, `cases/` | Candidate shared design, Nabta navigation and prospective case template |
 | `docs/` | Canonical plan/state, protocols, work packages, provisional manuscript and curated evidence notes |
 | `analysis/` | Existing scientific scripts, preserved byte-for-byte from the checked pipeline |
 | `data/source/` | Three transcribed input ledgers |

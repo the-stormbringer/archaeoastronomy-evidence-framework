@@ -1,4 +1,4 @@
-# Nabta repository instructions
+# Archaeoastronomy Evidence Framework repository instructions
 
 - Start with docs/PROJECT_STATE.json and docs/PROJECT_PLAN.md. The current research next step is W1; E1–E4 are pending. Repository work does not advance research gates.
 - Preserve legacy/ and historical agent_artifacts inputs. Store all worker packets, scratch notes and logs under agent_artifacts/. Only reviewed research outputs belong in docs/, analysis/ and data/.
@@ -10,3 +10,5 @@
 - Checks: python scripts/check_repository.py; python -m unittest discover -s tests -v; python scripts/reproduce.py. Record exact outcomes and limitations.
 
 - Read docs/ACCEPTANCE_CRITERIA.md and the latest docs/audits review before accepting changes. Validate new records under docs/records. Complete stages/tasks require evidence receipts; changes to required dependencies need an explicit plan and validator amendment. Do not infer scientific acceptance from a well-formed receipt.
+
+- Framework design is in framework/; Nabta is the first development case, indexed in cases/nabta/. Existing analysis/data paths are frozen case-specific benchmarks, not generic APIs. Read docs/ARCHITECTURE.md and docs/ROADMAP.md for continuation. New Nabta experiment implementations belong under cases/nabta/experiments/<id>/; outputs go to fresh ignored run directories. No scientific gate advances through repository reorganization.

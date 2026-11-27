@@ -49,3 +49,7 @@ No scientific gate was advanced by this handoff or GitHub publication. The owner
 ## Literature and references
 
 See the [literature dependency matrix](sources/LITERATURE_DEPENDENCIES.md), [Chicago author–date bibliography](sources/BIBLIOGRAPHY_CHICAGO.md) and [citation guide](sources/CITATION_GUIDE.md). Catalogue entries map to stable reference keys; citation metadata does not upgrade source read depth.
+
+## Framework organization — November 27, 2026
+
+The public repository is now `archaeoastronomy-evidence-framework`. Nabta remains its first development case; the physical local folder name is unchanged. Read the [architecture review](ARCHITECTURE.md), [phased roadmap](ROADMAP.md), [framework design](../framework/README.md) and [cited literature evidence](sources/LITERATURE_EVIDENCE.md). Existing scientific paths and hashes are preserved. No general-purpose package or validated cross-case capability is implied by the name.
