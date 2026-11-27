@@ -3,7 +3,7 @@
   "decision": "accepted",
   "reviewer": "main agent",
   "date": "2026-11-23",
-  "scope": "Planning artifacts only; retrospective receipt for the previously completed W0",
+  "scope": "Planning artifacts only; retrospective W0 receipt. November 27 completion-plan cross-reference reviewed; existing scope and scientific prerequisites unchanged.",
   "rationale": "Plan, assumption matrix and bounded experiment protocol define staged work and unresolved research gates.",
   "limitations": "No source audit, experiment, novelty finding or external scientific acceptance is certified.",
   "criteria": [
@@ -15,7 +15,7 @@
   "evidence": [
     {
       "path": "docs/PROJECT_PLAN.md",
-      "sha256": "4113bb20585e3531d1b7173d2df76d28f9a7c69fbec0289e6b6eaf53118e446f"
+      "sha256": "c038ec4811f3f0dfc6db298700492ba58db77d86eb6bf8a7360a046b2e77dc36"
     },
     {
       "path": "docs/protocols/ASSUMPTIONS.md",

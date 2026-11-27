@@ -188,19 +188,19 @@
       "source": "agent_artifacts/PROJECT_PLAN.md",
       "destination": "docs/PROJECT_PLAN.md",
       "source_sha256": "68bc5682ad91f630a14850579a81a11f7ed7a54af334f7e1e0a352bc9481813f",
-      "destination_sha256": "4113bb20585e3531d1b7173d2df76d28f9a7c69fbec0289e6b6eaf53118e446f",
+      "destination_sha256": "c038ec4811f3f0dfc6db298700492ba58db77d86eb6bf8a7360a046b2e77dc36",
       "transformation": "local links/status metadata adapted for repository; scientific results not edited",
       "initial_promotion_destination_sha256": "25d28315c3f5eebf8be0151ba5c3a40447665ea0908ff9e1a76c6812c4420e6e",
-      "post_promotion_amendment": "2026-11-23 deep-audit acceptance/state/documentation changes; original source snapshot preserved"
+      "post_promotion_amendment": "2026-11-27: link whole-programme completion plan without changing scientific status or execution dependencies."
     },
     {
       "source": "agent_artifacts/PROJECT_STATE.json",
       "destination": "docs/PROJECT_STATE.json",
       "source_sha256": "e2bd4823c2cacb1b6485cfe4c99f31b56b70360dc0515d3ab8d4534086da49ed",
-      "destination_sha256": "3921015d5965d421f136fa76613dba734f9d08820c918dfc6334817ca350da8a",
+      "destination_sha256": "d5f40a7a4ce7279ac9c0d89104ccc3990cb33b8bedcb673733fbf6792cd1358c",
       "transformation": "local links/status metadata adapted for repository; scientific results not edited",
       "initial_promotion_destination_sha256": "4ac7e7a4c07c6ff00c4d4fad41fd14c392f1e40bbb72ef61ec77571e0d7daab3",
-      "post_promotion_amendment": "2026-11-23 deep-audit acceptance/state/documentation changes; original source snapshot preserved"
+      "post_promotion_amendment": "2026-11-27: link whole-programme completion plan without changing scientific status or execution dependencies."
     },
     {
       "source": "agent_artifacts/RESEARCH_CHARTER.md",

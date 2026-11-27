@@ -272,5 +272,12 @@
     "source_spot_check": "docs/audits/2026-11-23-SOURCE_CHECK.md",
     "scientific_gates_advanced": false,
     "validation": "docs/audits/2026-11-23-VALIDATION.json"
+  },
+  "programme_completion_plan": {
+    "path": "docs/COMPLETION_PLAN.md",
+    "version": "2026-11-27",
+    "scope": "F0-F8 through both studies and programme closure; planning only",
+    "execution_status_authority": "Existing workplan and work queue; future stages require F6-04 activation",
+    "scientific_status_changed": false
   }
 }

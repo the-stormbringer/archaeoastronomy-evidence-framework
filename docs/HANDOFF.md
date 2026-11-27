@@ -53,3 +53,7 @@ See the [literature dependency matrix](sources/LITERATURE_DEPENDENCIES.md), [Chi
 ## Framework organization — November 27, 2026
 
 The public repository is now `archaeoastronomy-evidence-framework`. Nabta remains its first development case; the physical local folder name is unchanged. Read the [architecture review](ARCHITECTURE.md), [phased roadmap](ROADMAP.md), [framework design](../framework/README.md) and [cited literature evidence](sources/LITERATURE_EVIDENCE.md). Existing scientific paths and hashes are preserved. No general-purpose package or validated cross-case capability is implied by the name.
+
+## Whole-programme continuation
+
+Follow the [completion plan](COMPLETION_PLAN.md) for step and phase expectations, acceptance, scientific advances and stop rules through both studies. F0/F1 are the immediate parallel tracks. W1 is still ready and E1–E4 pending; future independent-case execution requires F6-04 governance activation.

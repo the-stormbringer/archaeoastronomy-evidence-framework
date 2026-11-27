@@ -2,7 +2,7 @@
 
 A framework under development for source-critical, reproducible archaeoastronomical research. **Nabta Playa is the first development case**: what the numerical record supports, what depends on archaeological identification, and what remains unresolved. Generality requires an independent follow-up case.
 
-Start with the [framework design](framework/README.md), [Nabta case index](cases/nabta/README.md), [repository architecture](docs/ARCHITECTURE.md), [phased roadmap](docs/ROADMAP.md) and [cited literature evidence](docs/sources/LITERATURE_EVIDENCE.md).
+Start with the [framework design](framework/README.md), [Nabta case index](cases/nabta/README.md), [repository architecture](docs/ARCHITECTURE.md), [phased roadmap](docs/ROADMAP.md), [full completion plan](docs/COMPLETION_PLAN.md) and [cited literature evidence](docs/sources/LITERATURE_EVIDENCE.md).
 
 **Current research stage:** scientific design and evidence validation. W0 planning is complete; W1 evidence and competing-explanation review is next. E1–E4 experiments are specified but have not run. The working manuscript is provisional. A general framework requires an independent follow-up study.
 

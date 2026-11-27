@@ -76,3 +76,7 @@ This is the canonical plan; PROJECT_STATE.json beside it records current executi
 The [audit record](audits/2026-11-23-DEEP_AUDIT.md) reconciles two model critiques with main-agent evidence checks. [Acceptance criteria](ACCEPTANCE_CRITERIA.md) now govern record validation, evidence-bound closure, dependency checks and numerical receipts. Individual E1–E4 work may be accepted when its listed source premises close; entire W2 still requires W1 and all four experiments. E5/E6 decisions are explicit queue items; a documented omission can close a conditional branch without implying execution. The historical scientific pipeline remains a fixed regression benchmark, not the engine for new experiments with unknown outcomes.
 
 No scientific stage is advanced by this audit. W1 remains next. The existing draft's contribution language remains provisional pending W1–W4, and source-specific uncertainty remains visible.
+
+## Whole-programme completion plan — 27 November 2026
+
+The [completion plan](COMPLETION_PLAN.md) expands the programme through independent-case execution, synthesis publication and closure. It defines expectations and acceptance at both step and phase level. W0–W7 remain the current execution stages; W7 is protocol-only, and later execution requires the explicit governance amendment specified in F6-04. Scientific status and existing prerequisites are unchanged.
